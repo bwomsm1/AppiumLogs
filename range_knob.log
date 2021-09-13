@@ -1,0 +1,710 @@
+[35m[Appium][39m Welcome to Appium v1.21.0
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4723
+[debug] [35m[HTTP][39m Request idempotency key: 539487b8-d66b-4dde-ba60-c64a004bb32b
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{"appium:noReset":true,"appium:fullReset":false,"appium:platformVersion":"14.7.1","appium:deviceName":"Boaz’s iPhone","appium:udid":"823d3a9b9fbc1ad173e5b76cb03b9196aab0cd86","appium:bundleId":"com.shs.iot","appium:xcodeOrgId":"BX9P2F4G47","appium:xcodeSigningId":"iPhone Developer","appium:automationName":"XCUITest","appium:app":"/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScout-Links.ipa","platformName":"iOS"}]},"desiredCapabilities":{"noReset":true,"fullReset":false,"platformVersion":"14.7.1","deviceName":"Boaz’s iPhone","udid":"823d3a9b9fbc1ad173e5b76cb03b9196aab0cd86","bundleId":"com.shs.iot","xcodeOrgId":"BX9P2F4G47","xcodeSigningId":"iPhone Developer","automationName":"XCUITest","app":"/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScout-Links.ipa","platformName":"iOS"}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"noReset":true,"fullReset":false,"platformVersion":"14.7.1","deviceName":"Boaz’s iPhone","udid":"823d3a9b9fbc1ad173e5b76cb03b9196aab0cd86","bundleId":"com.shs.iot","xcodeOrgId":"BX9P2F4G47","xcodeSigningId":"iPhone Developer","automationName":"XCUITest","app":"/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScout-Links.ipa","platformName":"iOS"},null,{"firstMatch":[{"appium:noReset":true,"appium:fullReset":false,"appium:platformVersion":"14.7.1","appium:deviceName":"Boaz’s iPhone","appium:udid":"823d3a9b9fbc1ad173e5b76cb03b9196aab0cd86","appium:bundleId":"com.shs.iot","appium:xcodeOrgId":"BX9P2F4G47","appium:xcodeSigningId":"iPhone Developer","appium:automationName":"XCUITest","appium:app":"/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScout-Links.ipa","platformName":"iOS"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1631449874183 (15:31:14 GMT+0300 (Eastern European Summer Time))
+[35m[Appium][39m Appium v1.21.0 creating new XCUITestDriver (v3.43.0) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "iOS",
+[debug] [35m[BaseDriver][39m     "appium:noReset": true,
+[debug] [35m[BaseDriver][39m     "appium:fullReset": false,
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "14.7.1",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "Boaz’s iPhone",
+[debug] [35m[BaseDriver][39m     "appium:udid": "823d3a9b9fbc1ad173e5b76cb03b9196aab0cd86",
+[debug] [35m[BaseDriver][39m     "appium:bundleId": "com.shs.iot",
+[debug] [35m[BaseDriver][39m     "appium:xcodeOrgId": "BX9P2F4G47",
+[debug] [35m[BaseDriver][39m     "appium:xcodeSigningId": "iPhone Developer",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "XCUITest",
+[debug] [35m[BaseDriver][39m     "appium:app": "/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScout-Links.ipa"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: e4dbadfb-879a-43ec-a4ee-df6df58f4426
+[debug] [35m[XCUITest][39m Current user: 'boazwarshawsky'
+[debug] [35m[XCUITest][39m Available devices: 823d3a9b9fbc1ad173e5b76cb03b9196aab0cd86
+[debug] [35m[XCUITest][39m Creating iDevice object with udid '823d3a9b9fbc1ad173e5b76cb03b9196aab0cd86'
+[35m[XCUITest][39m Determining device to run tests on: udid: '823d3a9b9fbc1ad173e5b76cb03b9196aab0cd86', real device: true
+[35m[XCUITest][39m Normalized platformVersion capability value '14.7.1' to '14.7'
+[debug] [35m[BaseDriver][39m Event 'xcodeDetailsRetrieved' logged at 1631449875028 (15:31:15 GMT+0300 (Eastern European Summer Time))
+[35m[BaseDriver][39m Using local app '/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScout-Links.ipa'
+[debug] [35m[BaseDriver][39m Unzipping '/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScout-Links.ipa'
+[debug] [35m[BaseDriver][39m Enforcing UTF-8 encoding on the extracted file names for 'AeroScout-Links.ipa'
+[debug] [35m[BaseDriver][39m Extracted 312 items from '/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScout-Links.ipa' in 631ms
+[debug] [35m[BaseDriver][39m Matched 1 item in the extracted archive. Assuming 'Payload/AeroScout Links.app' is the correct bundle
+[35m[BaseDriver][39m Unzipped local app to '/var/folders/xg/f91604_d5wl2t7l0_rrz4mw80000gn/T/2021812-45396-qfnu32.u7d68/AeroScout Links.app'
+[debug] [35m[BaseDriver][39m Event 'appConfigured' logged at 1631449875719 (15:31:15 GMT+0300 (Eastern European Summer Time))
+[debug] [35m[XCUITest][39m Checking whether app '/var/folders/xg/f91604_d5wl2t7l0_rrz4mw80000gn/T/2021812-45396-qfnu32.u7d68/AeroScout Links.app' is actually present on file system
+[debug] [35m[XCUITest][39m App is present
+[debug] [35m[BaseDriver][39m Event 'resetStarted' logged at 1631449875719 (15:31:15 GMT+0300 (Eastern European Summer Time))
+[debug] [35m[XCUITest][39m Reset: fullReset not set. Leaving as is
+[debug] [35m[BaseDriver][39m Event 'resetComplete' logged at 1631449875719 (15:31:15 GMT+0300 (Eastern European Summer Time))
+[35m[WebDriverAgent][39m Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] [35m[XCUITest][39m Crash reports root '/Users/boazwarshawsky/Library/Logs/CrashReporter/MobileDevice/Boaz’s iPhone' does not exist. Got nothing to gather.
+[debug] [35m[BaseDriver][39m Event 'logCaptureStarted' logged at 1631449876033 (15:31:16 GMT+0300 (Eastern European Summer Time))
+[35m[XCUITest][39m Setting up real device
+[debug] [35m[XCUITest][39m Verifying application platform
+[debug] [35m[XCUITest][39m CFBundleSupportedPlatforms: ["iPhoneOS"]
+[debug] [35m[XCUITest][39m App 'com.shs.iot' is already installed. No need to reinstall.
+[debug] [35m[BaseDriver][39m Event 'appInstalled' logged at 1631449876256 (15:31:16 GMT+0300 (Eastern European Summer Time))
+[debug] [35m[WebDriverAgent][39m No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+[35m[DevCon Factory][39m Requesting connection for device 823d3a9b9fbc1ad173e5b76cb03b9196aab0cd86 on local port 8100, device port 8100
+[debug] [35m[DevCon Factory][39m Cached connections count: 0
+[35m[DevCon Factory][39m Successfully requested the connection for 823d3a9b9fbc1ad173e5b76cb03b9196aab0cd86:8100
+[debug] [35m[XCUITest][39m Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"14.5","version":"14.7.1"},"ios":{"ip":"10.100.102.5"},"ready":true,"build":{"upgradedAt":"1627152355642","time":"Sep 12 2021 15:00:21","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+[debug] [35m[WebDriverAgent][39m Upgrade timestamp of the currently bundled WDA: 1627152355642
+[debug] [35m[WebDriverAgent][39m Upgrade timestamp of the WDA on the device: 1627152355642
+[35m[WebDriverAgent][39m Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
+[debug] [35m[XCUITest][39m Trying to start WebDriverAgent 1 times with 10000ms interval
+[debug] [35m[XCUITest][39m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+[debug] [35m[BaseDriver][39m Event 'wdaStartAttempted' logged at 1631449876379 (15:31:16 GMT+0300 (Eastern European Summer Time))
+[35m[WebDriverAgent][39m Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"14.5","version":"14.7.1"},"ios":{"ip":"10.100.102.5"},"ready":true,"build":{"upgradedAt":"1627152355642","time":"Sep 12 2021 15:00:21","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+[debug] [35m[BaseDriver][39m Event 'wdaSessionAttempted' logged at 1631449876390 (15:31:16 GMT+0300 (Eastern European Summer Time))
+[debug] [35m[XCUITest][39m Sending createSession command to WDA
+[debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
+[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"com.shs.iot","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true,"shouldTerminateApp":true}],"alwaysMatch":{}}}
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":{"sessionId":"FACF4470-8437-4A90-8413-2AF68C1D2F00","capabilities":{"device":"iphone","browserName":"AeroScout Links","sdkVersion":"14.7.1","CFBundleIdentifier":"com.shs.iot"}},"sessionId":"FACF4470-8437-4A90-8413-2AF68C1D2F00"}
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[debug] [35m[BaseDriver][39m Event 'wdaSessionStarted' logged at 1631449878885 (15:31:18 GMT+0300 (Eastern European Summer Time))
+[debug] [35m[BaseDriver][39m Event 'wdaStarted' logged at 1631449878885 (15:31:18 GMT+0300 (Eastern European Summer Time))
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[debug] [35m[BaseDriver][39m Event 'orientationSet' logged at 1631449878885 (15:31:18 GMT+0300 (Eastern European Summer Time))
+[debug] [35m[BaseDriver][39m The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+[debug] [35m[BaseDriver][39m The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+[35m[Appium][39m New XCUITestDriver session created successfully, session e4dbadfb-879a-43ec-a4ee-df6df58f4426 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1631449878886 (15:31:18 GMT+0300 (Eastern European Summer Time))
+[debug] [35m[W3C (e4dbadfb)][39m Cached the protocol value 'W3C' for the new session e4dbadfb-879a-43ec-a4ee-df6df58f4426
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"iOS","noReset":true,"fullReset":false,"platformVersion":"14.7.1","deviceName":"Boaz’s iPhone","udid":"823d3a9b9fbc1ad173e5b76cb03b9196aab0cd86","bundleId":"com.shs.iot","xcodeOrgId":"BX9P2F4G47","xcodeSigningId":"iPhone Developer","automationName":"XCUITest","app":"/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScout-Links.ipa"}}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m4708 ms - 644[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":3000}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,3000,"e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'timeouts'
+[debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":3000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 3000ms
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.getContexts() with args: ["e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'getContexts'
+[debug] [35m[XCUITest][39m Getting list of available contexts
+[debug] [35m[iOS][39m Retrieving contexts and views
+[debug] [35m[XCUITest][39m Selecting by url: false 
+[35m[RemoteDebugger][39m Remote Debugger version 8.13.2
+[debug] [35m[RemoteDebugger][39m useNewSafari --> false
+[debug] [35m[RemoteDebugger][39m Checking which communication style to use (non-Safari on platform version '14.7')
+[debug] [35m[RemoteDebugger][39m Platform version equal or higher than '12.2': true
+[35m[RemoteDebugger][39m Setting communication protocol: using Target-based communication
+[debug] [35m[RemoteDebugger][39m Sending connection key request
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_reportIdentifier:' message (id: 0): 'setConnectionKey'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 3ms
+[debug] [35m[RemoteDebugger][39m Sending connection key request
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_reportIdentifier:' message (id: 2): 'setConnectionKey'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 1ms
+[debug] [35m[RemoteDebugger][39m Selecting application
+[debug] [35m[RemoteDebugger][39m No applications currently connected.
+[debug] [35m[XCUITest][39m No web frames found.
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.getContexts() result: ["NATIVE_APP"]
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/contexts [39m[32m200[39m [90m125 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[debug] [35m[RemoteDebugger][39m Received connected automation availability state: "WIRAutomationAvailabilityAvailable"
+[debug] [35m[RemoteDebugger][39m Received connected applications list: PID:42975, PID:44089
+[debug] [35m[RemoteDebugger][39m Received connected driver list: {}
+[debug] [35m[RemoteDebugger][39m Page changed: {
+[debug] [35m[RemoteDebugger][39m   "1": {
+[debug] [35m[RemoteDebugger][39m     "WIRTitleKey": "Ionic App",
+[debug] [35m[RemoteDebugger][39m     "WIRTypeKey": "WIRTypeWebPage",
+[debug] [35m[RemoteDebugger][39m     "WIRURLKey": "ionic://localhost",
+[debug] [35m[RemoteDebugger][39m     "WIRPageIdentifierKey": 1
+[debug] [35m[RemoteDebugger][39m   }
+[debug] [35m[RemoteDebugger][39m }
+[debug] [35m[XCUITest][39m Remote debugger notified us of a new page listing: {"appIdKey":"44089","pageArray":[{"id":1,"title":"Ionic App","url":"ionic://localhost","isKey":false}]}
+[debug] [35m[XCUITest][39m No key id found. Choosing first id from page array
+[debug] [35m[XCUITest][39m We do not appear to have window set yet, ignoring
+[debug] [35m[RemoteDebugger][39m Found app id key 'PID:44089' for bundle 'com.shs.iot'
+[debug] [35m[RemoteDebugger][39m Received page change notice for app 'PID:44089' but the listing has not changed. Ignoring.
+[debug] [35m[RemoteDebugger][39m Page changed: {
+[debug] [35m[RemoteDebugger][39m   "1": {
+[debug] [35m[RemoteDebugger][39m     "WIRTitleKey": "Ionic App",
+[debug] [35m[RemoteDebugger][39m     "WIRTypeKey": "WIRTypeWebPage",
+[debug] [35m[RemoteDebugger][39m     "WIRURLKey": "ionic://localhost",
+[debug] [35m[RemoteDebugger][39m     "WIRPageIdentifierKey": 1
+[debug] [35m[RemoteDebugger][39m   }
+[debug] [35m[RemoteDebugger][39m }
+[debug] [35m[XCUITest][39m Remote debugger notified us of a new page listing: {"appIdKey":"44089","pageArray":[{"id":1,"title":"Ionic App","url":"ionic://localhost","isKey":false}]}
+[debug] [35m[XCUITest][39m No key id found. Choosing first id from page array
+[debug] [35m[XCUITest][39m We do not appear to have window set yet, ignoring
+[debug] [35m[WebDriverAgent][39m Parsed BUILD_DIR configuration value: '/Users/boazwarshawsky/Desktop/xCode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu/Build/Products'
+[debug] [35m[WebDriverAgent][39m Got derived data root: '/Users/boazwarshawsky/Desktop/xCode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu'
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.getContexts() with args: ["e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'getContexts'
+[debug] [35m[XCUITest][39m Getting list of available contexts
+[debug] [35m[iOS][39m Retrieving contexts and views
+[debug] [35m[XCUITest][39m Selecting by url: false 
+[debug] [35m[RemoteDebugger][39m Selecting application
+[debug] [35m[RemoteDebugger][39m Current applications available:
+[debug] [35m[RemoteDebugger][39m     Application: "PID:44089"
+[debug] [35m[RemoteDebugger][39m         id: "PID:44089"
+[debug] [35m[RemoteDebugger][39m         isProxy: false
+[debug] [35m[RemoteDebugger][39m         name: "AeroScout Links"
+[debug] [35m[RemoteDebugger][39m         bundleId: "com.shs.iot"
+[debug] [35m[RemoteDebugger][39m         hostId: undefined
+[debug] [35m[RemoteDebugger][39m         isActive: true
+[debug] [35m[RemoteDebugger][39m         isAutomationEnabled: "Unknown"
+[debug] [35m[RemoteDebugger][39m         pageArray:
+[debug] [35m[RemoteDebugger][39m           - id: 1
+[debug] [35m[RemoteDebugger][39m             title: "Ionic App"
+[debug] [35m[RemoteDebugger][39m             url: "ionic://localhost"
+[debug] [35m[RemoteDebugger][39m             isKey: false
+[debug] [35m[RemoteDebugger][39m Checking for bundle identifiers: com.apple.WebKit.WebContent, process-com.apple.WebKit.WebContent, process-SafariViewService, com.apple.SafariViewService, *, com.shs.iot
+[debug] [35m[RemoteDebugger][39m Found app id key 'PID:44089' for bundle 'com.shs.iot'
+[debug] [35m[RemoteDebugger][39m Trying out the possible app ids: PID:44089 (try #1 of 20)
+[debug] [35m[RemoteDebugger][39m Attempting app 'PID:44089'
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardGetListing:' message to app 'PID:44089' (id: 4): 'connectToApp'
+[debug] [35m[RemoteDebugger][39m Received response from send (id: 4): '["PID:44089",{"1":{"WIRTitleKey":"Ionic App","WIRTypeKey":"WIRTypeWebPage","WIRURLKey":"ionic://localhost","WIRPageIdentifierKey":1}}]'
+[debug] [35m[RemoteDebugger][39m Received page change notice for app 'PID:44089' but the listing has not changed. Ignoring.
+[debug] [35m[RemoteDebugger][39m Page changed: {
+[debug] [35m[RemoteDebugger][39m   "1": {
+[debug] [35m[RemoteDebugger][39m     "WIRTitleKey": "Ionic App",
+[debug] [35m[RemoteDebugger][39m     "WIRTypeKey": "WIRTypeWebPage",
+[debug] [35m[RemoteDebugger][39m     "WIRURLKey": "ionic://localhost",
+[debug] [35m[RemoteDebugger][39m     "WIRPageIdentifierKey": 1
+[debug] [35m[RemoteDebugger][39m   }
+[debug] [35m[RemoteDebugger][39m }
+[debug] [35m[XCUITest][39m Remote debugger notified us of a new page listing: {"appIdKey":"44089","pageArray":[{"id":1,"title":"Ionic App","url":"ionic://localhost","isKey":false}]}
+[debug] [35m[XCUITest][39m No key id found. Choosing first id from page array
+[debug] [35m[XCUITest][39m We do not appear to have window set yet, ignoring
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 6ms
+[debug] [35m[RemoteDebugger][39m Current applications available:
+[debug] [35m[RemoteDebugger][39m     Application: "PID:44089"
+[debug] [35m[RemoteDebugger][39m         id: "PID:44089"
+[debug] [35m[RemoteDebugger][39m         isProxy: false
+[debug] [35m[RemoteDebugger][39m         name: "AeroScout Links"
+[debug] [35m[RemoteDebugger][39m         bundleId: "com.shs.iot"
+[debug] [35m[RemoteDebugger][39m         hostId: undefined
+[debug] [35m[RemoteDebugger][39m         isActive: true
+[debug] [35m[RemoteDebugger][39m         isAutomationEnabled: "Unknown"
+[debug] [35m[RemoteDebugger][39m         pageArray:
+[debug] [35m[RemoteDebugger][39m           - id: 1
+[debug] [35m[RemoteDebugger][39m             title: "Ionic App"
+[debug] [35m[RemoteDebugger][39m             url: "ionic://localhost"
+[debug] [35m[RemoteDebugger][39m             isKey: false
+[debug] [35m[RemoteDebugger][39m Finally selecting app PID:44089: [{"id":1,"title":"Ionic App","url":"ionic://localhost","isKey":false}]
+[debug] [35m[RemoteDebugger][39m Selected app after 10ms
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.getContexts() result: ["NATIVE_APP","WEBVIEW_44089.1"]
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/contexts [39m[32m200[39m [90m12 ms - 42[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/context[39m
+[35m[HTTP][39m [90m{"name":"WEBVIEW_44089.1"}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.setContext() with args: ["WEBVIEW_44089.1","e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'setContext'
+[debug] [35m[XCUITest][39m Attempting to set context to 'WEBVIEW_44089.1' from 'NATIVE_APP'
+[debug] [35m[RemoteDebugger][39m Selecting page '1' on app 'PID:44089' and forwarding socket setup
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardIndicateWebView:' message to app 'PID:44089', page '1' (id: 6): 'indicateWebView'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 1ms
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardIndicateWebView:' message to app 'PID:44089', page '1' (id: 8): 'indicateWebView'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 1ms
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketSetup:' message to app 'PID:44089', page '1' (id: 10): 'setSenderKey'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 1ms
+[debug] [35m[RemoteDebugger][39m Sender key set
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1' (id: 12): 'Inspector.enable'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 1ms
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1' (id: 14): 'Page.enable'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 1ms
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1' (id: 16): 'Network.enable'
+[debug] [35m[RemoteDebugger][39m Target created for app 'PID:44089' and page '1': {"targetId":"page-6","type":"page"}
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 1ms
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1', target 'page-6' (id: 18): 'Runtime.enable'
+[debug] [35m[RemoteDebugger][39m Handling message (id: '13')
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 1ms
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1', target 'page-6' (id: 20): 'Heap.enable'
+[debug] [35m[RemoteDebugger][39m Handling message (id: '15')
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 1ms
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1', target 'page-6' (id: 22): 'Debugger.enable'
+[debug] [35m[RemoteDebugger][39m Handling message (id: '17')
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 1ms
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1', target 'page-6' (id: 24): 'Console.enable'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 1ms
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1', target 'page-6' (id: 26): 'Inspector.initialized'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 2ms
+[debug] [35m[RemoteDebugger][39m Checking document readyState
+[debug] [35m[RemoteDebugger][39m Sending javascript command: 'document.readyState;'
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1', target 'page-6' (id: 28): 'Runtime.evaluate'
+[debug] [35m[RemoteDebugger][39m Received data response from send (id: 28): '"complete"'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 75ms
+[debug] [35m[RemoteDebugger][39m Document readyState is 'complete'
+[debug] [35m[RemoteDebugger][39m Selected page after 90ms
+[debug] [35m[RemoteDebugger][39m Starting to listen for JavaScript console
+[debug] [35m[RemoteDebugger][39m Starting to listen for network events
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.setContext() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/context [39m[32m200[39m [90m92 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[debug] [35m[RemoteDebugger][39m Page changed: {
+[debug] [35m[RemoteDebugger][39m   "1": {
+[debug] [35m[RemoteDebugger][39m     "WIRTitleKey": "Ionic App",
+[debug] [35m[RemoteDebugger][39m     "WIRTypeKey": "WIRTypeWebPage",
+[debug] [35m[RemoteDebugger][39m     "WIRURLKey": "ionic://localhost",
+[debug] [35m[RemoteDebugger][39m     "WIRPageIdentifierKey": 1,
+[debug] [35m[RemoteDebugger][39m     "WIRConnectionIdentifierKey": "111cb83f-bad9-4748-a55a-2b1807dd318d"
+[debug] [35m[RemoteDebugger][39m   }
+[debug] [35m[RemoteDebugger][39m }
+[debug] [35m[XCUITest][39m Remote debugger notified us of a new page listing: {"appIdKey":"44089","pageArray":[{"id":1,"title":"Ionic App","url":"ionic://localhost","isKey":true}]}
+[debug] [35m[XCUITest][39m Checking if page needs to load
+[debug] [35m[XCUITest][39m New page listing is same as old, doing nothing
+[debug] [35m[XCUITest][39m Redirected from 'null' to 'ionic://localhost'
+[debug] [35m[RemoteDebugger][39m Web Inspector garbage collected
+[debug] [35m[RemoteDebugger][39m Received page change notice for app 'PID:44089' but the listing has not changed. Ignoring.
+[debug] [35m[RemoteDebugger][39m Page changed: {
+[debug] [35m[RemoteDebugger][39m   "1": {
+[debug] [35m[RemoteDebugger][39m     "WIRTitleKey": "Ionic App",
+[debug] [35m[RemoteDebugger][39m     "WIRTypeKey": "WIRTypeWebPage",
+[debug] [35m[RemoteDebugger][39m     "WIRURLKey": "ionic://localhost",
+[debug] [35m[RemoteDebugger][39m     "WIRPageIdentifierKey": 1,
+[debug] [35m[RemoteDebugger][39m     "WIRConnectionIdentifierKey": "111cb83f-bad9-4748-a55a-2b1807dd318d"
+[debug] [35m[RemoteDebugger][39m   }
+[debug] [35m[RemoteDebugger][39m }
+[debug] [35m[XCUITest][39m Remote debugger notified us of a new page listing: {"appIdKey":"44089","pageArray":[{"id":1,"title":"Ionic App","url":"ionic://localhost","isKey":true}]}
+[debug] [35m[XCUITest][39m Checking if page needs to load
+[debug] [35m[XCUITest][39m New page listing is same as old, doing nothing
+[debug] [35m[RemoteDebugger][39m Web Inspector garbage collected
+[debug] [35m[RemoteDebugger][39m Received page change notice for app 'PID:44089' but the listing has not changed. Ignoring.
+[debug] [35m[RemoteDebugger][39m Page changed: {
+[debug] [35m[RemoteDebugger][39m   "1": {
+[debug] [35m[RemoteDebugger][39m     "WIRTitleKey": "Ionic App",
+[debug] [35m[RemoteDebugger][39m     "WIRTypeKey": "WIRTypeWebPage",
+[debug] [35m[RemoteDebugger][39m     "WIRURLKey": "ionic://localhost",
+[debug] [35m[RemoteDebugger][39m     "WIRPageIdentifierKey": 1,
+[debug] [35m[RemoteDebugger][39m     "WIRConnectionIdentifierKey": "111cb83f-bad9-4748-a55a-2b1807dd318d"
+[debug] [35m[RemoteDebugger][39m   }
+[debug] [35m[RemoteDebugger][39m }
+[debug] [35m[XCUITest][39m Remote debugger notified us of a new page listing: {"appIdKey":"44089","pageArray":[{"id":1,"title":"Ionic App","url":"ionic://localhost","isKey":true}]}
+[debug] [35m[XCUITest][39m Checking if page needs to load
+[debug] [35m[XCUITest][39m New page listing is same as old, doing nothing
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.getScreenshot() with args: ["e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'getScreenshot'
+[debug] [35m[XCUITest][39m Taking screenshot with WDA
+[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:8100/session/FACF4470-8437-4A90-8413-2AF68C1D2F00/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":"iVBORw0KGgoAAAANSUhEUgAABGUAAAmECAYAAACsJdO5AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAAEZaADAAQAAAABAAAJhAAAAACsblQTAAAAHGlET1QAAAACAAAAAAAA\r\nBMIAAAAoAAAEwgAABMIAA3RsmdwDCQAAQABJREFUeAHsvYeDFkXW9v3+Fe/3vBvV\r\nDWYQjLv7bNbNqwuiIDljXHN2ddc1bTDrusnNuioGckZBguQcjAiiYlaQMIGZ852r\r\n7j5Nz8AIEma4219rUd19Vzj1q565u645VfV/jAMCEIAABCAAAQhAAAIQgAAEIAAB\r\nCECg1Qn8n1avkQohAAEIQAACEIAABCAAAQhAAAIQgAAEDFGGhwACEIAABCAAAQhA\r\nAAIQgAAEIAABCLQBAUSZNoBOlRCAAAQgAAEIQAACEIAABCAAAQhAAFGGZwACEIAA\r\nBCAAAQhAAAIQgAAEIAABCLQBAUSZNoBOlRCAAAQgAAEIQAACEIAABCAAAQhAAFGG\r\nZwACEIAABCAAAQhAAAIQgAAEIAABCLQBAUSZNoBOlRCAAAQgAAEIQAACEIAABCAA\r\nAQhAAFGGZwACEIAABCAAAQhAAAIQgAAEIAABCLQBAUSZNoBOlRCAAAQgAAEIQAAC\r\nEIAABCAAAQhAAFGGZwACEIAABCAAAQhAAAIQgAAEIAABCLQBAUSZNoBOlRCAAAQg\r\nAAEIQAACEIAABCAAAQhAAFGGZwACEIAABCAAAQhAAAIQgAAEIAABCLQBAUSZNoBO\r\nlRCAAAQgAAEIQAACEIAABCAAAQhAAFGGZwACEIAABCAAAQhAAAIQgAAEIAABCLQB\r\nAUSZNoBOlRCAAAQgAAEIQAACEIAABCAAAQhAAFGGZwACEIAABCAAAQhAAAI...
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABGUAAAmECAYAAACsJdO5AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAAEZaADAAQAAAABAAAJhAAAAACsblQTAAAAHGlET1QAAAACAAAAAAAA\r\nBMIAAAAoAAAEwgAABMIAA3RsmdwDCQAAQABJREFUeAHsvYeDFkXW9v3+Fe/3vBvV\r\nDWYQjLv7bNbNqwuiIDljXHN2ddc1bTDrusnNuioGckZBguQcjAiiYlaQMIGZ852r\r\n7j5Nz8AIEma4219rUd19Vzj1q565u645VfV/jAMCEIAABCAAAQhAAAIQgAAEIAAB\r\nCECg1Qn8n1avkQohAAEIQAACEIAABCAAAQhAAAIQgAAEDFGGhwACEIAABCAAAQhA\r\nAAIQgAAEIAABCLQBAUSZNoBOlRCAAAQgAAEIQAACEIAABCAAAQhAAFGGZwACEIAA\r\nBCAAAQhAAAIQgAAEIAABCLQBAUSZNoBOlRCAAAQgAAEIQAACEIAABCAAAQhAAFGG\r\nZwACEIAABCAAAQhAAAIQgAAEIAABCLQBAUSZNoBOlRCAAAQgAAEIQAACEIAABCAA\r\nAQhAAFGGZwACEIAABCAAAQhAAAIQgAAEIAABCLQBAUSZNoBOlRCAAAQgAAEIQAAC\r\nEIAABCAAAQhAAFGGZwACEIAABCAAAQhAAAIQgAAEIAABCLQBAUSZNoBOlRCAAAQg\r\nAAEIQAACEIAABCAAAQhAAFGGZwACEIAABCAAAQhAAAIQgAAEIAABCLQBAUSZNoBO\r\nlRCAAAQgAAEIQAACEIAABCAAAQhAAFGGZwACEIAABCAAAQhAAAIQgAAEIAABCLQB\r\nAUSZNoBOlRCAAAQgAAEIQAACEIAABCAAAQhAAFGGZwACEIAABCAAAQhAAAIQgAAE\r\n...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/screenshot [39m[32m200[39m [90m171 ms - 463036[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/elements[39m
+[35m[HTTP][39m [90m{"using":"tag name","value":"ion-row"}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.findElements() with args: ["tag name","ion-row","e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'findElements'
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [35m[BaseDriver][39m Waiting up to 3000 ms for condition
+[debug] [35m[RemoteDebugger][39m Executing atom 'find_elements' with 'args=["tag name","ion-row",null]; frames='
+[debug] [35m[RemoteDebugger][39m Executing 'find_elements' atom in default context
+[debug] [35m[RemoteDebugger][39m Sending javascript command: '(function(){return function(){var k=this;functi...'
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1', target 'page-6' (id: 30): 'Runtime.evaluate'
+[debug] [35m[RemoteDebugger][39m Received data response from send (id: 30): '"{\"status\":0,\"value\":[{\"ELEMENT\":\":wdc:1631449885673\"},{\"ELEMENT\":\":wdc:1631449885674\"},{\"ELEMENT\":\":wdc:1631449885675\"},{\"ELEMENT\":\":wdc:1631449885676\"},{\"ELEMENT\":\":wdc:163...'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 40ms
+[debug] [35m[RemoteDebugger][39m Received result for atom 'find_elements' execution: [{"ELEMENT":":wdc:1631449885673"},{"ELEMENT":":wdc:1631449885674"},{"ELEMENT":":wdc:1631449885675...
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"5000","ELEMENT":"5000"},{"element-6066-11e4-a52e-4f735466cecf":"5001","ELEMENT":"5001"},{"element-6066-11e4-a52e-4f735466cecf":"5002","ELEMENT":"5002"},{"element-6066-11e4-a52e-4f735466cecf":"5003","ELEMENT":"5003"},{"element-6066-11e4-a52e-4f735466cecf":"5004","ELEMENT":"5004"}]
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/elements [39m[32m200[39m [90m50 ms - 331[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5000/text[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.getText() with args: ["5000","e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'getText'
+[debug] [35m[RemoteDebugger][39m Executing atom 'get_text' with 'args=[{"ELEMENT":":wdc:1631449885673"}]; frames='
+[debug] [35m[RemoteDebugger][39m Executing 'get_text' atom in default context
+[debug] [35m[RemoteDebugger][39m Sending javascript command: '(function(){return function(){var h,l=this;func...'
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1', target 'page-6' (id: 32): 'Runtime.evaluate'
+[debug] [35m[RemoteDebugger][39m Received data response from send (id: 32): '"{\"status\":0,\"value\":\"ALL ASSETS 1\\nLast synced 12:31 PM\"}"'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 40ms
+[debug] [35m[RemoteDebugger][39m Received result for atom 'get_text' execution: "ALL ASSETS 1\nLast synced 12:31 PM"
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.getText() result: "ALL ASSETS 1\nLast synced 12:31 PM"
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5000/text [39m[32m200[39m [90m45 ms - 46[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5001/text[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.getText() with args: ["5001","e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'getText'
+[debug] [35m[RemoteDebugger][39m Executing atom 'get_text' with 'args=[{"ELEMENT":":wdc:1631449885674"}]; frames='
+[debug] [35m[RemoteDebugger][39m Executing 'get_text' atom in default context
+[debug] [35m[RemoteDebugger][39m Sending javascript command: '(function(){return function(){var h,l=this;func...'
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1', target 'page-6' (id: 34): 'Runtime.evaluate'
+[debug] [35m[RemoteDebugger][39m Received data response from send (id: 34): '"{\"status\":0,\"value\":\"Asset_1\"}"'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 28ms
+[debug] [35m[RemoteDebugger][39m Received result for atom 'get_text' execution: "Asset_1"
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.getText() result: "Asset_1"
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5001/text [39m[32m200[39m [90m32 ms - 19[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5001/text[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.getText() with args: ["5001","e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'getText'
+[debug] [35m[RemoteDebugger][39m Executing atom 'get_text' with 'args=[{"ELEMENT":":wdc:1631449885674"}]; frames='
+[debug] [35m[RemoteDebugger][39m Executing 'get_text' atom in default context
+[debug] [35m[RemoteDebugger][39m Sending javascript command: '(function(){return function(){var h,l=this;func...'
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1', target 'page-6' (id: 36): 'Runtime.evaluate'
+[debug] [35m[RemoteDebugger][39m Received data response from send (id: 36): '"{\"status\":0,\"value\":\"Asset_1\"}"'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 16ms
+[debug] [35m[RemoteDebugger][39m Received result for atom 'get_text' execution: "Asset_1"
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.getText() result: "Asset_1"
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5001/text [39m[32m200[39m [90m20 ms - 19[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5001/elements[39m
+[35m[HTTP][39m [90m{"using":"tag name","value":"ion-col","id":"5001"}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.findElementsFromElement() with args: ["tag name","ion-col","5001","e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'findElementsFromElement'
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [35m[BaseDriver][39m Waiting up to 3000 ms for condition
+[debug] [35m[RemoteDebugger][39m Executing atom 'find_elements' with 'args=["tag name","ion-col",{"ELEMENT":":wdc:1631449885674"}]; frames='
+[debug] [35m[RemoteDebugger][39m Executing 'find_elements' atom in default context
+[debug] [35m[RemoteDebugger][39m Sending javascript command: '(function(){return function(){var k=this;functi...'
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1', target 'page-6' (id: 38): 'Runtime.evaluate'
+[debug] [35m[RemoteDebugger][39m Received data response from send (id: 38): '"{\"status\":0,\"value\":[{\"ELEMENT\":\":wdc:1631449885678\"},{\"ELEMENT\":\":wdc:1631449885679\"}]}"'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 17ms
+[debug] [35m[RemoteDebugger][39m Received result for atom 'find_elements' execution: [{"ELEMENT":":wdc:1631449885678"},{"ELEMENT":":wdc:1631449885679"}]
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.findElementsFromElement() result: [{"element-6066-11e4-a52e-4f735466cecf":"5005","ELEMENT":"5005"},{"element-6066-11e4-a52e-4f735466cecf":"5006","ELEMENT":"5006"}]
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5001/elements [39m[32m200[39m [90m21 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5005/attribute/class[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.getAttribute() with args: ["class","5005","e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'getAttribute'
+[debug] [35m[RemoteDebugger][39m Executing atom 'get_attribute_value' with 'args=[{"ELEMENT":":wdc:1631449885678"},"class"]; frames='
+[debug] [35m[RemoteDebugger][39m Executing 'get_attribute_value' atom in default context
+[debug] [35m[RemoteDebugger][39m Sending javascript command: '(function(){return function(){var g=this;functi...'
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1', target 'page-6' (id: 40): 'Runtime.evaluate'
+[debug] [35m[RemoteDebugger][39m Received data response from send (id: 40): '"{\"status\":0,\"value\":\"col\"}"'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 23ms
+[debug] [35m[RemoteDebugger][39m Received result for atom 'get_attribute_value' execution: "col"
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.getAttribute() result: "col"
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5005/attribute/class [39m[32m200[39m [90m28 ms - 15[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5006/attribute/class[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.getAttribute() with args: ["class","5006","e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'getAttribute'
+[debug] [35m[RemoteDebugger][39m Executing atom 'get_attribute_value' with 'args=[{"ELEMENT":":wdc:1631449885679"},"class"]; frames='
+[debug] [35m[RemoteDebugger][39m Executing 'get_attribute_value' atom in default context
+[debug] [35m[RemoteDebugger][39m Sending javascript command: '(function(){return function(){var g=this;functi...'
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1', target 'page-6' (id: 42): 'Runtime.evaluate'
+[debug] [35m[RemoteDebugger][39m Received data response from send (id: 42): '"{\"status\":0,\"value\":\"more col\"}"'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 19ms
+[debug] [35m[RemoteDebugger][39m Received result for atom 'get_attribute_value' execution: "more col"
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.getAttribute() result: "more col"
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5006/attribute/class [39m[32m200[39m [90m22 ms - 20[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5006/click[39m
+[35m[HTTP][39m [90m{"id":"5006"}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.click() with args: ["5006","e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'click'
+[debug] [35m[RemoteDebugger][39m Executing atom 'click' with 'args=[{"ELEMENT":":wdc:1631449885679"}]; frames='
+[debug] [35m[RemoteDebugger][39m Executing 'click' atom in default context
+[debug] [35m[RemoteDebugger][39m Sending javascript command: '(function(){return function(){var h,aa=this;fun...'
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1', target 'page-6' (id: 44): 'Runtime.evaluate'
+[debug] [35m[RemoteDebugger][39m Received data response from send (id: 44): '"{\"status\":0,\"value\":null}"'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 49ms
+[debug] [35m[RemoteDebugger][39m Received result for atom 'click' execution: null
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.click() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5006/click [39m[32m200[39m [90m53 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/context[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.getCurrentContext() with args: ["e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'getCurrentContext'
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.getCurrentContext() result: "WEBVIEW_44089.1"
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/context [39m[32m200[39m [90m2 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[text()[contains(.,\"EDIT DETAILS\")]]"}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[text()[contains(.,\"EDIT DETAILS\")]]","e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'findElements'
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [35m[BaseDriver][39m Waiting up to 3000 ms for condition
+[debug] [35m[RemoteDebugger][39m Executing atom 'find_elements' with 'args=["xpath","//*[text()[contains(.,\"EDIT DETAILS\")]]",null]; frames='
+[debug] [35m[RemoteDebugger][39m Executing 'find_elements' atom in default context
+[debug] [35m[RemoteDebugger][39m Sending javascript command: '(function(){return function(){var k=this;functi...'
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1', target 'page-6' (id: 46): 'Runtime.evaluate'
+[debug] [35m[RemoteDebugger][39m Received data response from send (id: 46): '"{\"status\":0,\"value\":[{\"ELEMENT\":\":wdc:1631449885680\"}]}"'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 44ms
+[debug] [35m[RemoteDebugger][39m Received result for atom 'find_elements' execution: [{"ELEMENT":":wdc:1631449885680"}]
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"5007","ELEMENT":"5007"}]
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/elements [39m[32m200[39m [90m58 ms - 75[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5007/text[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.getText() with args: ["5007","e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'getText'
+[debug] [35m[RemoteDebugger][39m Executing atom 'get_text' with 'args=[{"ELEMENT":":wdc:1631449885680"}]; frames='
+[debug] [35m[RemoteDebugger][39m Executing 'get_text' atom in default context
+[debug] [35m[RemoteDebugger][39m Sending javascript command: '(function(){return function(){var h,l=this;func...'
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1', target 'page-6' (id: 48): 'Runtime.evaluate'
+[debug] [35m[RemoteDebugger][39m Received data response from send (id: 48): '"{\"status\":0,\"value\":\"EDIT DETAILS\"}"'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 33ms
+[debug] [35m[RemoteDebugger][39m Received result for atom 'get_text' execution: "EDIT DETAILS"
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.getText() result: "EDIT DETAILS"
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5007/text [39m[32m200[39m [90m36 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5007/click[39m
+[35m[HTTP][39m [90m{"id":"5007"}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.click() with args: ["5007","e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'click'
+[debug] [35m[RemoteDebugger][39m Executing atom 'click' with 'args=[{"ELEMENT":":wdc:1631449885680"}]; frames='
+[debug] [35m[RemoteDebugger][39m Executing 'click' atom in default context
+[debug] [35m[RemoteDebugger][39m Sending javascript command: '(function(){return function(){var h,aa=this;fun...'
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1', target 'page-6' (id: 50): 'Runtime.evaluate'
+[debug] [35m[RemoteDebugger][39m Received data response from send (id: 50): '"{\"status\":0,\"value\":null}"'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 48ms
+[debug] [35m[RemoteDebugger][39m Received result for atom 'click' execution: null
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.click() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5007/click [39m[32m200[39m [90m55 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[debug] [35m[RemoteDebugger][39m Web Inspector garbage collected
+[debug] [35m[RemoteDebugger][39m Received page change notice for app 'PID:44089' but the listing has not changed. Ignoring.
+[debug] [35m[RemoteDebugger][39m Page changed: {
+[debug] [35m[RemoteDebugger][39m   "1": {
+[debug] [35m[RemoteDebugger][39m     "WIRTitleKey": "Ionic App",
+[debug] [35m[RemoteDebugger][39m     "WIRTypeKey": "WIRTypeWebPage",
+[debug] [35m[RemoteDebugger][39m     "WIRURLKey": "ionic://localhost",
+[debug] [35m[RemoteDebugger][39m     "WIRPageIdentifierKey": 1,
+[debug] [35m[RemoteDebugger][39m     "WIRConnectionIdentifierKey": "111cb83f-bad9-4748-a55a-2b1807dd318d"
+[debug] [35m[RemoteDebugger][39m   }
+[debug] [35m[RemoteDebugger][39m }
+[debug] [35m[XCUITest][39m Remote debugger notified us of a new page listing: {"appIdKey":"44089","pageArray":[{"id":1,"title":"Ionic App","url":"ionic://localhost","isKey":true}]}
+[debug] [35m[XCUITest][39m Checking if page needs to load
+[debug] [35m[XCUITest][39m New page listing is same as old, doing nothing
+[debug] [35m[RemoteDebugger][39m Web Inspector garbage collected
+[debug] [35m[RemoteDebugger][39m Web Inspector garbage collected
+[debug] [35m[RemoteDebugger][39m Received page change notice for app 'PID:44089' but the listing has not changed. Ignoring.
+[debug] [35m[RemoteDebugger][39m Page changed: {
+[debug] [35m[RemoteDebugger][39m   "1": {
+[debug] [35m[RemoteDebugger][39m     "WIRTitleKey": "Ionic App",
+[debug] [35m[RemoteDebugger][39m     "WIRTypeKey": "WIRTypeWebPage",
+[debug] [35m[RemoteDebugger][39m     "WIRURLKey": "ionic://localhost",
+[debug] [35m[RemoteDebugger][39m     "WIRPageIdentifierKey": 1,
+[debug] [35m[RemoteDebugger][39m     "WIRConnectionIdentifierKey": "111cb83f-bad9-4748-a55a-2b1807dd318d"
+[debug] [35m[RemoteDebugger][39m   }
+[debug] [35m[RemoteDebugger][39m }
+[debug] [35m[XCUITest][39m Remote debugger notified us of a new page listing: {"appIdKey":"44089","pageArray":[{"id":1,"title":"Ionic App","url":"ionic://localhost","isKey":true}]}
+[debug] [35m[XCUITest][39m Checking if page needs to load
+[debug] [35m[XCUITest][39m New page listing is same as old, doing nothing
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@text=\"000CCC452D55_rng_temperature_parent\" or @label=\"000CCC452D55_rng_temperature_parent\" or @id=\"000CCC452D55_rng_temperature_parent\" or @name=\"000CCC452D55_rng_temperature_parent\"]"}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.findElement() with args: ["xpath","//*[@text=\"000CCC452D55_rng_temperature_parent\" or @label=\"000CCC452D55_rng_temperature_parent\" or @id=\"000CCC452D55_rng_temperature_parent\" or @name=\"000CCC452D55_rng_temperature_parent\"]","e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'findElement'
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [35m[BaseDriver][39m Waiting up to 3000 ms for condition
+[debug] [35m[RemoteDebugger][39m Executing atom 'find_element' with 'args=["xpath","//*[@text=\"000CCC452D55_rng_temperature_parent\" or @label=\"000CCC452D55_rng_temperature_parent\" or @id=\"000CCC452D55_rng_temperature_parent\" or @name=\"000CCC452D55_rng_temperature_parent\"]",null]; frames='
+[debug] [35m[RemoteDebugger][39m Executing 'find_element' atom in default context
+[debug] [35m[RemoteDebugger][39m Sending javascript command: '(function(){return function(){var k=this;functi...'
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1', target 'page-6' (id: 52): 'Runtime.evaluate'
+[debug] [35m[RemoteDebugger][39m Received data response from send (id: 52): '"{\"status\":0,\"value\":{\"ELEMENT\":\":wdc:1631449885681\"}}"'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 43ms
+[debug] [35m[RemoteDebugger][39m Received result for atom 'find_element' execution: {"ELEMENT":":wdc:1631449885681"}
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"5008","ELEMENT":"5008"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element [39m[32m200[39m [90m56 ms - 73[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5008/element[39m
+[35m[HTTP][39m [90m{"using":"tag name","value":"ion-range","id":"5008"}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.findElementFromElement() with args: ["tag name","ion-range","5008","e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'findElementFromElement'
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [35m[BaseDriver][39m Waiting up to 3000 ms for condition
+[debug] [35m[RemoteDebugger][39m Executing atom 'find_element' with 'args=["tag name","ion-range",{"ELEMENT":":wdc:1631449885681"}]; frames='
+[debug] [35m[RemoteDebugger][39m Executing 'find_element' atom in default context
+[debug] [35m[RemoteDebugger][39m Sending javascript command: '(function(){return function(){var k=this;functi...'
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1', target 'page-6' (id: 54): 'Runtime.evaluate'
+[debug] [35m[RemoteDebugger][39m Received data response from send (id: 54): '"{\"status\":0,\"value\":{\"ELEMENT\":\":wdc:1631449885682\"}}"'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 23ms
+[debug] [35m[RemoteDebugger][39m Received result for atom 'find_element' execution: {"ELEMENT":":wdc:1631449885682"}
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.findElementFromElement() result: {"element-6066-11e4-a52e-4f735466cecf":"5009","ELEMENT":"5009"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5008/element [39m[32m200[39m [90m26 ms - 73[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5009/element[39m
+[35m[HTTP][39m [90m{"using":"class name","value":"range-knob","id":"5009"}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.findElementFromElement() with args: ["class name","range-knob","5009","e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'findElementFromElement'
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [35m[BaseDriver][39m Waiting up to 3000 ms for condition
+[debug] [35m[RemoteDebugger][39m Executing atom 'find_element' with 'args=["class name","range-knob",{"ELEMENT":":wdc:1631449885682"}]; frames='
+[debug] [35m[RemoteDebugger][39m Executing 'find_element' atom in default context
+[debug] [35m[RemoteDebugger][39m Sending javascript command: '(function(){return function(){var k=this;functi...'
+[debug] [35m[RemoteDebugger][39m Sending '_rpc_forwardSocketData:' message to app 'PID:44089', page '1', target 'page-6' (id: 56): 'Runtime.evaluate'
+[debug] [35m[RemoteDebugger][39m Received data response from send (id: 56): '"{\"status\":0,\"value\":{\"ELEMENT\":\":wdc:1631449885683\"}}"'
+[debug] [35m[RemoteDebugger][39m Sending to Web Inspector took 20ms
+[debug] [35m[RemoteDebugger][39m Received result for atom 'find_element' execution: {"ELEMENT":":wdc:1631449885683"}
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.findElementFromElement() result: {"element-6066-11e4-a52e-4f735466cecf":"5010","ELEMENT":"5010"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/element/5009/element [39m[32m200[39m [90m24 ms - 73[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/actions[39m
+[35m[HTTP][39m [90m{"actions":[{"type":"pointer","parameters":{"pointerType":"mouse"},"id":"mouse","actions":[{"type":"pointerMove","duration":250,"x":0,"y":0,"origin":{"element-6066-11e4-a52e-4f735466cecf":"5010"}},{"type":"pointerDown","duration":0,"button":0},{"type":"pointerMove","duration":250,"x":-72,"y":0,"origin":"pointer"},{"type":"pointerUp","duration":0,"button":0}]},{"type":"key","id":"key","actions":[{"type":"pause","duration":0},{"type":"pause","duration":0},{"type":"pause","duration":0},{"type":"pause","duration":0}]}]}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.performActions() with args: [[{"type":"pointer","parameters":{"pointerType":"mouse"},"id":"mouse","actions":[{"type":"pointerMove","duration":250,"x":0,"y":0,"origin":{"element-6066-11e4-a52e-4f735466cecf":"5010"}},{"type":"pointerDown","duration":0,"button":0},{"type":"pointerMove","duration":250,"x":-72,"y":0,"origin":"pointer"},{"type":"pointerUp","duration":0,"button":0}]},{"type":"key","id":"key","actions":[{"type":"pause","duration":0},{"type":"pause","duration":0},{"type":"pause","duration":0},{"type":"pause","duration":0}]}],"e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'performActions'
+[debug] [35m[XCUITest][39m Received the following W3C actions: [
+[debug] [35m[XCUITest][39m   {
+[debug] [35m[XCUITest][39m     "type": "pointer",
+[debug] [35m[XCUITest][39m     "parameters": {
+[debug] [35m[XCUITest][39m       "pointerType": "mouse"
+[debug] [35m[XCUITest][39m     },
+[debug] [35m[XCUITest][39m     "id": "mouse",
+[debug] [35m[XCUITest][39m     "actions": [
+[debug] [35m[XCUITest][39m       {
+[debug] [35m[XCUITest][39m         "type": "pointerMove",
+[debug] [35m[XCUITest][39m         "duration": 250,
+[debug] [35m[XCUITest][39m         "x": 0,
+[debug] [35m[XCUITest][39m         "y": 0,
+[debug] [35m[XCUITest][39m         "origin": {
+[debug] [35m[XCUITest][39m           "element-6066-11e4-a52e-4f735466cecf": "5010"
+[debug] [35m[XCUITest][39m         }
+[debug] [35m[XCUITest][39m       },
+[debug] [35m[XCUITest][39m       {
+[debug] [35m[XCUITest][39m         "type": "pointerDown",
+[debug] [35m[XCUITest][39m         "duration": 0,
+[debug] [35m[XCUITest][39m         "button": 0
+[debug] [35m[XCUITest][39m       },
+[debug] [35m[XCUITest][39m       {
+[debug] [35m[XCUITest][39m         "type": "pointerMove",
+[debug] [35m[XCUITest][39m         "duration": 250,
+[debug] [35m[XCUITest][39m         "x": -72,
+[debug] [35m[XCUITest][39m         "y": 0,
+[debug] [35m[XCUITest][39m         "origin": "pointer"
+[debug] [35m[XCUITest][39m       },
+[debug] [35m[XCUITest][39m       {
+[debug] [35m[XCUITest][39m         "type": "pointerUp",
+[debug] [35m[XCUITest][39m         "duration": 0,
+[debug] [35m[XCUITest][39m         "button": 0
+[debug] [35m[XCUITest][39m       }
+[debug] [35m[XCUITest][39m     ]
+[debug] [35m[XCUITest][39m   },
+[debug] [35m[XCUITest][39m   {
+[debug] [35m[XCUITest][39m     "type": "key",
+[debug] [35m[XCUITest][39m     "id": "key",
+[debug] [35m[XCUITest][39m     "actions": [
+[debug] [35m[XCUITest][39m       {
+[debug] [35m[XCUITest][39m         "type": "pause",
+[debug] [35m[XCUITest][39m         "duration": 0
+[debug] [35m[XCUITest][39m       },
+[debug] [35m[XCUITest][39m       {
+[debug] [35m[XCUITest][39m         "type": "pause",
+[debug] [35m[XCUITest][39m         "duration": 0
+[debug] [35m[XCUITest][39m       },
+[debug] [35m[XCUITest][39m       {
+[debug] [35m[XCUITest][39m         "type": "pause",
+[debug] [35m[XCUITest][39m         "duration": 0
+[debug] [35m[XCUITest][39m       },
+[debug] [35m[XCUITest][39m       {
+[debug] [35m[XCUITest][39m         "type": "pause",
+[debug] [35m[XCUITest][39m         "duration": 0
+[debug] [35m[XCUITest][39m       }
+[debug] [35m[XCUITest][39m     ]
+[debug] [35m[XCUITest][39m   }
+[debug] [35m[XCUITest][39m ]
+[debug] [35m[XCUITest][39m Preprocessed actions: [
+[debug] [35m[XCUITest][39m   {
+[debug] [35m[XCUITest][39m     "type": "pointer",
+[debug] [35m[XCUITest][39m     "parameters": {
+[debug] [35m[XCUITest][39m       "pointerType": "touch"
+[debug] [35m[XCUITest][39m     },
+[debug] [35m[XCUITest][39m     "id": "mouse",
+[debug] [35m[XCUITest][39m     "actions": [
+[debug] [35m[XCUITest][39m       {
+[debug] [35m[XCUITest][39m         "type": "pointerMove",
+[debug] [35m[XCUITest][39m         "duration": 250,
+[debug] [35m[XCUITest][39m         "x": 0,
+[debug] [35m[XCUITest][39m         "y": 0,
+[debug] [35m[XCUITest][39m         "origin": {
+[debug] [35m[XCUITest][39m           "element-6066-11e4-a52e-4f735466cecf": "5010"
+[debug] [35m[XCUITest][39m         }
+[debug] [35m[XCUITest][39m       },
+[debug] [35m[XCUITest][39m       {
+[debug] [35m[XCUITest][39m         "type": "pointerDown",
+[debug] [35m[XCUITest][39m         "duration": 0,
+[debug] [35m[XCUITest][39m         "button": 0
+[debug] [35m[XCUITest][39m       },
+[debug] [35m[XCUITest][39m       {
+[debug] [35m[XCUITest][39m         "type": "pointerMove",
+[debug] [35m[XCUITest][39m         "duration": 250,
+[debug] [35m[XCUITest][39m         "x": -72,
+[debug] [35m[XCUITest][39m         "y": 0,
+[debug] [35m[XCUITest][39m         "origin": "pointer"
+[debug] [35m[XCUITest][39m       },
+[debug] [35m[XCUITest][39m       {
+[debug] [35m[XCUITest][39m         "type": "pointerUp",
+[debug] [35m[XCUITest][39m         "duration": 0,
+[debug] [35m[XCUITest][39m         "button": 0
+[debug] [35m[XCUITest][39m       }
+[debug] [35m[XCUITest][39m     ]
+[debug] [35m[XCUITest][39m   },
+[debug] [35m[XCUITest][39m   {
+[debug] [35m[XCUITest][39m     "type": "key",
+[debug] [35m[XCUITest][39m     "id": "key",
+[debug] [35m[XCUITest][39m     "actions": []
+[debug] [35m[XCUITest][39m   }
+[debug] [35m[XCUITest][39m ]
+[debug] [35m[WD Proxy][39m Matched '/actions' to command name 'performActions'
+[debug] [35m[WD Proxy][39m Proxying [POST /actions] to [POST http://127.0.0.1:8100/session/FACF4470-8437-4A90-8413-2AF68C1D2F00/actions] with body: {"actions":[{"type":"pointer","parameters":{"pointerType":"touch"},"id":"mouse","actions":[{"type":"pointerMove","duration":250,"x":0,"y":0,"origin":{"ELEMENT":"5010","element-6066-11e4-a52e-4f735466cecf":"5010"}},{"type":"pointerDown","duration":0,"button":0},{"type":"pointerMove","duration":250,"x":-72,"y":0,"origin":"pointer"},{"type":"pointerUp","duration":0,"button":0}]},{"type":"key","id":"key","actions":[]}]}
+[35m[WD Proxy][39m Got response with status 404: {"value":{"error":"stale element reference","message":"The element identified by \"5010\" is either not present or it has expired from the internal cache. Try to find it again","traceback":"(\n\t0   CoreFoundation                      0x00000001a93eb270 37A3D601-9398-3DC2-9D00-1B162726A4C9 + 1159792\n\t1   libobjc.A.dylib                     0x00000001bd180480 objc_exception_throw + 56\n\t2   WebDriverAgentLib                   0x000000010b99aa40 -[FBElementCache elementForUUID:resolveForAdditionalAttributes:andMaxDepth:] + 620\n\t3   WebDriverAgentLib                   0x000000010b99a7a8 -[FBElementCache elementForUUID:] + 80\n\t4   WebDriverAgentLib                   0x000000010b92c2bc -[FBW3CActionsSynthesizer preprocessedActionItemsWith:] + 976\n\t5   WebDriverAgentLib                   0x000000010b92d24c -[FBW3CActionsSynthesizer eventPathsWithGestureAction:forActionId:error:] + 964\n\t6   WebDriverAgentLib                   0x000000010b92dcdc -[FBW3CActionsSynthesizer eventPathsWithActionDescription:...
+[debug] [35m[W3C][39m Matched W3C error code 'stale element reference' to StaleElementReferenceError
+[debug] [35m[W3C (e4dbadfb)][39m Encountered internal error running command: StaleElementReferenceError: The element identified by "5010" is either not present or it has expired from the internal cache. Try to find it again
+[debug] [35m[W3C (e4dbadfb)][39m     at errorFromW3CJsonCode (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:780:25)
+[debug] [35m[W3C (e4dbadfb)][39m     at ProxyRequestError.getActualError (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:663:14)
+[debug] [35m[W3C (e4dbadfb)][39m     at JWProxy.command (/usr/local/lib/node_modules/appium/node_modules/appium-base-driver/lib/jsonwp-proxy/proxy.js:272:19)
+[debug] [35m[W3C (e4dbadfb)][39m     at runMicrotasks (<anonymous>)
+[debug] [35m[W3C (e4dbadfb)][39m     at processTicksAndRejections (internal/process/task_queues.js:85:5)
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/actions [39m[33m404[39m [90m57 ms - 845[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.getScreenshot() with args: ["e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[XCUITest][39m Executing command 'getScreenshot'
+[debug] [35m[XCUITest][39m Taking screenshot with WDA
+[debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:8100/session/FACF4470-8437-4A90-8413-2AF68C1D2F00/screenshot] with no body
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":"iVBORw0KGgoAAAANSUhEUgAABGUAAAmECAYAAACsJdO5AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAAEZaADAAQAAAABAAAJhAAAAACsblQTAAAAHGlET1QAAAACAAAAAAAA\r\nBMIAAAAoAAAEwgAABMIAAv9oRwTspwAAQABJREFUeAHsvYd3XNeV5uu/5a2ZaVvR\r\nCpbd3a9n3pqe99Z66612t2SJJIicmZSzZMmWY9tuZ3eP2+5kt5NEMSADBMAg5gxm\r\nipQokRIpiqIyIwjgvO87VbtI05YoizaLKP1obxVQqKp77u9899Y9391nn48l/kEA\r\nAhCAAAQgAAEIQAACEIAABCAAAQhccgIfu+RbZIMQgAAEIAABCEAAAhCAAAQgAAEI\r\nQAACCVMGEUAAAhCAAAQgAAEIQAACEIAABCAAgTIQwJQpA3Q2CQEIQAACEIAABCAA\r\nAQhAAAIQgAAEMGXQAAQgAAEIQAACEIAABCAAAQhAAAIQKAMBTJkyQGeTEIAABCAA\r\nAQhAAAIQgAAEIAABCEAAUwYNQAACEIAABCAAAQhAAAIQgAAEIACBMhDAlCkDdDYJ\r\nAQhAAAIQgAAEIAABCEAAAhCAAAQwZdAABCAAAQhAAAIQgAAEIAABCEAAAhAoAwFM\r\nmTJAZ5MQgAAEIAABCEAAAhCAAAQgAAEIQABTBg1AAAIQgAAEIAABCEAAAhCAAAQg\r\nAIEyEMCUKQN0NgkBCEAAAhCAAAQgAAEIQAACEIAABDBl0AAEIAABCEAAAhCAAAQg\r\nAAEIQAACECgDAUyZMkBnkxCAAAQgAAEIQAACEIAABCAAAQhAAFMGDUAAAhCAAAQg\r\nAAEIQAACEIAABCAAgTIQwJQpA3Q2CQEIQAACEIAABCAAAQhAAAIQgAAEMGX...
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABGUAAAmECAYAAACsJdO5AAAAAXNSR0IArs4c6QAA\r\nAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKAC\r\nAAQAAAABAAAEZaADAAQAAAABAAAJhAAAAACsblQTAAAAHGlET1QAAAACAAAAAAAA\r\nBMIAAAAoAAAEwgAABMIAAv9oRwTspwAAQABJREFUeAHsvYd3XNeV5uu/5a2ZaVvR\r\nCpbd3a9n3pqe99Z66612t2SJJIicmZSzZMmWY9tuZ3eP2+5kt5NEMSADBMAg5gxm\r\nipQokRIpiqIyIwjgvO87VbtI05YoizaLKP1obxVQqKp77u9899Y9391nn48l/kEA\r\nAhCAAAQgAAEIQAACEIAABCAAAQhccgIfu+RbZIMQgAAEIAABCEAAAhCAAAQgAAEI\r\nQAACCVMGEUAAAhCAAAQgAAEIQAACEIAABCAAgTIQwJQpA3Q2CQEIQAACEIAABCAA\r\nAQhAAAIQgAAEMGXQAAQgAAEIQAACEIAABCAAAQhAAAIQKAMBTJkyQGeTEIAABCAA\r\nAQhAAAIQgAAEIAABCEAAUwYNQAACEIAABCAAAQhAAAIQgAAEIACBMhDAlCkDdDYJ\r\nAQhAAAIQgAAEIAABCEAAAhCAAAQwZdAABCAAAQhAAAIQgAAEIAABCEAAAhAoAwFM\r\nmTJAZ5MQgAAEIAABCEAAAhCAAAQgAAEIQABTBg1AAAIQgAAEIAABCEAAAhCAAAQg\r\nAIEyEMCUKQN0NgkBCEAAAhCAAAQgAAEIQAACEIAABDBl0AAEIAABCEAAAhCAAAQg\r\nAAEIQAACECgDAUyZMkBnkxCAAAQgAAEIQAACEIAABCAAAQhAAFMGDUAAAhCAAAQg\r\nAAEIQAACEIAABCAAgTIQwJQpA3Q2CQEIQAACEIAABCAAAQhAAAIQgAAEMGXQAAQg\r\n...
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426/screenshot [39m[32m200[39m [90m166 ms - 595528[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426[39m
+[35m[HTTP][39m [90m{}[39m
+[debug] [35m[W3C (e4dbadfb)][39m Calling AppiumDriver.deleteSession() with args: ["e4dbadfb-879a-43ec-a4ee-df6df58f4426"]
+[debug] [35m[BaseDriver][39m Event 'quitSessionRequested' logged at 1631449903308 (15:31:43 GMT+0300 (Eastern European Summer Time))
+[35m[Appium][39m Removing session e4dbadfb-879a-43ec-a4ee-df6df58f4426 from our master session list
+[debug] [35m[WD Proxy][39m Matched '/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426' to command name 'deleteSession'
+[debug] [35m[WD Proxy][39m Proxying [DELETE /session/e4dbadfb-879a-43ec-a4ee-df6df58f4426] to [DELETE http://127.0.0.1:8100/session/FACF4470-8437-4A90-8413-2AF68C1D2F00] with no body
+[debug] [35m[RemoteDebugger][39m Application 'PID:44089' disconnected. Removing from app dictionary.
+[debug] [35m[RemoteDebugger][39m Current app is 'PID:44089'
+[debug] [35m[RemoteDebugger][39m No longer have app id. Attempting to find new one.
+[debug] [35m[WD Proxy][39m Got response with status 200: {"value":null,"sessionId":null}
+[35m[DevCon Factory][39m Releasing connections for 823d3a9b9fbc1ad173e5b76cb03b9196aab0cd86 device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["823d3a9b9fbc1ad173e5b76cb03b9196aab0cd86:8100"]
+[35m[DevCon Factory][39m Releasing the listener for '823d3a9b9fbc1ad173e5b76cb03b9196aab0cd86:8100'
+[debug] [35m[iProxy@823d3a9b:8100][39m Closing the connection
+[debug] [35m[DevCon Factory][39m Cached connections count: 0
+[debug] [35m[XCUITest][39m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [35m[XCUITest][39m Found a remote debugger session. Removing...
+[debug] [35m[RemoteDebugger][39m Disconnecting from remote debugger
+[debug] [35m[RemoteDebugger][39m Cleaning up listeners
+[debug] [35m[BaseDriver][39m Event 'quitSessionFinished' logged at 1631449904359 (15:31:44 GMT+0300 (Eastern European Summer Time))
+[debug] [35m[W3C (e4dbadfb)][39m Received response: null
+[debug] [35m[W3C (e4dbadfb)][39m But deleting session, so not returning
+[debug] [35m[W3C (e4dbadfb)][39m Responding to client with driver.deleteSession() result: null
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/e4dbadfb-879a-43ec-a4ee-df6df58f4426 [39m[32m200[39m [90m1051 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[Appium][39m Received SIGINT - shutting down
+[debug] [35m[Appium][39m There are no active sessions for cleanup
