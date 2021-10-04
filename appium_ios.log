@@ -1,0 +1,132 @@
+[35m[Appium][39m Welcome to Appium v1.21.0
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4723
+[debug] [35m[HTTP][39m Request idempotency key: e574d0a8-7b18-49de-8bec-1043029b0f75
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{"appium:noReset":true,"appium:fullReset":false,"appium:platformVersion":"14.7","appium:deviceName":"qa_stanley_iphone","appium:udid":"00008030-0012345A0C01402E","appium:bundleId":"com.shs.iot","appium:xcodeOrgId":"BX9P2F4G47","appium:xcodeSigningId":"iPhone Developer","appium:automationName":"XCUITest","appium:app":"/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScoutLinks.app","appium:autoWebview":true,"platformName":"iOS"}]},"desiredCapabilities":{"noReset":true,"fullReset":false,"platformVersion":"14.7","deviceName":"qa_stanley_iphone","udid":"00008030-0012345A0C01402E","bundleId":"com.shs.iot","xcodeOrgId":"BX9P2F4G47","xcodeSigningId":"iPhone Developer","automationName":"XCUITest","app":"/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScoutLinks.app","autoWebview":true,"platformName":"iOS"}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"noReset":true,"fullReset":false,"platformVersion":"14.7","deviceName":"qa_stanley_iphone","udid":"00008030-0012345A0C01402E","bundleId":"com.shs.iot","xcodeOrgId":"BX9P2F4G47","xcodeSigningId":"iPhone Developer","automationName":"XCUITest","app":"/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScoutLinks.app","autoWebview":true,"platformName":"iOS"},null,{"firstMatch":[{"appium:noReset":true,"appium:fullReset":false,"appium:platformVersion":"14.7","appium:deviceName":"qa_stanley_iphone","appium:udid":"00008030-0012345A0C01402E","appium:bundleId":"com.shs.iot","appium:xcodeOrgId":"BX9P2F4G47","appium:xcodeSigningId":"iPhone Developer","appium:automationName":"XCUITest","appium:app":"/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScoutLinks.app","appium:autoWebview":true,"platformName":"iOS"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1633326340144 (08:45:40 GMT+0300 (Eastern European Summer Time))
+[35m[Appium][39m Appium v1.21.0 creating new XCUITestDriver (v3.43.0) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "iOS",
+[debug] [35m[BaseDriver][39m     "appium:noReset": true,
+[debug] [35m[BaseDriver][39m     "appium:fullReset": false,
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "14.7",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "qa_stanley_iphone",
+[debug] [35m[BaseDriver][39m     "appium:udid": "00008030-0012345A0C01402E",
+[debug] [35m[BaseDriver][39m     "appium:bundleId": "com.shs.iot",
+[debug] [35m[BaseDriver][39m     "appium:xcodeOrgId": "BX9P2F4G47",
+[debug] [35m[BaseDriver][39m     "appium:xcodeSigningId": "iPhone Developer",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "XCUITest",
+[debug] [35m[BaseDriver][39m     "appium:app": "/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScoutLinks.app",
+[debug] [35m[BaseDriver][39m     "appium:autoWebview": true
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: dcb7a6d9-ab13-4611-8bf8-92ea42ce5cd2
+[debug] [35m[XCUITest][39m Current user: 'boazwarshawsky'
+[debug] [35m[XCUITest][39m Available devices: 00008030-0012345A0C01402E
+[debug] [35m[XCUITest][39m Creating iDevice object with udid '00008030-0012345A0C01402E'
+[35m[XCUITest][39m Determining device to run tests on: udid: '00008030-0012345A0C01402E', real device: true
+[debug] [35m[BaseDriver][39m Event 'xcodeDetailsRetrieved' logged at 1633326340957 (08:45:40 GMT+0300 (Eastern European Summer Time))
+[35m[BaseDriver][39m Using local app '/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScoutLinks.app'
+[debug] [35m[BaseDriver][39m Event 'appConfigured' logged at 1633326340958 (08:45:40 GMT+0300 (Eastern European Summer Time))
+[debug] [35m[XCUITest][39m Checking whether app '/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScoutLinks.app' is actually present on file system
+[debug] [35m[XCUITest][39m App is present
+[debug] [35m[BaseDriver][39m Event 'resetStarted' logged at 1633326340959 (08:45:40 GMT+0300 (Eastern European Summer Time))
+[debug] [35m[XCUITest][39m Reset: fullReset not set. Leaving as is
+[debug] [35m[BaseDriver][39m Event 'resetComplete' logged at 1633326340959 (08:45:40 GMT+0300 (Eastern European Summer Time))
+[35m[WebDriverAgent][39m Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] [35m[XCUITest][39m Crash reports root '/Users/boazwarshawsky/Library/Logs/CrashReporter/MobileDevice/qa_iphone_02' does not exist. Got nothing to gather.
+[debug] [35m[BaseDriver][39m Event 'logCaptureStarted' logged at 1633326341159 (08:45:41 GMT+0300 (Eastern European Summer Time))
+[35m[XCUITest][39m Setting up real device
+[debug] [35m[XCUITest][39m Verifying application platform
+[debug] [35m[XCUITest][39m CFBundleSupportedPlatforms: ["iPhoneOS"]
+[debug] [35m[XCUITest][39m Installing '/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScoutLinks.app' on device with UUID '00008030-0012345A0C01402E'...
+[debug] [35m[WebDriverAgent][39m Parsed BUILD_DIR configuration value: '/Users/boazwarshawsky/Desktop/xCode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu/Build/Products'
+[debug] [35m[WebDriverAgent][39m Got derived data root: '/Users/boazwarshawsky/Desktop/xCode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu'
+[debug] [35m[Support][39m Traversed 53 directories and 258 files in 2121ms
+[debug] [35m[XCUITest][39m Pushed the app files successfully after 2240ms
+[35m[XCUITest][39m Error installing app: Unexpected data: {"Error":"ApplicationVerificationFailed","ErrorDetail":-402620394,"ErrorDescription":"Failed to verify code signature of /var/installd/Library/Caches/com.apple.mobile.installd.staging/temp.V2Ia7G/extracted/AeroScoutLinks.app : 0xe8008016 (The executable was signed with invalid entitlements.)"}
+[35m[XCUITest][39m Falling back to 'ios-deploy' usage
+[35m[DevCon Factory][39m Releasing connections for 00008030-0012345A0C01402E device on any port number
+[35m[DevCon Factory][39m No cached connections have been found
+[debug] [35m[XCUITest][39m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1633326347687 (08:45:47 GMT+0300 (Eastern European Summer Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Could not install '/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScoutLinks.app':
+[debug] [35m[W3C][39m   - Unexpected data: {"Error":"ApplicationVerificationFailed","ErrorDetail":-402620394,"ErrorDescription":"Failed to verify code signature of /var/installd/Library/Caches/com.apple.mobile.installd.staging/temp.V2Ia7G/extracted/AeroScoutLinks.app : 0xe8008016 (The executable was signed with invalid entitlements.)"}
+[debug] [35m[W3C][39m   - 2021-10-04 08:45:47.679 ios-deploy[92370:2327139] [ !! ] Error 0xe8008016: The executable was signed with invalid entitlements. AMDeviceSecureInstallApplication(0, device, url, options, install_callback, 0)
+[debug] [35m[W3C][39m 
+[debug] [35m[W3C][39m     at IOSDeploy.install (/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/ios-deploy.js:56:15)
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m7559 ms - 1785[39m
+[35m[HTTP][39m [90m[39m
+[debug] [35m[HTTP][39m Request idempotency key: a64c8f52-08cb-402e-bbf6-fbd129cef577
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{"appium:noReset":true,"appium:fullReset":false,"appium:platformVersion":"14.7","appium:deviceName":"qa_stanley_iphone","appium:udid":"00008030-0012345A0C01402E","appium:bundleId":"com.shs.iot","appium:xcodeOrgId":"BX9P2F4G47","appium:xcodeSigningId":"iPhone Developer","appium:automationName":"XCUITest","appium:app":"/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScoutLinks.app","appium:autoWebview":true,"platformName":"iOS"}]},"desiredCapabilities":{"noReset":true,"fullReset":false,"platformVersion":"14.7","deviceName":"qa_stanley_iphone","udid":"00008030-0012345A0C01402E","bundleId":"com.shs.iot","xcodeOrgId":"BX9P2F4G47","xcodeSigningId":"iPhone Developer","automationName":"XCUITest","app":"/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScoutLinks.app","autoWebview":true,"platformName":"iOS"}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"noReset":true,"fullReset":false,"platformVersion":"14.7","deviceName":"qa_stanley_iphone","udid":"00008030-0012345A0C01402E","bundleId":"com.shs.iot","xcodeOrgId":"BX9P2F4G47","xcodeSigningId":"iPhone Developer","automationName":"XCUITest","app":"/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScoutLinks.app","autoWebview":true,"platformName":"iOS"},null,{"firstMatch":[{"appium:noReset":true,"appium:fullReset":false,"appium:platformVersion":"14.7","appium:deviceName":"qa_stanley_iphone","appium:udid":"00008030-0012345A0C01402E","appium:bundleId":"com.shs.iot","appium:xcodeOrgId":"BX9P2F4G47","appium:xcodeSigningId":"iPhone Developer","appium:automationName":"XCUITest","appium:app":"/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScoutLinks.app","appium:autoWebview":true,"platformName":"iOS"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1633326348727 (08:45:48 GMT+0300 (Eastern European Summer Time))
+[35m[Appium][39m Appium v1.21.0 creating new XCUITestDriver (v3.43.0) session
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "iOS",
+[debug] [35m[BaseDriver][39m     "appium:noReset": true,
+[debug] [35m[BaseDriver][39m     "appium:fullReset": false,
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "14.7",
+[debug] [35m[BaseDriver][39m     "appium:deviceName": "qa_stanley_iphone",
+[debug] [35m[BaseDriver][39m     "appium:udid": "00008030-0012345A0C01402E",
+[debug] [35m[BaseDriver][39m     "appium:bundleId": "com.shs.iot",
+[debug] [35m[BaseDriver][39m     "appium:xcodeOrgId": "BX9P2F4G47",
+[debug] [35m[BaseDriver][39m     "appium:xcodeSigningId": "iPhone Developer",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "XCUITest",
+[debug] [35m[BaseDriver][39m     "appium:app": "/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScoutLinks.app",
+[debug] [35m[BaseDriver][39m     "appium:autoWebview": true
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: 79f5d1f0-cf6d-4321-a6ee-8cd2c42d9bba
+[debug] [35m[XCUITest][39m Current user: 'boazwarshawsky'
+[debug] [35m[XCUITest][39m Available devices: 00008030-0012345A0C01402E
+[debug] [35m[XCUITest][39m Creating iDevice object with udid '00008030-0012345A0C01402E'
+[35m[XCUITest][39m Determining device to run tests on: udid: '00008030-0012345A0C01402E', real device: true
+[debug] [35m[BaseDriver][39m Event 'xcodeDetailsRetrieved' logged at 1633326348756 (08:45:48 GMT+0300 (Eastern European Summer Time))
+[35m[BaseDriver][39m Using local app '/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScoutLinks.app'
+[debug] [35m[BaseDriver][39m Event 'appConfigured' logged at 1633326348758 (08:45:48 GMT+0300 (Eastern European Summer Time))
+[debug] [35m[XCUITest][39m Checking whether app '/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScoutLinks.app' is actually present on file system
+[debug] [35m[XCUITest][39m App is present
+[debug] [35m[BaseDriver][39m Event 'resetStarted' logged at 1633326348758 (08:45:48 GMT+0300 (Eastern European Summer Time))
+[debug] [35m[XCUITest][39m Reset: fullReset not set. Leaving as is
+[debug] [35m[BaseDriver][39m Event 'resetComplete' logged at 1633326348758 (08:45:48 GMT+0300 (Eastern European Summer Time))
+[35m[WebDriverAgent][39m Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] [35m[XCUITest][39m Crash reports root '/Users/boazwarshawsky/Library/Logs/CrashReporter/MobileDevice/qa_iphone_02' does not exist. Got nothing to gather.
+[debug] [35m[BaseDriver][39m Event 'logCaptureStarted' logged at 1633326348933 (08:45:48 GMT+0300 (Eastern European Summer Time))
+[35m[XCUITest][39m Setting up real device
+[debug] [35m[XCUITest][39m Verifying application platform
+[debug] [35m[XCUITest][39m CFBundleSupportedPlatforms: ["iPhoneOS"]
+[debug] [35m[XCUITest][39m Installing '/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScoutLinks.app' on device with UUID '00008030-0012345A0C01402E'...
+[debug] [35m[Support][39m Traversed 53 directories and 258 files in 2070ms
+[debug] [35m[XCUITest][39m Pushed the app files successfully after 2187ms
+[35m[XCUITest][39m Error installing app: Unexpected data: {"Error":"ApplicationVerificationFailed","ErrorDetail":-402620394,"ErrorDescription":"Failed to verify code signature of /var/installd/Library/Caches/com.apple.mobile.installd.staging/temp.6gzrqp/extracted/AeroScoutLinks.app : 0xe8008016 (The executable was signed with invalid entitlements.)"}
+[35m[XCUITest][39m Falling back to 'ios-deploy' usage
+[debug] [35m[WebDriverAgent][39m Parsed BUILD_DIR configuration value: '/Users/boazwarshawsky/Desktop/xCode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu/Build/Products'
+[debug] [35m[WebDriverAgent][39m Got derived data root: '/Users/boazwarshawsky/Desktop/xCode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu'
+[35m[DevCon Factory][39m Releasing connections for 00008030-0012345A0C01402E device on any port number
+[35m[DevCon Factory][39m No cached connections have been found
+[debug] [35m[XCUITest][39m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1633326355399 (08:45:55 GMT+0300 (Eastern European Summer Time))
+[debug] [35m[W3C][39m Encountered internal error running command: Error: Could not install '/Users/boazwarshawsky/workspace/builds/aeroscout_links/ios/ndev/AeroScoutLinks.app':
+[debug] [35m[W3C][39m   - Unexpected data: {"Error":"ApplicationVerificationFailed","ErrorDetail":-402620394,"ErrorDescription":"Failed to verify code signature of /var/installd/Library/Caches/com.apple.mobile.installd.staging/temp.6gzrqp/extracted/AeroScoutLinks.app : 0xe8008016 (The executable was signed with invalid entitlements.)"}
+[debug] [35m[W3C][39m   - 2021-10-04 08:45:55.394 ios-deploy[92385:2327435] [ !! ] Error 0xe8008016: The executable was signed with invalid entitlements. AMDeviceSecureInstallApplication(0, device, url, options, install_callback, 0)
+[debug] [35m[W3C][39m 
+[debug] [35m[W3C][39m     at IOSDeploy.install (/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/ios-deploy.js:56:15)
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m6677 ms - 1785[39m
+[35m[HTTP][39m [90m[39m
+[35m[Appium][39m Received SIGINT - shutting down
+[debug] [35m[Appium][39m There are no active sessions for cleanup
