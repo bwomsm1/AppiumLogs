@@ -1,0 +1,158 @@
+[35m[Appium][39m Welcome to Appium v2.0.0-beta.24
+[35m[Appium][39m Attempting to load driver windows...
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4723
+[35m[Appium][39m Available drivers:
+[35m[Appium][39m   - windows@1.21.0 (automationName 'Windows')
+[35m[Appium][39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[debug] [35m[HTTP][39m Request idempotency key: 0b61df77-c5aa-44a6-9451-0c6b4b2712c0
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{"appium:app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformName":"Windows","appium:platformVersion":"10","appium:automationName":"Windows","appium:appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"}]},"desiredCapabilities":{"app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformName":"Windows","platformVersion":"10","automationName":"Windows","appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformName":"Windows","platformVersion":"10","automationName":"Windows","appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"},null,{"firstMatch":[{"appium:app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformName":"Windows","appium:platformVersion":"10","appium:automationName":"Windows","appium:appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1643010624329 (09:50:24 GMT+0200 (Israel Standard Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'Windows' and platformName 'Windows'
+[35m[Appium][39m The 'windows' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\qahw\.appium\appium-windows-driver\node_modules\appium-windows-driver
+[35m[Appium][39m Appium v2.0.0-beta.24 creating new WindowsDriver (v1.21.0) session
+[35m[Appium][39m Checking BaseDriver versions for Appium and WindowsDriver
+[35m[Appium][39m Appium's BaseDriver version is 8.2.3
+[35m[Appium][39m Could not determine WindowsDriver's BaseDriver version
+[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
+[debug] [35m[BaseDriver][39m   "alwaysMatch": {
+[debug] [35m[BaseDriver][39m     "platformName": "Windows",
+[debug] [35m[BaseDriver][39m     "appium:app": "C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe",
+[debug] [35m[BaseDriver][39m     "appium:platformVersion": "10",
+[debug] [35m[BaseDriver][39m     "appium:automationName": "Windows",
+[debug] [35m[BaseDriver][39m     "appium:appArguments": "C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"
+[debug] [35m[BaseDriver][39m   },
+[debug] [35m[BaseDriver][39m   "firstMatch": [
+[debug] [35m[BaseDriver][39m     {}
+[debug] [35m[BaseDriver][39m   ]
+[debug] [35m[BaseDriver][39m }
+[35m[BaseDriver][39m Session created with session id: f26047bb-79fe-4ab7-acf9-ce34acefe8f3
+[35m[WinAppDriver][39m Spawning 'C:\Program Files (x86)\Windows Application Driver\WinAppDriver.exe' with args: ["4724/wd/hub"]
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:4724/wd/hub/status] with no body
+[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:4724
+[debug] [35m[WinAppDriver][39m Windows Application Driver listening for requests at: http://127.0.0.1:4724/wd/hub
+[debug] [35m[WinAppDriver][39m Press ENTER to exit.
+[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
+[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:4724/wd/hub/status] with no body
+[debug] [35m[WinAppDriver][39m ==========================================
+[debug] [35m[WinAppDriver][39m GET /wd/hub/status HTTP/1.1
+[debug] [35m[WinAppDriver][39m Accept: application/json, */*
+[debug] [35m[WinAppDriver][39m Connection: keep-alive
+[debug] [35m[WinAppDriver][39m Content-Type: application/json; charset=utf-8
+[debug] [35m[WinAppDriver][39m Host: 127.0.0.1:4724
+[debug] [35m[WinAppDriver][39m User-Agent: appium
+[debug] [35m[WD Proxy][39m Got response with status 200: {"build":{"revision":"2003","time":"Wed Aug 26 07:56:06 2020","version":"1.2.2009"},"os":{"arch":"amd64","name":"windows","version":"10.0.19044"}}
+[debug] [35m[WinAppDriver][39m Starting WinAppDriver session. Will timeout in '20000' ms.
+[debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
+[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:4724/wd/hub/session] with body: {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformVersion":"10","automationName":"Windows","appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"}}
+[debug] [35m[WinAppDriver][39m HTTP/1.1 200 OK
+[debug] [35m[WinAppDriver][39m Content-Length: 146
+[debug] [35m[WinAppDriver][39m Content-Type: application/json
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"build":{"revision":"2003","time":"Wed Aug 26 07:56:06 2020","version":"1.2.2009"},"os":{"arch":"amd64","name":"windows","version":"10.0.19044"}}
+[debug] [35m[WinAppDriver][39m ==========================================
+[debug] [35m[WinAppDriver][39m POST /wd/hub/session HTTP/1.1
+[debug] [35m[WinAppDriver][39m Accept: application/json, */*
+[debug] [35m[WinAppDriver][39m Connection: keep-alive
+[debug] [35m[WinAppDriver][39m Content-Length: 394
+[debug] [35m[WinAppDriver][39m Content-Type: application/json; charset=utf-8
+[debug] [35m[WinAppDriver][39m Host: 127.0.0.1:4724
+[debug] [35m[WinAppDriver][39m User-Agent: appium
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformVersion":"10","automationName":"Windows","appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"}}
+[debug] [35m[WinAppDriver][39m HTTP/1.1 500 Internal Error
+[debug] [35m[WinAppDriver][39m Content-Length: 226
+[debug] [35m[WinAppDriver][39m Content-Type: application/json
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe, and processId: 11596"}}
+[35m[WD Proxy][39m Got response with status 500: {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe, and processId: 11596"}}
+[debug] [35m[W3C][39m Matched W3C error code 'unknown error' to UnknownError
+[35m[WinAppDriver][39m Could not start WinAppDriver session error = 'An unknown server-side error occurred while processing the command. Original error: Failed to locate opened application window with appId: C:\Program Files (x86)\AeroScout\AeroScout Engine Manager\bin\Rte\EngineManager.exe, and processId: 11596', attempt = '1' from 'undefined'
+[debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
+[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:4724/wd/hub/session] with body: {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformVersion":"10","automationName":"Windows","appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"}}
+[debug] [35m[WinAppDriver][39m ==========================================
+[debug] [35m[WinAppDriver][39m POST /wd/hub/session HTTP/1.1
+[debug] [35m[WinAppDriver][39m Accept: application/json, */*
+[debug] [35m[WinAppDriver][39m Connection: keep-alive
+[debug] [35m[WinAppDriver][39m Content-Length: 394
+[debug] [35m[WinAppDriver][39m Content-Type: application/json; charset=utf-8
+[debug] [35m[WinAppDriver][39m Host: 127.0.0.1:4724
+[debug] [35m[WinAppDriver][39m User-Agent: appium
+[35m[WD Proxy][39m Got response with status 500: {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe, and processId: 16188"}}
+[debug] [35m[W3C][39m Matched W3C error code 'unknown error' to UnknownError
+[35m[WinAppDriver][39m Could not start WinAppDriver session error = 'An unknown server-side error occurred while processing the command. Original error: Failed to locate opened application window with appId: C:\Program Files (x86)\AeroScout\AeroScout Engine Manager\bin\Rte\EngineManager.exe, and processId: 16188', attempt = '2' from 'undefined'
+[debug] [35m[WinAppDriver][39m HTTP/1.1 500 Internal Error
+[debug] [35m[WinAppDriver][39m Content-Length: 226
+[debug] [35m[WinAppDriver][39m Content-Type: application/json
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe, and processId: 16188"}}
+[debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
+[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:4724/wd/hub/session] with body: {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformVersion":"10","automationName":"Windows","appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"}}
+[debug] [35m[WinAppDriver][39m ==========================================
+[debug] [35m[WinAppDriver][39m POST /wd/hub/session HTTP/1.1
+[debug] [35m[WinAppDriver][39m Accept: application/json, */*
+[debug] [35m[WinAppDriver][39m Connection: keep-alive
+[debug] [35m[WinAppDriver][39m Content-Length: 394
+[debug] [35m[WinAppDriver][39m Content-Type: application/json; charset=utf-8
+[debug] [35m[WinAppDriver][39m Host: 127.0.0.1:4724
+[debug] [35m[WinAppDriver][39m User-Agent: appium
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformVersion":"10","automationName":"Windows","appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"}}
+[debug] [35m[WinAppDriver][39m HTTP/1.1 500 Internal Error
+[debug] [35m[WinAppDriver][39m Content-Length: 226
+[debug] [35m[WinAppDriver][39m Content-Type: application/json
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe, and processId: 16796"}}
+[35m[WD Proxy][39m Got response with status 500: {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe, and processId: 16796"}}
+[debug] [35m[W3C][39m Matched W3C error code 'unknown error' to UnknownError
+[35m[WinAppDriver][39m Could not start WinAppDriver session error = 'An unknown server-side error occurred while processing the command. Original error: Failed to locate opened application window with appId: C:\Program Files (x86)\AeroScout\AeroScout Engine Manager\bin\Rte\EngineManager.exe, and processId: 16796', attempt = '3' from 'undefined'
+[debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
+[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:4724/wd/hub/session] with body: {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformVersion":"10","automationName":"Windows","appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"}}
+[debug] [35m[WinAppDriver][39m ==========================================
+[debug] [35m[WinAppDriver][39m POST /wd/hub/session HTTP/1.1
+[debug] [35m[WinAppDriver][39m Accept: application/json, */*
+[debug] [35m[WinAppDriver][39m Connection: keep-alive
+[debug] [35m[WinAppDriver][39m Content-Length: 394
+[debug] [35m[WinAppDriver][39m Content-Type: application/json; charset=utf-8
+[debug] [35m[WinAppDriver][39m Host: 127.0.0.1:4724
+[debug] [35m[WinAppDriver][39m User-Agent: appium
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformVersion":"10","automationName":"Windows","appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"}}
+[debug] [35m[WinAppDriver][39m HTTP/1.1 500 Internal Error
+[debug] [35m[WinAppDriver][39m Content-Length: 226
+[debug] [35m[WinAppDriver][39m Content-Type: application/json
+[debug] [35m[WinAppDriver][39m 
+[debug] [35m[WinAppDriver][39m {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe, and processId: 10016"}}
+[35m[WD Proxy][39m Got response with status 500: {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe, and processId: 10016"}}
+[debug] [35m[W3C][39m Matched W3C error code 'unknown error' to UnknownError
+[35m[WinAppDriver][39m Could not start WinAppDriver session error = 'An unknown server-side error occurred while processing the command. Original error: Failed to locate opened application window with appId: C:\Program Files (x86)\AeroScout\AeroScout Engine Manager\bin\Rte\EngineManager.exe, and processId: 10016', attempt = '4' from 'undefined'
+[debug] [35m[WinAppDriver][39m timeoutError was Condition unmet after 23254 ms. Timing out.
+[debug] [35m[WinAppDriver][39m Deleting WinAppDriver session
+[35m[WinAppDriver][39m WinAppDriver exited with code null, signal SIGTERM
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1643010648754 (09:50:48 GMT+0200 (Israel Standard Time))
+[debug] [35m[W3C][39m Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: Failed to locate opened application window with appId: C:\Program Files (x86)\AeroScout\AeroScout Engine Manager\bin\Rte\EngineManager.exe, and processId: 10016
+[debug] [35m[W3C][39m     at errorFromW3CJsonCode (C:\Users\qahw\.appium\appium-windows-driver\node_modules\appium-base-driver\lib\protocol\errors.js:780:25)
+[debug] [35m[W3C][39m     at ProxyRequestError.getActualError (C:\Users\qahw\.appium\appium-windows-driver\node_modules\appium-base-driver\lib\protocol\errors.js:663:14)
+[debug] [35m[W3C][39m     at WADProxy.command (C:\Users\qahw\.appium\appium-windows-driver\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:272:19)
+[debug] [35m[W3C][39m     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[debug] [35m[W3C][39m     at condFn (C:\Users\qahw\.appium\appium-windows-driver\node_modules\appium-windows-driver\lib\winappdriver.js:179:9)
+[debug] [35m[W3C][39m     at spin (C:\Users\qahw\.appium\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:138:20)
+[debug] [35m[W3C][39m     at spin (C:\Users\qahw\.appium\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:148:14)
+[debug] [35m[W3C][39m     at spin (C:\Users\qahw\.appium\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:148:14)
+[debug] [35m[W3C][39m     at spin (C:\Users\qahw\.appium\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:148:14)
+[debug] [35m[W3C][39m     at waitForCondition (C:\Users\qahw\.appium\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:155:10)
+[debug] [35m[W3C][39m     at WinAppDriver._startSession (C:\Users\qahw\.appium\appium-windows-driver\node_modules\appium-windows-driver\lib\winappdriver.js:189:7)
+[debug] [35m[W3C][39m     at WinAppDriver.start (C:\Users\qahw\.appium\appium-windows-driver\node_modules\appium-windows-driver\lib\winappdriver.js:164:5)
+[debug] [35m[W3C][39m     at WindowsDriver.startWinAppDriverSession (C:\Users\qahw\.appium\appium-windows-driver\node_modules\appium-windows-driver\lib\driver.js:87:5)
+[debug] [35m[W3C][39m     at WindowsDriver.createSession (C:\Users\qahw\.appium\appium-windows-driver\node_modules\appium-windows-driver\lib\driver.js:75:7)
+[debug] [35m[W3C][39m     at AppiumDriver.createSession (C:\Users\qahw\AppData\Roaming\npm\node_modules\appium\lib\appium.js:251:35)
+[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m24474 ms - 2516[39m
+[35m[HTTP][39m [90m[39m
+[35m[Appium][39m Received SIGINT - shutting down
+[debug] [35m[Appium][39m There are no active sessions for cleanup
+[35m[HTTP][39m Waiting until the server is closed
+[35m[HTTP][39m Received server close event
