@@ -1,0 +1,44 @@
+[35m[Appium][39m Welcome to Appium v2.0.0-beta.25
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m { basePath: [32m'C:/Program Files/Git/wd/hub'[39m }
+[35m[Appium][39m Attempting to load driver windows...
+[35m[Appium][39m Attempting to load driver uiautomator2...
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4723
+[35m[Appium][39m Available drivers:
+[35m[Appium][39m   - windows@2.0.1 (automationName 'Windows')
+[35m[Appium][39m   - uiautomator2@2.0.3 (automationName 'UiAutomator2')
+[35m[Appium][39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[debug] [35m[HTTP][39m Request idempotency key: aff38155-35b9-4703-8eaf-cc3ce3d48f35
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{"appium:noReset":true,"appium:fullReset":false,"appium:appPackage":"com.shs.wanderguard","appium:appActivity":"com.shs.wanderguard.activity.SplashActivity","appium:udid":"HGAGTKE7","appium:automationName":"UiAutomator2","appium:uiautomator2ServerInstallTimeout":"120000","appium:app":"C:\\workspace\\builds\\wg\\wg.apk","appium:newCommandTimeout":"500","appium:allowTestPackages":true,"appium:autoGrantPermissions":true,"appium:wdaLocalPort":"4723","platformName":"Android"}]},"desiredCapabilities":{"noReset":true,"fullReset":false,"appPackage":"com.shs.wanderguard","appActivity":"com.shs.wanderguard.activity.SplashActivity","udid":"HGAGTKE7","automationName":"UiAutomator2","uiautomator2ServerInstallTimeout":"120000","app":"C:\\workspace\\builds\\wg\\wg.apk","newCommandTimeout":"500","allowTestPackages":true,"autoGrantPermissions":true,"wdaLocalPort":"4723","platformName":"Android"}}[39m
+[debug] [35m[HTTP][39m No route found for /wd/hub/session
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m11 ms - 211[39m
+[35m[HTTP][39m [90m[39m
+[debug] [35m[HTTP][39m Request idempotency key: 8d109028-eb38-4809-9d27-95142622912b
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{"appium:noReset":true,"appium:fullReset":false,"appium:appPackage":"com.shs.wanderguard","appium:appActivity":"com.shs.wanderguard.activity.SplashActivity","appium:udid":"HGAGTKE7","appium:automationName":"UiAutomator2","appium:uiautomator2ServerInstallTimeout":"120000","appium:app":"C:\\workspace\\builds\\wg\\wg.apk","appium:newCommandTimeout":"500","appium:allowTestPackages":true,"appium:autoGrantPermissions":true,"appium:wdaLocalPort":"4723","platformName":"Android"}]},"desiredCapabilities":{"noReset":true,"fullReset":false,"appPackage":"com.shs.wanderguard","appActivity":"com.shs.wanderguard.activity.SplashActivity","udid":"HGAGTKE7","automationName":"UiAutomator2","uiautomator2ServerInstallTimeout":"120000","app":"C:\\workspace\\builds\\wg\\wg.apk","newCommandTimeout":"500","allowTestPackages":true,"autoGrantPermissions":true,"wdaLocalPort":"4723","platformName":"Android"}}[39m
+[debug] [35m[HTTP][39m No route found for /wd/hub/session
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m8 ms - 211[39m
+[35m[HTTP][39m [90m[39m
+[debug] [35m[HTTP][39m Request idempotency key: 40d17542-9de2-41a5-99e1-f425463b38c0
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{"appium:noReset":true,"appium:fullReset":false,"appium:appPackage":"com.shs.wanderguard","appium:appActivity":"com.shs.wanderguard.activity.SplashActivity","appium:udid":"HGAGTKE7","appium:automationName":"UiAutomator2","appium:uiautomator2ServerInstallTimeout":"120000","appium:app":"C:\\workspace\\builds\\wg\\wg.apk","appium:newCommandTimeout":"500","appium:allowTestPackages":true,"appium:autoGrantPermissions":true,"appium:wdaLocalPort":"4723","platformName":"Android"}]},"desiredCapabilities":{"noReset":true,"fullReset":false,"appPackage":"com.shs.wanderguard","appActivity":"com.shs.wanderguard.activity.SplashActivity","udid":"HGAGTKE7","automationName":"UiAutomator2","uiautomator2ServerInstallTimeout":"120000","app":"C:\\workspace\\builds\\wg\\wg.apk","newCommandTimeout":"500","allowTestPackages":true,"autoGrantPermissions":true,"wdaLocalPort":"4723","platformName":"Android"}}[39m
+[debug] [35m[HTTP][39m No route found for /wd/hub/session
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m3 ms - 211[39m
+[35m[HTTP][39m [90m[39m
+[debug] [35m[HTTP][39m Request idempotency key: 526a3fd6-84a6-4e23-b79e-d5e1da927f8a
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{"appium:noReset":true,"appium:fullReset":false,"appium:appPackage":"com.shs.wanderguard","appium:appActivity":"com.shs.wanderguard.activity.SplashActivity","appium:udid":"HGAGTKE7","appium:automationName":"UiAutomator2","appium:uiautomator2ServerInstallTimeout":"120000","appium:app":"C:\\workspace\\builds\\wg\\wg.apk","appium:newCommandTimeout":"500","appium:allowTestPackages":true,"appium:autoGrantPermissions":true,"appium:wdaLocalPort":"4723","platformName":"Android"}]},"desiredCapabilities":{"noReset":true,"fullReset":false,"appPackage":"com.shs.wanderguard","appActivity":"com.shs.wanderguard.activity.SplashActivity","udid":"HGAGTKE7","automationName":"UiAutomator2","uiautomator2ServerInstallTimeout":"120000","app":"C:\\workspace\\builds\\wg\\wg.apk","newCommandTimeout":"500","allowTestPackages":true,"autoGrantPermissions":true,"wdaLocalPort":"4723","platformName":"Android"}}[39m
+[debug] [35m[HTTP][39m No route found for /wd/hub/session
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m1 ms - 211[39m
+[35m[HTTP][39m [90m[39m
+[debug] [35m[HTTP][39m Request idempotency key: 7e92d40b-4456-4c65-a62c-f391ea84b305
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{"appium:noReset":true,"appium:fullReset":false,"appium:appPackage":"com.shs.wanderguard","appium:appActivity":"com.shs.wanderguard.activity.SplashActivity","appium:udid":"HGAGTKE7","appium:automationName":"UiAutomator2","appium:uiautomator2ServerInstallTimeout":"120000","appium:app":"C:\\workspace\\builds\\wg\\wg.apk","appium:newCommandTimeout":"500","appium:allowTestPackages":true,"appium:autoGrantPermissions":true,"appium:wdaLocalPort":"4723","platformName":"Android"}]},"desiredCapabilities":{"noReset":true,"fullReset":false,"appPackage":"com.shs.wanderguard","appActivity":"com.shs.wanderguard.activity.SplashActivity","udid":"HGAGTKE7","automationName":"UiAutomator2","uiautomator2ServerInstallTimeout":"120000","app":"C:\\workspace\\builds\\wg\\wg.apk","newCommandTimeout":"500","allowTestPackages":true,"autoGrantPermissions":true,"wdaLocalPort":"4723","platformName":"Android"}}[39m
+[debug] [35m[HTTP][39m No route found for /wd/hub/session
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[33m404[39m [90m1 ms - 211[39m
+[35m[HTTP][39m [90m[39m
+[35m[Appium][39m Received SIGINT - shutting down
+[debug] [35m[Appium][39m There are no active sessions for cleanup
+[35m[HTTP][39m Waiting until the server is closed
+[35m[HTTP][39m Received server close event
