@@ -1,158 +1,289 @@
-[35m[Appium][39m Welcome to Appium v2.0.0-beta.24
-[35m[Appium][39m Attempting to load driver windows...
-[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4723
-[35m[Appium][39m Available drivers:
-[35m[Appium][39m   - windows@1.21.0 (automationName 'Windows')
-[35m[Appium][39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
-[debug] [35m[HTTP][39m Request idempotency key: 0b61df77-c5aa-44a6-9451-0c6b4b2712c0
-[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/session[39m
-[35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{"appium:app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformName":"Windows","appium:platformVersion":"10","appium:automationName":"Windows","appium:appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"}]},"desiredCapabilities":{"app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformName":"Windows","platformVersion":"10","automationName":"Windows","appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"}}[39m
-[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformName":"Windows","platformVersion":"10","automationName":"Windows","appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"},null,{"firstMatch":[{"appium:app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformName":"Windows","appium:platformVersion":"10","appium:automationName":"Windows","appium:appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"}]}]
-[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1643010624329 (09:50:24 GMT+0200 (Israel Standard Time))
-[35m[Appium][39m Attempting to find matching driver for automationName 'Windows' and platformName 'Windows'
-[35m[Appium][39m The 'windows' driver was installed and matched caps.
-[35m[Appium][39m Will require it at C:\Users\qahw\.appium\appium-windows-driver\node_modules\appium-windows-driver
-[35m[Appium][39m Appium v2.0.0-beta.24 creating new WindowsDriver (v1.21.0) session
-[35m[Appium][39m Checking BaseDriver versions for Appium and WindowsDriver
-[35m[Appium][39m Appium's BaseDriver version is 8.2.3
-[35m[Appium][39m Could not determine WindowsDriver's BaseDriver version
-[debug] [35m[BaseDriver][39m W3C capabilities and MJSONWP desired capabilities were provided
-[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {
-[debug] [35m[BaseDriver][39m   "alwaysMatch": {
-[debug] [35m[BaseDriver][39m     "platformName": "Windows",
-[debug] [35m[BaseDriver][39m     "appium:app": "C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe",
-[debug] [35m[BaseDriver][39m     "appium:platformVersion": "10",
-[debug] [35m[BaseDriver][39m     "appium:automationName": "Windows",
-[debug] [35m[BaseDriver][39m     "appium:appArguments": "C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"
-[debug] [35m[BaseDriver][39m   },
-[debug] [35m[BaseDriver][39m   "firstMatch": [
-[debug] [35m[BaseDriver][39m     {}
-[debug] [35m[BaseDriver][39m   ]
-[debug] [35m[BaseDriver][39m }
-[35m[BaseDriver][39m Session created with session id: f26047bb-79fe-4ab7-acf9-ce34acefe8f3
-[35m[WinAppDriver][39m Spawning 'C:\Program Files (x86)\Windows Application Driver\WinAppDriver.exe' with args: ["4724/wd/hub"]
-[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:4724/wd/hub/status] with no body
-[35m[WD Proxy][39m connect ECONNREFUSED 127.0.0.1:4724
-[debug] [35m[WinAppDriver][39m Windows Application Driver listening for requests at: http://127.0.0.1:4724/wd/hub
-[debug] [35m[WinAppDriver][39m Press ENTER to exit.
-[debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
-[debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:4724/wd/hub/status] with no body
-[debug] [35m[WinAppDriver][39m ==========================================
-[debug] [35m[WinAppDriver][39m GET /wd/hub/status HTTP/1.1
-[debug] [35m[WinAppDriver][39m Accept: application/json, */*
-[debug] [35m[WinAppDriver][39m Connection: keep-alive
-[debug] [35m[WinAppDriver][39m Content-Type: application/json; charset=utf-8
-[debug] [35m[WinAppDriver][39m Host: 127.0.0.1:4724
-[debug] [35m[WinAppDriver][39m User-Agent: appium
-[debug] [35m[WD Proxy][39m Got response with status 200: {"build":{"revision":"2003","time":"Wed Aug 26 07:56:06 2020","version":"1.2.2009"},"os":{"arch":"amd64","name":"windows","version":"10.0.19044"}}
-[debug] [35m[WinAppDriver][39m Starting WinAppDriver session. Will timeout in '20000' ms.
-[debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
-[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:4724/wd/hub/session] with body: {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformVersion":"10","automationName":"Windows","appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"}}
-[debug] [35m[WinAppDriver][39m HTTP/1.1 200 OK
-[debug] [35m[WinAppDriver][39m Content-Length: 146
-[debug] [35m[WinAppDriver][39m Content-Type: application/json
-[debug] [35m[WinAppDriver][39m 
-[debug] [35m[WinAppDriver][39m {"build":{"revision":"2003","time":"Wed Aug 26 07:56:06 2020","version":"1.2.2009"},"os":{"arch":"amd64","name":"windows","version":"10.0.19044"}}
-[debug] [35m[WinAppDriver][39m ==========================================
-[debug] [35m[WinAppDriver][39m POST /wd/hub/session HTTP/1.1
-[debug] [35m[WinAppDriver][39m Accept: application/json, */*
-[debug] [35m[WinAppDriver][39m Connection: keep-alive
-[debug] [35m[WinAppDriver][39m Content-Length: 394
-[debug] [35m[WinAppDriver][39m Content-Type: application/json; charset=utf-8
-[debug] [35m[WinAppDriver][39m Host: 127.0.0.1:4724
-[debug] [35m[WinAppDriver][39m User-Agent: appium
-[debug] [35m[WinAppDriver][39m 
-[debug] [35m[WinAppDriver][39m {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformVersion":"10","automationName":"Windows","appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"}}
-[debug] [35m[WinAppDriver][39m HTTP/1.1 500 Internal Error
-[debug] [35m[WinAppDriver][39m Content-Length: 226
-[debug] [35m[WinAppDriver][39m Content-Type: application/json
-[debug] [35m[WinAppDriver][39m 
-[debug] [35m[WinAppDriver][39m {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe, and processId: 11596"}}
-[35m[WD Proxy][39m Got response with status 500: {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe, and processId: 11596"}}
-[debug] [35m[W3C][39m Matched W3C error code 'unknown error' to UnknownError
-[35m[WinAppDriver][39m Could not start WinAppDriver session error = 'An unknown server-side error occurred while processing the command. Original error: Failed to locate opened application window with appId: C:\Program Files (x86)\AeroScout\AeroScout Engine Manager\bin\Rte\EngineManager.exe, and processId: 11596', attempt = '1' from 'undefined'
-[debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
-[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:4724/wd/hub/session] with body: {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformVersion":"10","automationName":"Windows","appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"}}
-[debug] [35m[WinAppDriver][39m ==========================================
-[debug] [35m[WinAppDriver][39m POST /wd/hub/session HTTP/1.1
-[debug] [35m[WinAppDriver][39m Accept: application/json, */*
-[debug] [35m[WinAppDriver][39m Connection: keep-alive
-[debug] [35m[WinAppDriver][39m Content-Length: 394
-[debug] [35m[WinAppDriver][39m Content-Type: application/json; charset=utf-8
-[debug] [35m[WinAppDriver][39m Host: 127.0.0.1:4724
-[debug] [35m[WinAppDriver][39m User-Agent: appium
-[35m[WD Proxy][39m Got response with status 500: {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe, and processId: 16188"}}
-[debug] [35m[W3C][39m Matched W3C error code 'unknown error' to UnknownError
-[35m[WinAppDriver][39m Could not start WinAppDriver session error = 'An unknown server-side error occurred while processing the command. Original error: Failed to locate opened application window with appId: C:\Program Files (x86)\AeroScout\AeroScout Engine Manager\bin\Rte\EngineManager.exe, and processId: 16188', attempt = '2' from 'undefined'
-[debug] [35m[WinAppDriver][39m HTTP/1.1 500 Internal Error
-[debug] [35m[WinAppDriver][39m Content-Length: 226
-[debug] [35m[WinAppDriver][39m Content-Type: application/json
-[debug] [35m[WinAppDriver][39m 
-[debug] [35m[WinAppDriver][39m {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe, and processId: 16188"}}
-[debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
-[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:4724/wd/hub/session] with body: {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformVersion":"10","automationName":"Windows","appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"}}
-[debug] [35m[WinAppDriver][39m ==========================================
-[debug] [35m[WinAppDriver][39m POST /wd/hub/session HTTP/1.1
-[debug] [35m[WinAppDriver][39m Accept: application/json, */*
-[debug] [35m[WinAppDriver][39m Connection: keep-alive
-[debug] [35m[WinAppDriver][39m Content-Length: 394
-[debug] [35m[WinAppDriver][39m Content-Type: application/json; charset=utf-8
-[debug] [35m[WinAppDriver][39m Host: 127.0.0.1:4724
-[debug] [35m[WinAppDriver][39m User-Agent: appium
-[debug] [35m[WinAppDriver][39m 
-[debug] [35m[WinAppDriver][39m {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformVersion":"10","automationName":"Windows","appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"}}
-[debug] [35m[WinAppDriver][39m HTTP/1.1 500 Internal Error
-[debug] [35m[WinAppDriver][39m Content-Length: 226
-[debug] [35m[WinAppDriver][39m Content-Type: application/json
-[debug] [35m[WinAppDriver][39m 
-[debug] [35m[WinAppDriver][39m {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe, and processId: 16796"}}
-[35m[WD Proxy][39m Got response with status 500: {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe, and processId: 16796"}}
-[debug] [35m[W3C][39m Matched W3C error code 'unknown error' to UnknownError
-[35m[WinAppDriver][39m Could not start WinAppDriver session error = 'An unknown server-side error occurred while processing the command. Original error: Failed to locate opened application window with appId: C:\Program Files (x86)\AeroScout\AeroScout Engine Manager\bin\Rte\EngineManager.exe, and processId: 16796', attempt = '3' from 'undefined'
-[debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
-[debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:4724/wd/hub/session] with body: {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformVersion":"10","automationName":"Windows","appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"}}
-[debug] [35m[WinAppDriver][39m ==========================================
-[debug] [35m[WinAppDriver][39m POST /wd/hub/session HTTP/1.1
-[debug] [35m[WinAppDriver][39m Accept: application/json, */*
-[debug] [35m[WinAppDriver][39m Connection: keep-alive
-[debug] [35m[WinAppDriver][39m Content-Length: 394
-[debug] [35m[WinAppDriver][39m Content-Type: application/json; charset=utf-8
-[debug] [35m[WinAppDriver][39m Host: 127.0.0.1:4724
-[debug] [35m[WinAppDriver][39m User-Agent: appium
-[debug] [35m[WinAppDriver][39m 
-[debug] [35m[WinAppDriver][39m {"desiredCapabilities":{"platformName":"Windows","app":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe","platformVersion":"10","automationName":"Windows","appArguments":"C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellLayout.xml C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Config\\ShellCnf.xml"}}
-[debug] [35m[WinAppDriver][39m HTTP/1.1 500 Internal Error
-[debug] [35m[WinAppDriver][39m Content-Length: 226
-[debug] [35m[WinAppDriver][39m Content-Type: application/json
-[debug] [35m[WinAppDriver][39m 
-[debug] [35m[WinAppDriver][39m {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe, and processId: 10016"}}
-[35m[WD Proxy][39m Got response with status 500: {"status":13,"value":{"error":"unknown error","message":"Failed to locate opened application window with appId: C:\\Program Files (x86)\\AeroScout\\AeroScout Engine Manager\\bin\\Rte\\EngineManager.exe, and processId: 10016"}}
-[debug] [35m[W3C][39m Matched W3C error code 'unknown error' to UnknownError
-[35m[WinAppDriver][39m Could not start WinAppDriver session error = 'An unknown server-side error occurred while processing the command. Original error: Failed to locate opened application window with appId: C:\Program Files (x86)\AeroScout\AeroScout Engine Manager\bin\Rte\EngineManager.exe, and processId: 10016', attempt = '4' from 'undefined'
-[debug] [35m[WinAppDriver][39m timeoutError was Condition unmet after 23254 ms. Timing out.
-[debug] [35m[WinAppDriver][39m Deleting WinAppDriver session
-[35m[WinAppDriver][39m WinAppDriver exited with code null, signal SIGTERM
-[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1643010648754 (09:50:48 GMT+0200 (Israel Standard Time))
-[debug] [35m[W3C][39m Encountered internal error running command: UnknownError: An unknown server-side error occurred while processing the command. Original error: Failed to locate opened application window with appId: C:\Program Files (x86)\AeroScout\AeroScout Engine Manager\bin\Rte\EngineManager.exe, and processId: 10016
-[debug] [35m[W3C][39m     at errorFromW3CJsonCode (C:\Users\qahw\.appium\appium-windows-driver\node_modules\appium-base-driver\lib\protocol\errors.js:780:25)
-[debug] [35m[W3C][39m     at ProxyRequestError.getActualError (C:\Users\qahw\.appium\appium-windows-driver\node_modules\appium-base-driver\lib\protocol\errors.js:663:14)
-[debug] [35m[W3C][39m     at WADProxy.command (C:\Users\qahw\.appium\appium-windows-driver\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:272:19)
-[debug] [35m[W3C][39m     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-[debug] [35m[W3C][39m     at condFn (C:\Users\qahw\.appium\appium-windows-driver\node_modules\appium-windows-driver\lib\winappdriver.js:179:9)
-[debug] [35m[W3C][39m     at spin (C:\Users\qahw\.appium\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:138:20)
-[debug] [35m[W3C][39m     at spin (C:\Users\qahw\.appium\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:148:14)
-[debug] [35m[W3C][39m     at spin (C:\Users\qahw\.appium\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:148:14)
-[debug] [35m[W3C][39m     at spin (C:\Users\qahw\.appium\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:148:14)
-[debug] [35m[W3C][39m     at waitForCondition (C:\Users\qahw\.appium\appium-windows-driver\node_modules\asyncbox\lib\asyncbox.js:155:10)
-[debug] [35m[W3C][39m     at WinAppDriver._startSession (C:\Users\qahw\.appium\appium-windows-driver\node_modules\appium-windows-driver\lib\winappdriver.js:189:7)
-[debug] [35m[W3C][39m     at WinAppDriver.start (C:\Users\qahw\.appium\appium-windows-driver\node_modules\appium-windows-driver\lib\winappdriver.js:164:5)
-[debug] [35m[W3C][39m     at WindowsDriver.startWinAppDriverSession (C:\Users\qahw\.appium\appium-windows-driver\node_modules\appium-windows-driver\lib\driver.js:87:5)
-[debug] [35m[W3C][39m     at WindowsDriver.createSession (C:\Users\qahw\.appium\appium-windows-driver\node_modules\appium-windows-driver\lib\driver.js:75:7)
-[debug] [35m[W3C][39m     at AppiumDriver.createSession (C:\Users\qahw\AppData\Roaming\npm\node_modules\appium\lib\appium.js:251:35)
-[35m[HTTP][39m [37m<-- POST /session [39m[31m500[39m [90m24474 ms - 2516[39m
-[35m[HTTP][39m [90m[39m
-[35m[Appium][39m Received SIGINT - shutting down
-[debug] [35m[Appium][39m There are no active sessions for cleanup
-[35m[HTTP][39m Waiting until the server is closed
-[35m[HTTP][39m Received server close event
+
+Waiting for  0[Appium] Welcome to Appium v2.0.0-beta.44s\qahw\AppData\Roaming\npm\node_modules'
+[Appium] Appium REST http interface listener started on 0.0.0.0:4723
+[Appium] Available drivers:driver at C:\Users\qahw\.appium\node_modules\appium-windows-driver
+[Appium]   - windows@2.0.7 (automationName 'Windows')
+[Appium] Available plugins:
+[Appium]   - execute-driver@2.0.4
+[Appium] No plugins activated. Use the --use-plugins flag with names of plugins to activate
+[debug] [HTTP] Request idempotency key: 9c351c76-133f-4f18-bad3-bedecb1476ed
+[HTTP] --> POST /session
+[HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:automationName":"Windows","platformName":"Windows","appium:app":"C:\\\\AeroScoutEngineManager\\\\bin\\Rte\\\\EngineManager.exe","appium:appWorkingDir":"c:\\\\AeroScoutEngineManager\\\\bin\\\\Config","appium:appArguments":"ShellLayout.xml ShellCnf.xml"}}}
+[debug] [AppiumDriver@9a8d] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:automationName":"Windows","platformName":"Windows","appium:app":"C:\\\\AeroScoutEngineManager\\\\bin\\Rte\\\\EngineManager.exe","appium:appWorkingDir":"c:\\\\AeroScoutEngineManager\\\\bin\\\\Config","appium:appArguments":"ShellLayout.xml ShellCnf.xml"}}]
+[debug] [AppiumDriver@9a8d] Event 'newSessionRequested' logged at 1665048316005 (12:25:16 GMT+0300 (Israel Daylight Time))
+[Appium] Attempting to find matching driver for automationName 'Windows' and platformName 'Windows'
+[Appium] The 'windows' driver was installed and matched caps.
+[Appium] Will require it at C:\Users\qahw\.appium\node_modules\appium-windows-driver
+[debug] [Appium] Requiring driver at C:\Users\qahw\.appium\node_modules\appium-windows-driver
+[AppiumDriver@9a8d] Appium v2.0.0-beta.44 creating new WindowsDriver (v2.0.7) session
+[AppiumDriver@9a8d] Checking BaseDriver versions for Appium and WindowsDriver
+[AppiumDriver@9a8d] Appium's BaseDriver version is 8.7.1
+[AppiumDriver@9a8d] WindowsDriver's BaseDriver version is 8.7.0
+[debug] [WindowsDriver@09a2] Creating session with W3C capabilities: {
+[debug] [WindowsDriver@09a2]   "alwaysMatch": {
+[debug] [WindowsDriver@09a2]     "platformName": "Windows",
+[debug] [WindowsDriver@09a2]     "appium:automationName": "Windows",
+[debug] [WindowsDriver@09a2]     "appium:app": "C:\\\\AeroScoutEngineManager\\\\bin\\Rte\\\\EngineManager.exe",
+[debug] [WindowsDriver@09a2]     "appium:appWorkingDir": "c:\\\\AeroScoutEngineManager\\\\bin\\\\Config",
+[debug] [WindowsDriver@09a2]     "appium:appArguments": "ShellLayout.xml ShellCnf.xml"
+[debug] [WindowsDriver@09a2]   },
+[debug] [WindowsDriver@09a2]   "firstMatch": [
+[debug] [WindowsDriver@09a2]     {}
+[debug] [WindowsDriver@09a2]   ]
+[debug] [WindowsDriver@09a2] }
+[WindowsDriver@09a2 (f064069a)] Session created with session id: f064069a-44d7-40c7-ad27-12923a86ff97
+[debug] [WinAppDriver] Loaded WinAppDriver path from the APPIUM_WAD_PATH environment variable: C:\Windows Application Driver\WinAppDriver.exe
+[WindowsDriver@09a2 (f064069a)] Spawning 'C:\Windows Application Driver\WinAppDriver.exe' with args: ["4724/wd/hub"]
+[debug] [WindowsDriver@09a2 (f064069a)] Matched '/status' to command name 'getStatus'
+[debug] [WindowsDriver@09a2 (f064069a)] Proxying [GET /status] to [GET http://127.0.0.1:4724/wd/hub/status] with no body[WindowsDriver@09a2 (f064069a)] connect ECONNREFUSED 127.0.0.1:4724
+[debug] [WindowsDriver@09a2 (f064069a)] Windows Application Driver listening for requests at: http://127.0.0.1:4724/wd/hub
+[debug] [WindowsDriver@09a2 (f064069a)] Press ENTER to exit.
+[debug] [WindowsDriver@09a2 (f064069a)] Matched '/status' to command name 'getStatus'
+[debug] [WindowsDriver@09a2 (f064069a)] Proxying [GET /status] to [GET http://127.0.0.1:4724/wd/hub/status] with no body[debug] [WindowsDriver@09a2 (f064069a)] ==========================================
+[debug] [WindowsDriver@09a2 (f064069a)] GET /wd/hub/status HTTP/1.1
+[debug] [WindowsDriver@09a2 (f064069a)] Accept: application/json, */*
+[debug] [WindowsDriver@09a2 (f064069a)] Connection: keep-alive
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Type: application/json; charset=utf-8
+[debug] [WindowsDriver@09a2 (f064069a)] Host: 127.0.0.1:4724
+[debug] [WindowsDriver@09a2 (f064069a)] User-Agent: appium
+[debug] [WindowsDriver@09a2 (f064069a)] Got response with status 200: {"build":{"revision":"2003","time":"Wed Aug 26 07:56:06 2020","version":"1.2.2009"},"os":{"arch":"amd64","name":"windows","version":"10.0.19044"}}
+[debug] [WindowsDriver@09a2 (f064069a)] Starting WinAppDriver session. Will timeout in '20000' ms.
+[debug] [WindowsDriver@09a2 (f064069a)] Matched '/session' to command name 'createSession'
+[debug] [WindowsDriver@09a2 (f064069a)] Proxying [POST /session] to [POST http://127.0.0.1:4724/wd/hub/session] with body: {"desiredCapabilities":{"platformName":"Windows","automationName":"Windows","app":"C:\\\\AeroScoutEngineManager\\\\bin\\Rte\\\\EngineManager.exe","appWorkingDir":"c:\\\\AeroScoutEngineManager\\\\bin\\\\Config","appArguments":"ShellLayout.xml ShellCnf.xml"}}
+[debug] [WindowsDriver@09a2 (f064069a)] HTTP/1.1 200 OK
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Length: 146
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Type: application/json
+[debug] [WindowsDriver@09a2 (f064069a)]
+[debug] [WindowsDriver@09a2 (f064069a)] {"build":{"revision":"2003","time":"Wed Aug 26 07:56:06 2020","version":"1.2.2009"},"os":{"arch":"amd64","name":"windows","version":"10.0.19044"}}
+[debug] [WindowsDriver@09a2 (f064069a)] ==========================================
+[debug] [WindowsDriver@09a2 (f064069a)] POST /wd/hub/session HTTP/1.1
+[debug] [WindowsDriver@09a2 (f064069a)] Accept: application/json, */*
+[debug] [WindowsDriver@09a2 (f064069a)] Connection: keep-alive
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Length: 257
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Type: application/json; charset=utf-8
+[debug] [WindowsDriver@09a2 (f064069a)] Host: 127.0.0.1:4724
+[debug] [WindowsDriver@09a2 (f064069a)] User-Agent: appium
+[debug] [WindowsDriver@09a2 (f064069a)]
+[debug] [WindowsDriver@09a2 (f064069a)] {"desiredCapabilities":{"platformName":"Windows","automationName":"Windows","app":"C:\\\\AeroScoutEngineManager\\\\bin\\Rte\\\\EngineManager.exe","appWorkingDir":"c:\\\\AeroScoutEngineManager\\\\bin\\\\Config","appArguments":"ShellLayout.xml ShellCnf.xml"}}
+[debug] [WindowsDriver@09a2 (f064069a)] Got response with status 200: {"sessionId":"9C36A14C-A092-45BF-9E91-0B780F73AB21","status":0,"value":{"app":"C:\\\\AeroScoutEngineManager\\\\bin\\Rte\\\\EngineManager.exe","appArguments":"ShellLayout.xml ShellCnf.xml","appWorkingDir":"c:\\\\AeroScoutEngineManager\\\\bin\\\\Config","platformName":"Windows"}}
+[WindowsDriver@09a2 (f064069a)] Determined the downstream protocol as 'MJSONWP'
+[AppiumDriver@9a8d] New WindowsDriver session created successfully, session f064069a-44d7-40c7-ad27-12923a86ff97 added to master session list
+[debug] [WindowsDriver@09a2 (f064069a)] HTTP/1.1 200 OK
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Length: 278
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Type: application/json
+[debug] [WindowsDriver@09a2 (f064069a)]
+[debug] [WindowsDriver@09a2 (f064069a)] {"sessionId":"9C36A14C-A092-45BF-9E91-0B780F73AB21","status":0,"value":{"app":"C:\\\\AeroScoutEngineManager\\\\bin\\Rte\\\\EngineManager.exe","appArguments":"ShellLayout.xml ShellCnf.xml","appWorkingDir":"c:\\\\AeroScoutEngineManager\\\\bin\\\\Config","platformName":"Windows"}}
+[debug] [AppiumDriver@9a8d] Event 'newSessionStarted' logged at 1665048325867 (12:25:25 GMT+0300 (Israel Daylight Time))[debug] [WindowsDriver@09a2 (f064069a)] Cached the protocol value 'W3C' for the new session f064069a-44d7-40c7-ad27-12923a86ff97
+[debug] [WindowsDriver@09a2 (f064069a)] Responding to client with driver.createSession() result: {"capabilities":{"platformName":"Windows","automationName":"Windows","app":"C:\\\\AeroScoutEngineManager\\\\bin\\Rte\\\\EngineManager.exe","appWorkingDir":"c:\\\\AeroScoutEngineManager\\\\bin\\\\Config","appArguments":"ShellLayout.xml ShellCnf.xml"}}
+[HTTP] <-- POST /session 200 9890 ms - 311
+[HTTP]
+[HTTP] --> POST /session/f064069a-44d7-40c7-ad27-12923a86ff97/element
+[HTTP] {"using":"name","value":" System Diagnostics"}
+[debug] [WindowsDriver@09a2 (f064069a)] Calling AppiumDriver.findElement() with args: ["name"," System Diagnostics","f064069a-44d7-40c7-ad27-12923a86ff97"]
+[debug] [WindowsDriver@09a2 (f064069a)] Valid locator strategies for this request: xpath, id, name, class name, accessibility id
+[debug] [WindowsDriver@09a2 (f064069a)] Matched '/element' to command name 'findElement'
+[debug] [WindowsDriver@09a2 (f064069a)] Proxying [POST /element] to [POST http://127.0.0.1:4724/wd/hub/session/9C36A14C-A092-45BF-9E91-0B780F73AB21/element] with body: {"using":"name","value":" System Diagnostics"}
+[debug] [WindowsDriver@09a2 (f064069a)] ==========================================
+[debug] [WindowsDriver@09a2 (f064069a)] POST /wd/hub/session/9C36A14C-A092-45BF-9E91-0B780F73AB21/element HTTP/1.1
+[debug] [WindowsDriver@09a2 (f064069a)] Accept: application/json, */*
+[debug] [WindowsDriver@09a2 (f064069a)] Connection: keep-alive
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Length: 46
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Type: application/json; charset=utf-8
+[debug] [WindowsDriver@09a2 (f064069a)] Host: 127.0.0.1:4724
+[debug] [WindowsDriver@09a2 (f064069a)] User-Agent: appium
+[debug] [WindowsDriver@09a2 (f064069a)] HTTP/1.1 200 OK
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Length: 95
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Type: application/json
+[debug] [WindowsDriver@09a2 (f064069a)]
+[debug] [WindowsDriver@09a2 (f064069a)] {"sessionId":"9C36A14C-A092-45BF-9E91-0B780F73AB21","status":0,"value":{"ELEMENT":"42.132242"}}
+[debug] [WindowsDriver@09a2 (f064069a)] Got response with status 200: {"sessionId":"9C36A14C-A092-45BF-9E91-0B780F73AB21","status":0,"value":{"ELEMENT":"42.132242"}}
+[debug] [WindowsDriver@09a2 (f064069a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"42.132242","ELEMENT":"42.132242"}
+[HTTP] <-- POST /session/f064069a-44d7-40c7-ad27-12923a86ff97/element 200 890 ms - 83
+[HTTP]
+[HTTP] --> POST /session/f064069a-44d7-40c7-ad27-12923a86ff97/element/42.132242/click
+[HTTP] {"id":"42.132242"}
+[WindowsDriver@09a2 (f064069a)] Driver proxy active, passing request on via HTTP proxy
+[debug] [WindowsDriver@09a2 (f064069a)] Matched '/session/f064069a-44d7-40c7-ad27-12923a86ff97/element/42.132242/click' to command name 'click'
+[debug] [WindowsDriver@09a2 (f064069a)] Proxying [POST /session/f064069a-44d7-40c7-ad27-12923a86ff97/element/42.132242/click] to [POST http://127.0.0.1:4724/wd/hub/session/9C36A14C-A092-45BF-9E91-0B780F73AB21/element/42.132242/click] with body: {"id":"42.132242"}
+[debug] [WindowsDriver@09a2 (f064069a)] ==========================================
+[debug] [WindowsDriver@09a2 (f064069a)] POST /wd/hub/session/9C36A14C-A092-45BF-9E91-0B780F73AB21/element/42.132242/click HTTP/1.1
+[debug] [WindowsDriver@09a2 (f064069a)] Accept: application/json, */*
+[debug] [WindowsDriver@09a2 (f064069a)] Connection: keep-alive
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Length: 18
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Type: application/json; charset=utf-8
+[debug] [WindowsDriver@09a2 (f064069a)] Host: 127.0.0.1:4724
+[debug] [WindowsDriver@09a2 (f064069a)] User-Agent: appium
+[debug] [WindowsDriver@09a2 (f064069a)] HTTP/1.1 200 OK
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Length: 63
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Type: application/json
+[debug] [WindowsDriver@09a2 (f064069a)]
+[debug] [WindowsDriver@09a2 (f064069a)] {"sessionId":"9C36A14C-A092-45BF-9E91-0B780F73AB21","status":0}
+[debug] [WindowsDriver@09a2 (f064069a)] Got response with status 200: {"sessionId":"9C36A14C-A092-45BF-9E91-0B780F73AB21","status":0}
+[WindowsDriver@09a2 (f064069a)] Replacing sessionId 9C36A14C-A092-45BF-9E91-0B780F73AB21 with f064069a-44d7-40c7-ad27-12923a86ff97
+[HTTP] <-- POST /session/f064069a-44d7-40c7-ad27-12923a86ff97/element/42.132242/click 200 2486 ms - 65
+[HTTP]
+[HTTP] --> POST /session/f064069a-44d7-40c7-ad27-12923a86ff97/element
+[HTTP] {"using":"name","value":" Coverage Analyzer"}
+[debug] [WindowsDriver@09a2 (f064069a)] Calling AppiumDriver.findElement() with args: ["name"," Coverage Analyzer","f064069a-44d7-40c7-ad27-12923a86ff97"]
+[debug] [WindowsDriver@09a2 (f064069a)] Valid locator strategies for this request: xpath, id, name, class name, accessibility id
+[debug] [WindowsDriver@09a2 (f064069a)] Matched '/element' to command name 'findElement'
+[debug] [WindowsDriver@09a2 (f064069a)] Proxying [POST /element] to [POST http://127.0.0.1:4724/wd/hub/session/9C36A14C-A092-45BF-9E91-0B780F73AB21/element] with body: {"using":"name","value":" Coverage Analyzer"}
+[debug] [WindowsDriver@09a2 (f064069a)] ==========================================
+[debug] [WindowsDriver@09a2 (f064069a)] POST /wd/hub/session/9C36A14C-A092-45BF-9E91-0B780F73AB21/element HTTP/1.1
+[debug] [WindowsDriver@09a2 (f064069a)] Accept: application/json, */*
+[debug] [WindowsDriver@09a2 (f064069a)] Connection: keep-alive
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Length: 45
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Type: application/json; charset=utf-8
+[debug] [WindowsDriver@09a2 (f064069a)] Host: 127.0.0.1:4724
+[debug] [WindowsDriver@09a2 (f064069a)] User-Agent: appium
+[debug] [WindowsDriver@09a2 (f064069a)] HTTP/1.1 200 OK
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Length: 95
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Type: application/json
+[debug] [WindowsDriver@09a2 (f064069a)]
+[debug] [WindowsDriver@09a2 (f064069a)] {"sessionId":"9C36A14C-A092-45BF-9E91-0B780F73AB21","status":0,"value":{"ELEMENT":"42.132248"}}
+[debug] [WindowsDriver@09a2 (f064069a)] Got response with status 200: {"sessionId":"9C36A14C-A092-45BF-9E91-0B780F73AB21","status":0,"value":{"ELEMENT":"42.132248"}}
+[debug] [WindowsDriver@09a2 (f064069a)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"42.132248","ELEMENT":"42.132248"}
+[HTTP] <-- POST /session/f064069a-44d7-40c7-ad27-12923a86ff97/element 200 883 ms - 83
+[HTTP]
+[HTTP] --> POST /session/f064069a-44d7-40c7-ad27-12923a86ff97/element/42.132248/click
+[HTTP] {"id":"42.132248"}
+[WindowsDriver@09a2 (f064069a)] Driver proxy active, passing request on via HTTP proxy
+[debug] [WindowsDriver@09a2 (f064069a)] Matched '/session/f064069a-44d7-40c7-ad27-12923a86ff97/element/42.132248/click' to command name 'click'
+[debug] [WindowsDriver@09a2 (f064069a)] Proxying [POST /session/f064069a-44d7-40c7-ad27-12923a86ff97/element/42.132248/click] to [POST http://127.0.0.1:4724/wd/hub/session/9C36A14C-A092-45BF-9E91-0B780F73AB21/element/42.132248/click] with body: {"id":"42.132248"}
+[debug] [WindowsDriver@09a2 (f064069a)] ==========================================
+[debug] [WindowsDriver@09a2 (f064069a)] POST /wd/hub/session/9C36A14C-A092-45BF-9E91-0B780F73AB21/element/42.132248/click HTTP/1.1
+[debug] [WindowsDriver@09a2 (f064069a)] Accept: application/json, */*
+[debug] [WindowsDriver@09a2 (f064069a)] Connection: keep-alive
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Length: 18
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Type: application/json; charset=utf-8
+[debug] [WindowsDriver@09a2 (f064069a)] Host: 127.0.0.1:4724
+[debug] [WindowsDriver@09a2 (f064069a)] User-Agent: appium
+[debug] [WindowsDriver@09a2 (f064069a)]
+[debug] [WindowsDriver@09a2 (f064069a)] {"id":"42.132248"}
+[debug] [WindowsDriver@09a2 (f064069a)] HTTP/1.1 500 Internal Error
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Length: 133
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Type: application/json
+[debug] [WindowsDriver@09a2 (f064069a)]
+[debug] [WindowsDriver@09a2 (f064069a)] {"status":13,"value":{"error":"unknown error","message":"An unknown error occurred in the remote end while processing the command."}}
+[WindowsDriver@09a2 (f064069a)] Got response with status 500: {"status":13,"value":{"error":"unknown error","message":"An unknown error occurred in the remote end while processing the command."}}
+[debug] [W3C] Matched W3C error code 'unknown error' to UnknownError
+[HTTP] <-- POST /session/f064069a-44d7-40c7-ad27-12923a86ff97/element/42.132248/click 500 2236 ms - 923
+[HTTP]
+[HTTP] --> POST /session/f064069a-44d7-40c7-ad27-12923a86ff97/actions
+[HTTP] {"actions":[{"type":"pointer","parameters":{"pointerType":"mouse"},"id":"mouse","actions":[{"type":"pointerMove","duration":250,"x":0,"y":0,"origin":{"element-6066-11e4-a52e-4f735466cecf":"42.132248"}},{"type":"pointerDown","duration":0,"button":0},{"type":"pointerUp","duration":0,"button":0}]},{"type":"key","id":"key","actions":[{"type":"pause","duration":0},{"type":"pause","duration":0},{"type":"pause","duration":0}]}]}
+[WindowsDriver@09a2 (f064069a)] Driver proxy active, passing request on via HTTP proxy
+[debug] [WindowsDriver@09a2 (f064069a)] Matched '/session/f064069a-44d7-40c7-ad27-12923a86ff97/actions' to command name 'performActions'
+[debug] [WindowsDriver@09a2 (f064069a)] Proxying [POST /session/f064069a-44d7-40c7-ad27-12923a86ff97/actions] to [POST http://127.0.0.1:4724/wd/hub/session/9C36A14C-A092-45BF-9E91-0B780F73AB21/actions] with body: {"actions":[{"type":"pointer","parameters":{"pointerType":"mouse"},"id":"mouse","actions":[{"type":"pointerMove","duration":250,"x":0,"y":0,"origin":{"ELEMENT":"42.132248","element-6066-11e4-a52e-4f735466cecf":"42.132248"}},{"type":"pointerDown","duration":0,"button":0},{"type":"pointerUp","duration":0,"button":0}]},{"type":"key","id":"key","actions":[{"type":"pause","duration":0},{"type":"pause","duration":0},{"type":"pause","duration":0}]}]}
+[debug] [WindowsDriver@09a2 (f064069a)] ==========================================
+[debug] [WindowsDriver@09a2 (f064069a)] POST /wd/hub/session/9C36A14C-A092-45BF-9E91-0B780F73AB21/actions HTTP/1.1
+[debug] [WindowsDriver@09a2 (f064069a)] Accept: application/json, */*
+[debug] [WindowsDriver@09a2 (f064069a)] Connection: keep-alive
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Length: 447
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Type: application/json; charset=utf-8
+[debug] [WindowsDriver@09a2 (f064069a)] Host: 127.0.0.1:4724
+[debug] [WindowsDriver@09a2 (f064069a)] User-Agent: appium
+[debug] [WindowsDriver@09a2 (f064069a)]
+[debug] [WindowsDriver@09a2 (f064069a)] {"actions":[{"type":"pointer","parameters":{"pointerType":"mouse"},"id":"mouse","actions":[{"type":"pointerMove","duration":250,"x":0,"y":0,"origin":{"ELEMENT":"42.132248","element-6066-11e4-a52e-4f735466cecf":"42.132248"}},{"type":"pointerDown","duration":0,"button":0},{"type":"pointerUp","duration":0,"button":0}]},{"type":"key","id":"key","actions":[{"type":"pause","duration":0},{"type":"pause","duration":0},{"type":"pause","duration":0}]}]}
+[debug] [WindowsDriver@09a2 (f064069a)] HTTP/1.1 500 Internal Error
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Length: 138
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Type: application/json
+[debug] [WindowsDriver@09a2 (f064069a)]
+[debug] [WindowsDriver@09a2 (f064069a)] {"status":104,"value":{"error":"unsupported operation","message":"Currently only pen and touch pointer input source types are supported"}}
+[WindowsDriver@09a2 (f064069a)] Got response with status 500: {"status":104,"value":{"error":"unsupported operation","message":"Currently only pen and touch pointer input source types are supported"}}
+[debug] [W3C] Matched W3C error code 'unsupported operation' to UnsupportedOperationError
+[HTTP] <-- POST /session/f064069a-44d7-40c7-ad27-12923a86ff97/actions 500 97 ms - 768
+[HTTP]
+[HTTP] --> GET /session/f064069a-44d7-40c7-ad27-12923a86ff97/screenshot
+[HTTP] {}
+[WindowsDriver@09a2 (f064069a)] Driver proxy active, passing request on via HTTP proxy
+[debug] [WindowsDriver@09a2 (f064069a)] Matched '/session/f064069a-44d7-40c7-ad27-12923a86ff97/screenshot' to command name 'getScreenshot'
+[debug] [WindowsDriver@09a2 (f064069a)] Proxying [GET /session/f064069a-44d7-40c7-ad27-12923a86ff97/screenshot] to [GET http://127.0.0.1:4724/wd/hub/session/9C36A14C-A092-45BF-9E91-0B780F73AB21/screenshot] with no body
+[debug] [WindowsDriver@09a2 (f064069a)] ==========================================
+[debug] [WindowsDriver@09a2 (f064069a)] GET /wd/hub/session/9C36A14C-A092-45BF-9E91-0B780F73AB21/screenshot HTTP/1.1
+[debug] [WindowsDriver@09a2 (f064069a)] Accept: application/json, */*
+[debug] [WindowsDriver@09a2 (f064069a)] Connection: keep-alive
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Type: application/json; charset=utf-8
+[debug] [WindowsDriver@09a2 (f064069a)] Host: 127.0.0.1:4724
+[debug] [WindowsDriver@09a2 (f064069a)] User-Agent: appium
+[WindowsDriver@09a2 (f064069a)] Got response with status 500: {"status":13,"value":{"error":"unknown error","message":"An unknown error occurred in the remote end while processing the command."}}
+[debug] [W3C] Matched W3C error code 'unknown error' to UnknownError
+[HTTP] <-- GET /session/f064069a-44d7-40c7-ad27-12923a86ff97/screenshot 500 42 ms - 923
+[HTTP]
+[debug] [WindowsDriver@09a2 (f064069a)] HTTP/1.1 500 Internal Error
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Length: 133
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Type: application/json
+[debug] [WindowsDriver@09a2 (f064069a)]
+[debug] [WindowsDriver@09a2 (f064069a)] {"status":13,"value":{"error":"unknown error","message":"An unknown error occurred in the remote end while processing the command."}}
+[HTTP] --> DELETE /session/f064069a-44d7-40c7-ad27-12923a86ff97
+[HTTP] {}
+[debug] [WindowsDriver@09a2 (f064069a)] Calling AppiumDriver.deleteSession() with args: ["f064069a-44d7-40c7-ad27-12923a86ff97"]
+[debug] [AppiumDriver@9a8d] Event 'quitSessionRequested' logged at 1665048334132 (12:25:34 GMT+0300 (Israel Daylight Time))
+[AppiumDriver@9a8d] Removing session f064069a-44d7-40c7-ad27-12923a86ff97 from our master session list
+[debug] [WindowsDriver@09a2 (f064069a)] Deleting WinAppDriver session
+[debug] [WindowsDriver@09a2 (f064069a)] Deleting WinAppDriver server session
+[debug] [WindowsDriver@09a2 (f064069a)] Matched '/session/9C36A14C-A092-45BF-9E91-0B780F73AB21' to command name 'deleteSession'
+[debug] [WindowsDriver@09a2 (f064069a)] Proxying [DELETE /session/9C36A14C-A092-45BF-9E91-0B780F73AB21] to [DELETE http://127.0.0.1:4724/wd/hub/session/9C36A14C-A092-45BF-9E91-0B780F73AB21] with no body
+[debug] [WindowsDriver@09a2 (f064069a)] ==========================================
+[debug] [WindowsDriver@09a2 (f064069a)] DELETE /wd/hub/session/9C36A14C-A092-45BF-9E91-0B780F73AB21 HTTP/1.1
+[debug] [WindowsDriver@09a2 (f064069a)] Accept: application/json, */*
+[debug] [WindowsDriver@09a2 (f064069a)] Connection: keep-alive
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Type: application/json; charset=utf-8
+[debug] [WindowsDriver@09a2 (f064069a)] Host: 127.0.0.1:4724
+[debug] [WindowsDriver@09a2 (f064069a)] User-Agent: appium
+[debug] [WindowsDriver@09a2 (f064069a)] HTTP/1.1 200 OK
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Length: 12
+[debug] [WindowsDriver@09a2 (f064069a)] Content-Type: application/json
+[debug] [WindowsDriver@09a2 (f064069a)]
+[debug] [WindowsDriver@09a2 (f064069a)] {"status":0}
+[debug] [WindowsDriver@09a2 (f064069a)] Got response with status 200: {"status":0}
+[WindowsDriver@09a2 (f064069a)] WinAppDriver exited with code null, signal SIGTERM
+[debug] [AppiumDriver@9a8d] Event 'quitSessionFinished' logged at 1665048335182 (12:25:35 GMT+0300 (Israel Daylight Time))
+[debug] [AppiumDriver@9a8d] Received response: null
+[debug] [AppiumDriver@9a8d] But deleting session, so not returning
+[debug] [AppiumDriver@9a8d] Responding to client with driver.deleteSession() result: null
+[HTTP] <-- DELETE /session/f064069a-44d7-40c7-ad27-12923a86ff97 200 1080 ms - 14
+[HTTP]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
