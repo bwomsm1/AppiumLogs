@@ -1,0 +1,213 @@
+[35m[Appium][39m Welcome to Appium v2.0.0-beta.57
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m { basePath: [32m'/wd/hub'[39m }
+[35m[Appium][39m Attempting to load driver uiautomator2...
+[debug] [35m[Appium][39m Requiring driver at /Users/boazwarshawsky/node_modules/appium-uiautomator2-driver
+[35m[Appium][39m Attempting to load driver xcuitest...
+[debug] [35m[Appium][39m Requiring driver at /Users/boazwarshawsky/node_modules/appium-xcuitest-driver
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4723
+[35m[Appium][39m Available drivers:
+[35m[Appium][39m   - uiautomator2@2.12.6 (automationName 'UiAutomator2')
+[35m[Appium][39m   - xcuitest@4.19.0 (automationName 'XCUITest')
+[35m[Appium][39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[debug] [38;5;0m[HTTP][0m Request idempotency key: 3f0b86c6-f432-413e-b7a3-858200a4ba3a
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:noReset":true,"appium:fullReset":false,"appium:platformVersion":"16.3.1","appium:deviceName":"qa_iphone_02","appium:udid":"00008030-0012345A0C01402E","appium:bundleId":"com.aeroscout.MINF","appium:xcodeOrgId":"BX9P2F4G47","appium:xcodeSigningId":"iPhone Developer","appium:automationName":"XCUITest","appium:app":"http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/mobile-instant-notifier/master/notifier.ipa","platformName":"iOS"}}}[39m
+[debug] [38;5;16m[AppiumDriver@e081][0m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:noReset":true,"appium:fullReset":false,"appium:platformVersion":"16.3.1","appium:deviceName":"qa_iphone_02","appium:udid":"00008030-0012345A0C01402E","appium:bundleId":"com.aeroscout.MINF","appium:xcodeOrgId":"BX9P2F4G47","appium:xcodeSigningId":"iPhone Developer","appium:automationName":"XCUITest","appium:app":"http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/mobile-instant-notifier/master/notifier.ipa","platformName":"iOS"}}]
+[debug] [38;5;16m[AppiumDriver@e081][0m Event 'newSessionRequested' logged at 1678615589801 (12:06:29 GMT+0200 (Israel Standard Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'XCUITest' and platformName 'iOS'
+[35m[Appium][39m The 'xcuitest' driver was installed and matched caps.
+[35m[Appium][39m Will require it at /Users/boazwarshawsky/node_modules/appium-xcuitest-driver
+[debug] [35m[Appium][39m Requiring driver at /Users/boazwarshawsky/node_modules/appium-xcuitest-driver
+[38;5;16m[AppiumDriver@e081][0m Appium v2.0.0-beta.57 creating new XCUITestDriver (v4.19.0) session
+[38;5;16m[AppiumDriver@e081][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;16m[AppiumDriver@e081][0m Appium's BaseDriver version is 9.3.3
+[38;5;16m[AppiumDriver@e081][0m XCUITestDriver's BaseDriver version is 9.3.0
+[debug] [38;5;32m[XCUITestDriver@63ed][0m Creating session with W3C capabilities: {
+[debug] [38;5;32m[XCUITestDriver@63ed][0m   "alwaysMatch": {
+[debug] [38;5;32m[XCUITestDriver@63ed][0m     "platformName": "iOS",
+[debug] [38;5;32m[XCUITestDriver@63ed][0m     "appium:noReset": true,
+[debug] [38;5;32m[XCUITestDriver@63ed][0m     "appium:fullReset": false,
+[debug] [38;5;32m[XCUITestDriver@63ed][0m     "appium:platformVersion": "16.3.1",
+[debug] [38;5;32m[XCUITestDriver@63ed][0m     "appium:deviceName": "qa_iphone_02",
+[debug] [38;5;32m[XCUITestDriver@63ed][0m     "appium:udid": "00008030-0012345A0C01402E",
+[debug] [38;5;32m[XCUITestDriver@63ed][0m     "appium:bundleId": "com.aeroscout.MINF",
+[debug] [38;5;32m[XCUITestDriver@63ed][0m     "appium:xcodeOrgId": "BX9P2F4G47",
+[debug] [38;5;32m[XCUITestDriver@63ed][0m     "appium:xcodeSigningId": "iPhone Developer",
+[debug] [38;5;32m[XCUITestDriver@63ed][0m     "appium:automationName": "XCUITest",
+[debug] [38;5;32m[XCUITestDriver@63ed][0m     "appium:app": "http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/mobile-instant-notifier/master/notifier.ipa"
+[debug] [38;5;32m[XCUITestDriver@63ed][0m   },
+[debug] [38;5;32m[XCUITestDriver@63ed][0m   "firstMatch": [
+[debug] [38;5;32m[XCUITestDriver@63ed][0m     {}
+[debug] [38;5;32m[XCUITestDriver@63ed][0m   ]
+[debug] [38;5;32m[XCUITestDriver@63ed][0m }
+[38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Session created with session id: b52131d8-d591-4a45-b9d9-c430a1ab80e5
+[debug] [38;5;48m[XCUITest][0m Current user: 'boazwarshawsky'
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Available devices: 00008030-0012345A0C01402E
+[debug] [38;5;48m[XCUITest][0m Creating iDevice object with udid '00008030-0012345A0C01402E'
+[38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Determining device to run tests on: udid: '00008030-0012345A0C01402E', real device: true
+[38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Normalized platformVersion capability value '16.3.1' to '16.3'
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Event 'xcodeDetailsRetrieved' logged at 1678615589892 (12:06:29 GMT+0200 (Israel Standard Time))
+[38;5;64m[BaseDriver][0m Using downloadable app 'http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/mobile-instant-notifier/master/notifier.ipa'
+[38;5;64m[BaseDriver][0m Cannot send HEAD request to 'http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/mobile-instant-notifier/master/notifier.ipa'. Original error: timeout of 5000ms exceeded
+[debug] [38;5;64m[BaseDriver][0m A fresh copy of the application is going to be downloaded from http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/mobile-instant-notifier/master/notifier.ipa
+[debug] [38;5;80m[Support][0m http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/mobile-instant-notifier/master/notifier.ipa (16.91 MB) has been downloaded to '/var/folders/69/c_kv8lj90w90n3l437m6q85r0000gn/T/2023212-35933-x8n5sn.ucy5l/notifier.ipa' in 0.794s
+[debug] [38;5;80m[Support][0m Found 'unzip' at '/usr/bin/unzip'
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Found 1 bundle in 'notifier.ipa': Payload/Notifier.app
+[38;5;32m[XCUITestDriver@63ed (b52131d8)][0m 'Payload/Notifier.app' is the resulting application bundle selected from '/var/folders/69/c_kv8lj90w90n3l437m6q85r0000gn/T/2023212-35933-x8n5sn.ucy5l/notifier.ipa'
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Event 'appConfigured' logged at 1678615596070 (12:06:36 GMT+0200 (Israel Standard Time))
+[debug] [38;5;48m[XCUITest][0m Checking whether app '/var/folders/69/c_kv8lj90w90n3l437m6q85r0000gn/T/2023212-35933-1wi5ei5.h32hh/Notifier.app' is actually present on file system
+[debug] [38;5;48m[XCUITest][0m App is present
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Event 'resetStarted' logged at 1678615596070 (12:06:36 GMT+0200 (Israel Standard Time))
+[debug] [38;5;48m[XCUITest][0m Reset: fullReset not set. Leaving as is
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Event 'resetComplete' logged at 1678615596071 (12:06:36 GMT+0200 (Israel Standard Time))
+[38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Using WDA path: '/Users/boazwarshawsky/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Using WDA agent: '/Users/boazwarshawsky/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] [38;5;48m[XCUITest][0m Crash reports root '/Users/boazwarshawsky/Library/Logs/CrashReporter/MobileDevice/qa_iphone_02' does not exist. Got nothing to gather.
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Event 'logCaptureStarted' logged at 1678615596307 (12:06:36 GMT+0200 (Israel Standard Time))
+[38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Setting up real device
+[debug] [38;5;48m[XCUITest][0m Verifying application platform
+[debug] [38;5;48m[XCUITest][0m CFBundleSupportedPlatforms: ["iPhoneOS"]
+[debug] [38;5;48m[XCUITest][0m Reset requested. Removing app with id 'com.aeroscout.MINF' from the device
+[debug] [38;5;48m[XCUITest][0m Installing '/var/folders/69/c_kv8lj90w90n3l437m6q85r0000gn/T/2023212-35933-1wi5ei5.h32hh/Notifier.app' on device with UUID '00008030-0012345A0C01402E'...
+[debug] [38;5;48m[XCUITest][0m Using 'serial' app deployment strategy. You could change it by providing another value to the 'appInstallStrategy' capability
+[debug] [38;5;48m[XCUITest][0m Getting bundle ID from app '/var/folders/69/c_kv8lj90w90n3l437m6q85r0000gn/T/2023212-35933-1wi5ei5.h32hh/Notifier.app': 'com.aeroscout.MINF'
+[debug] [38;5;48m[XCUITest][0m Successfully scanned the tree structure of '/var/folders/69/c_kv8lj90w90n3l437m6q85r0000gn/T/2023212-35933-1wi5ei5.h32hh/Notifier.app'
+[debug] [38;5;48m[XCUITest][0m Got 56 folders and 215 files to push
+[debug] [38;5;48m[XCUITest][0m Successfully created the remote folder structure (57 items)
+[debug] [38;5;48m[XCUITest][0m Proceeding to serial files push
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Parsed BUILD_DIR configuration value: '/Users/boazwarshawsky/Library/Developer/Xcode/DerivedData/WebDriverAgent-bdfaopafsesxbpemctuptelacjus/Build/Products'
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Got derived data root: '/Users/boazwarshawsky/Library/Developer/Xcode/DerivedData/WebDriverAgent-bdfaopafsesxbpemctuptelacjus'
+[debug] [38;5;48m[XCUITest][0m Successfully pushed 56 folders and 215 files within 3229ms
+[debug] [38;5;48m[XCUITest][0m A new application installation is going to be performed
+[38;5;48m[XCUITest][0m App installation succeeded after 4350ms
+[debug] [38;5;48m[XCUITest][0m The app has been installed successfully.
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Event 'appInstalled' logged at 1678615601260 (12:06:41 GMT+0200 (Israel Standard Time))
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+[38;5;96m[DevCon Factory][0m Requesting connection for device 00008030-0012345A0C01402E on local port 8100, device port 8100
+[debug] [38;5;96m[DevCon Factory][0m Cached connections count: 0
+[38;5;96m[DevCon Factory][0m Successfully requested the connection for 00008030-0012345A0C01402E:8100
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[debug] [38;5;112m[WD Proxy][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;112m[WD Proxy][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;112m[WD Proxy][0m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"16.1","version":"16.3.1"},"ios":{"ip":"169.254.125.244"},"ready":true,"build":{"upgradedAt":"1677662191553","time":"Mar 12 2023 11:28:00","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Upgrade timestamp of the currently bundled WDA: 1677662191553
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Upgrade timestamp of the WDA on the device: 1677662191553
+[38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Trying to start WebDriverAgent 1 times with 10000ms interval
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Event 'wdaStartAttempted' logged at 1678615601392 (12:06:41 GMT+0200 (Israel Standard Time))
+[38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
+[debug] [38;5;112m[WD Proxy][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;112m[WD Proxy][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;112m[WD Proxy][0m Got response with status 200: {"value":{"message":"WebDriverAgent is ready to accept commands","state":"success","os":{"testmanagerdVersion":28,"name":"iOS","sdkVersion":"16.1","version":"16.3.1"},"ios":{"ip":"169.254.125.244"},"ready":true,"build":{"upgradedAt":"1677662191553","time":"Mar 12 2023 11:28:00","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"}},"sessionId":null}
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Event 'wdaSessionAttempted' logged at 1678615601398 (12:06:41 GMT+0200 (Israel Standard Time))
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Sending createSession command to WDA
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Matched '/session' to command name 'createSession'
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"com.aeroscout.MINF","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true,"shouldTerminateApp":false,"forceAppLaunch":false,"useNativeCachingStrategy":true,"forceSimulatorSoftwareKeyboardPresence":true}],"alwaysMatch":{}}}
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Got response with status 200: {"value":{"sessionId":"BDAAED7C-1E70-485D-91F8-D7A118C0E68D","capabilities":{"device":"iphone","browserName":"Notifier","sdkVersion":"16.3.1","CFBundleIdentifier":"com.aeroscout.MINF"}},"sessionId":"BDAAED7C-1E70-485D-91F8-D7A118C0E68D"}
+[38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Determined the downstream protocol as 'W3C'
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Event 'wdaSessionStarted' logged at 1678615604753 (12:06:44 GMT+0200 (Israel Standard Time))
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Event 'wdaStarted' logged at 1678615604753 (12:06:44 GMT+0200 (Israel Standard Time))
+[debug] [38;5;64m[BaseDriver][0m The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+[debug] [38;5;64m[BaseDriver][0m The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+[38;5;16m[AppiumDriver@e081][0m New XCUITestDriver session created successfully, session b52131d8-d591-4a45-b9d9-c430a1ab80e5 added to master session list
+[debug] [38;5;16m[AppiumDriver@e081][0m Event 'newSessionStarted' logged at 1678615604756 (12:06:44 GMT+0200 (Israel Standard Time))
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Cached the protocol value 'W3C' for the new session b52131d8-d591-4a45-b9d9-c430a1ab80e5
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"iOS","noReset":true,"fullReset":false,"platformVersion":"16.3.1","deviceName":"qa_iphone_02","udid":"00008030-0012345A0C01402E","bundleId":"com.aeroscout.MINF","xcodeOrgId":"BX9P2F4G47","xcodeSigningId":"iPhone Developer","automationName":"XCUITest","app":"http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/mobile-instant-notifier/master/notifier.ipa"}}
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m14962 ms - 680[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b52131d8-d591-4a45-b9d9-c430a1ab80e5/timeouts[39m
+[38;5;0m[HTTP][0m [90m{"implicit":1000}[39m
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Calling AppiumDriver.timeouts() with args: [null,null,null,null,1000,"b52131d8-d591-4a45-b9d9-c430a1ab80e5"]
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Executing command 'timeouts'
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m W3C timeout argument: {"implicit":1000}}
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Set implicit wait to 1000ms
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Responding to client with driver.timeouts() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/b52131d8-d591-4a45-b9d9-c430a1ab80e5/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b52131d8-d591-4a45-b9d9-c430a1ab80e5/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"id","value":"NewSettingsIcon"}[39m
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Calling AppiumDriver.findElement() with args: ["id","NewSettingsIcon","b52131d8-d591-4a45-b9d9-c430a1ab80e5"]
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Executing command 'findElement'
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Waiting up to 1000 ms for condition
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/BDAAED7C-1E70-485D-91F8-D7A118C0E68D/element] with body: {"using":"id","value":"NewSettingsIcon"}
+[38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'id', value 'NewSettingsIcon'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010912f920 FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010912f750 +[FBFindElementCommands handleFindElement:] + 304\n\t2   WebDriverAgentLib                   0x00000001090f68d0 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x00000001090e3468 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 396\n\t4   WebDriverAgentLib                   0x00000001091170d4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 160\n\t5   WebDriverAgentLib                   0x0000000109117b60 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x0000000191f04f88 DED4D0A5-1420-32AE-83A6-C31D938A1C9A + 16264\n\t7   libdispatch.dylib                   0x000...
+[debug] [38;5;128m[W3C][0m Matched W3C error code 'no such element' to NoSuchElementError
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Waited for 106 ms so far
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/BDAAED7C-1E70-485D-91F8-D7A118C0E68D/element] with body: {"using":"id","value":"NewSettingsIcon"}
+[38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'id', value 'NewSettingsIcon'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010912f920 FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010912f750 +[FBFindElementCommands handleFindElement:] + 304\n\t2   WebDriverAgentLib                   0x00000001090f68d0 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x00000001090e3468 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 396\n\t4   WebDriverAgentLib                   0x00000001091170d4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 160\n\t5   WebDriverAgentLib                   0x0000000109117b60 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x0000000191f04f88 DED4D0A5-1420-32AE-83A6-C31D938A1C9A + 16264\n\t7   libdispatch.dylib                   0x000...
+[debug] [38;5;128m[W3C][0m Matched W3C error code 'no such element' to NoSuchElementError
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Waited for 683 ms so far
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/BDAAED7C-1E70-485D-91F8-D7A118C0E68D/element] with body: {"using":"id","value":"NewSettingsIcon"}
+[38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'id', value 'NewSettingsIcon'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010912f920 FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010912f750 +[FBFindElementCommands handleFindElement:] + 304\n\t2   WebDriverAgentLib                   0x00000001090f68d0 -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x00000001090e3468 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 396\n\t4   WebDriverAgentLib                   0x00000001091170d4 -[RoutingHTTPServer handleRoute:withRequest:response:] + 160\n\t5   WebDriverAgentLib                   0x0000000109117b60 __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x0000000191f04f88 DED4D0A5-1420-32AE-83A6-C31D938A1C9A + 16264\n\t7   libdispatch.dylib                   0x000...
+[debug] [38;5;128m[W3C][0m Matched W3C error code 'no such element' to NoSuchElementError
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m     at XCUITestDriver.doNativeFind (/Users/boazwarshawsky/node_modules/appium-xcuitest-driver/lib/commands/find.js:129:11)
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m     at XCUITestDriver.findNativeElementOrElements (/Users/boazwarshawsky/node_modules/appium-xcuitest-driver/lib/commands/find.js:89:10)
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m     at XCUITestDriver.findElOrEls (/Users/boazwarshawsky/node_modules/appium-xcuitest-driver/lib/commands/find.js:22:12)
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m     at XCUITestDriver.findElOrElsWithProcessing (/Users/boazwarshawsky/node_modules/@appium/base-driver/lib/basedriver/commands/find.js:81:16)
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m     at XCUITestDriver.findElement (/Users/boazwarshawsky/node_modules/@appium/base-driver/lib/basedriver/commands/find.js:21:14)
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/b52131d8-d591-4a45-b9d9-c430a1ab80e5/element [39m[33m404[39m [90m1096 ms - 975[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b52131d8-d591-4a45-b9d9-c430a1ab80e5/screenshot[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Calling AppiumDriver.getScreenshot() with args: ["b52131d8-d591-4a45-b9d9-c430a1ab80e5"]
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Executing command 'getScreenshot'
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Taking screenshot with WDA
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Proxying [GET /screenshot] to [GET http://127.0.0.1:8100/session/BDAAED7C-1E70-485D-91F8-D7A118C0E68D/screenshot] with no body
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Got response with status 200: {"value":"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAC7qADAAQAAAABAAAFNgAAAACTGY5RAAAAHGlET1QAAAACAAAAAAAAApsAAAAoAAACmwAAApsAAQ3Mpxu7LAAAQABJREFUeAHsvXmwZcld3ymwZbDHy/wxMzFjDAIBQRi0dbdaC4uZIAxhsAdbgHYkLBAW2MaYTQ7wMmNsbIIwhiFgCGbGNmObGQnJwmA2obYQ6l0tIRBqqbura3n7vtd7tbyqyvl98tzffbdu1etXVaeqq/L253VnnXvPPesvP5n5/f0yT57nnZzfLKZRG6yHPZ4pDbad2yonSc9x+51Y2CyktMPU3GZ5ppTb5XIqbHh5Omz/wXazO2VqNB1yvjz+oUvzb5hnh9roOc72zbXLYXXKQdl55vPd6P7j+93o+a6+39TcepTfK9Mz38vVj+U+2uW5xsB4+3m77/+Z2m5+O+r6rn//rJ/Gjp3tcy6vaIu6/Y4trRbS7OxmTaklji9sFdJ01E2kk/OrNR1fXC+kxamtmj61ulRIszNbNU3HcUgnFlZrmp1dj+Oul7n4nVQ1H5oljkfK7Z5YXi2kEwvrNaUdji1uFdLx0EikvJ5cHmXPw35/3mE/PHfXJ0iHLQeAHQrUGIBXADdZv49XPAnsYctxrrKgHSwV7uM28vsklJkj6pMj64kb3X98v2u15bXtdzXRzjqZvVY7u91zmZXx9vN22+KwdjvXH3V9ud1hyyv3z3pmrBykvsrlFfVjt5/C/QrDjBnyOfd7ApXL57o9ru/+xwvulQU2j5f2zWXnGaeHfLDM33OZ+7s83LbaRtvIgAzIgAxcHwPX3n5f/bjXvv8h7XkK9lxeoT+7/TLCnRH3jIhnpHv8+6eWtwrp+MJOTRlpPz6/W0i537GIypOGkfLo5Z+ONDvTpac...
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAC7qADAAQAAAABAAAFNgAAAACTGY5RAAAAHGlET1QAAAACAAAAAAAAApsAAAAoAAACmwAAApsAAQ3Mpxu7LAAAQABJREFUeAHsvXmwZcld3ymwZbDHy/wxMzFjDAIBQRi0dbdaC4uZIAxhsAdbgHYkLBAW2MaYTQ7wMmNsbIIwhiFgCGbGNmObGQnJwmA2obYQ6l0tIRBqqbura3n7vtd7tbyqyvl98tzffbdu1etXVaeqq/L253VnnXvPPesvP5n5/f0yT57nnZzfLKZRG6yHPZ4pDbad2yonSc9x+51Y2CyktMPU3GZ5ppTb5XIqbHh5Omz/wXazO2VqNB1yvjz+oUvzb5hnh9roOc72zbXLYXXKQdl55vPd6P7j+93o+a6+39TcepTfK9Mz38vVj+U+2uW5xsB4+3m77/+Z2m5+O+r6rn//rJ/Gjp3tcy6vaIu6/Y4trRbS7OxmTaklji9sFdJ01E2kk/OrNR1fXC+kxamtmj61ulRIszNbNU3HcUgnFlZrmp1dj+Oul7n4nVQ1H5oljkfK7Z5YXi2kEwvrNaUdji1uFdLx0EikvJ5cHmXPw35/3mE/PHfXJ0iHLQeAHQrUGIBXADdZv49XPAnsYctxrrKgHSwV7uM28vsklJkj6pMj64kb3X98v2u15bXtdzXRzjqZvVY7u91zmZXx9vN22+KwdjvXH3V9ud1hyyv3z3pmrBykvsrlFfVjt5/C/QrDjBnyOfd7ApXL57o9ru/+xwvulQU2j5f2zWXnGaeHfLDM33OZ+7s83LbaRtvIgAzIgAxcHwPX3n5f/bjXvv8h7XkK9lxeoT+7/TLCnRH3jIhnpHv8+6eWtwrp+MJOTRlpPz6/W0i537GIypOGkfLo5Z+ONDvTpacWdwtpeqZL...
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/session/b52131d8-d591-4a45-b9d9-c430a1ab80e5/screenshot [39m[32m200[39m [90m81 ms - 193320[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/b52131d8-d591-4a45-b9d9-c430a1ab80e5/screenshot[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Calling AppiumDriver.getScreenshot() with args: ["b52131d8-d591-4a45-b9d9-c430a1ab80e5"]
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Executing command 'getScreenshot'
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Taking screenshot with WDA
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Proxying [GET /screenshot] to [GET http://127.0.0.1:8100/session/BDAAED7C-1E70-485D-91F8-D7A118C0E68D/screenshot] with no body
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Got response with status 200: {"value":"iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAC7qADAAQAAAABAAAFNgAAAACTGY5RAAAAHGlET1QAAAACAAAAAAAAApsAAAAoAAACmwAAApsAAQ3Mpxu7LAAAQABJREFUeAHsvXmwZcld3ymwZbDHy/wxMzFjDAIBQRi0dbdaC4uZIAxhsAdbgHYkLBAW2MaYTQ7wMmNsbIIwhiFgCGbGNmObGQnJwmA2obYQ6l0tIRBqqbura3n7vtd7tbyqyvl98tzffbdu1etXVaeqq/L253VnnXvPPesvP5n5/f0yT57nnZzfLKZRG6yHPZ4pDbad2yonSc9x+51Y2CyktMPU3GZ5ppTb5XIqbHh5Omz/wXazO2VqNB1yvjz+oUvzb5hnh9roOc72zbXLYXXKQdl55vPd6P7j+93o+a6+39TcepTfK9Mz38vVj+U+2uW5xsB4+3m77/+Z2m5+O+r6rn//rJ/Gjp3tcy6vaIu6/Y4trRbS7OxmTaklji9sFdJ01E2kk/OrNR1fXC+kxamtmj61ulRIszNbNU3HcUgnFlZrmp1dj+Oul7n4nVQ1H5oljkfK7Z5YXi2kEwvrNaUdji1uFdLx0EikvJ5cHmXPw35/3mE/PHfXJ0iHLQeAHQrUGIBXADdZv49XPAnsYctxrrKgHSwV7uM28vsklJkj6pMj64kb3X98v2u15bXtdzXRzjqZvVY7u91zmZXx9vN22+KwdjvXH3V9ud1hyyv3z3pmrBykvsrlFfVjt5/C/QrDjBnyOfd7ApXL57o9ru/+xwvulQU2j5f2zWXnGaeHfLDM33OZ+7s83LbaRtvIgAzIgAxcHwPX3n5f/bjXvv8h7XkK9lxeoT+7/TLCnRH3jIhnpHv8+6eWtwrp+MJOTRlpPz6/W0i537GIypOGkfLo5Z+ONDvTpac...
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAu4AAAU2CAYAAADK1zMGAAAAAXNSR0IArs4c6QAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAC7qADAAQAAAABAAAFNgAAAACTGY5RAAAAHGlET1QAAAACAAAAAAAAApsAAAAoAAACmwAAApsAAQ3Mpxu7LAAAQABJREFUeAHsvXmwZcld3ymwZbDHy/wxMzFjDAIBQRi0dbdaC4uZIAxhsAdbgHYkLBAW2MaYTQ7wMmNsbIIwhiFgCGbGNmObGQnJwmA2obYQ6l0tIRBqqbura3n7vtd7tbyqyvl98tzffbdu1etXVaeqq/L253VnnXvPPesvP5n5/f0yT57nnZzfLKZRG6yHPZ4pDbad2yonSc9x+51Y2CyktMPU3GZ5ppTb5XIqbHh5Omz/wXazO2VqNB1yvjz+oUvzb5hnh9roOc72zbXLYXXKQdl55vPd6P7j+93o+a6+39TcepTfK9Mz38vVj+U+2uW5xsB4+3m77/+Z2m5+O+r6rn//rJ/Gjp3tcy6vaIu6/Y4trRbS7OxmTaklji9sFdJ01E2kk/OrNR1fXC+kxamtmj61ulRIszNbNU3HcUgnFlZrmp1dj+Oul7n4nVQ1H5oljkfK7Z5YXi2kEwvrNaUdji1uFdLx0EikvJ5cHmXPw35/3mE/PHfXJ0iHLQeAHQrUGIBXADdZv49XPAnsYctxrrKgHSwV7uM28vsklJkj6pMj64kb3X98v2u15bXtdzXRzjqZvVY7u91zmZXx9vN22+KwdjvXH3V9ud1hyyv3z3pmrBykvsrlFfVjt5/C/QrDjBnyOfd7ApXL57o9ru/+xwvulQU2j5f2zWXnGaeHfLDM33OZ+7s83LbaRtvIgAzIgAxcHwPX3n5f/bjXvv8h7XkK9lxeoT+7/TLCnRH3jIhnpHv8+6eWtwrp+MJOTRlpPz6/W0i537GIypOGkfLo5Z+ONDvTpacWdwtpeqZL...
+[38;5;0m[HTTP][0m [37m<-- GET /wd/hub/session/b52131d8-d591-4a45-b9d9-c430a1ab80e5/screenshot [39m[32m200[39m [90m53 ms - 193320[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b52131d8-d591-4a45-b9d9-c430a1ab80e5/appium/device/terminate_app[39m
+[38;5;0m[HTTP][0m [90m{"appId":"com.aeroscout.MINF"}[39m
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Calling AppiumDriver.terminateApp() with args: ["com.aeroscout.MINF",null,null,null,"b52131d8-d591-4a45-b9d9-c430a1ab80e5"]
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Executing command 'terminateApp'
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Proxying [POST /wda/apps/terminate] to [POST http://127.0.0.1:8100/session/BDAAED7C-1E70-485D-91F8-D7A118C0E68D/wda/apps/terminate] with body: {"bundleId":"com.aeroscout.MINF"}
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Got response with status 200: {"value":true,"sessionId":"BDAAED7C-1E70-485D-91F8-D7A118C0E68D"}
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Responding to client with driver.terminateApp() result: true
+[38;5;0m[HTTP][0m [37m<-- POST /wd/hub/session/b52131d8-d591-4a45-b9d9-c430a1ab80e5/appium/device/terminate_app [39m[32m200[39m [90m1059 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/b52131d8-d591-4a45-b9d9-c430a1ab80e5[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Calling AppiumDriver.deleteSession() with args: ["b52131d8-d591-4a45-b9d9-c430a1ab80e5"]
+[debug] [38;5;16m[AppiumDriver@e081][0m Event 'quitSessionRequested' logged at 1678615615132 (12:06:55 GMT+0200 (Israel Standard Time))
+[38;5;16m[AppiumDriver@e081][0m Removing session b52131d8-d591-4a45-b9d9-c430a1ab80e5 from our master session list
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Matched '/session/b52131d8-d591-4a45-b9d9-c430a1ab80e5' to command name 'deleteSession'
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Proxying [DELETE /session/b52131d8-d591-4a45-b9d9-c430a1ab80e5] to [DELETE http://127.0.0.1:8100/session/BDAAED7C-1E70-485D-91F8-D7A118C0E68D] with no body
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Got response with status 200: {"value":null,"sessionId":null}
+[38;5;96m[DevCon Factory][0m Releasing connections for 00008030-0012345A0C01402E device on any port number
+[38;5;96m[DevCon Factory][0m Found cached connections to release: ["00008030-0012345A0C01402E:8100"]
+[38;5;96m[DevCon Factory][0m Releasing the listener for '00008030-0012345A0C01402E:8100'
+[debug] [38;5;144m[iProxy@00008030:8100][0m Closing the connection
+[debug] [38;5;96m[DevCon Factory][0m Cached connections count: 0
+[debug] [38;5;32m[XCUITestDriver@63ed (b52131d8)][0m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [38;5;16m[AppiumDriver@e081][0m Event 'quitSessionFinished' logged at 1678615615140 (12:06:55 GMT+0200 (Israel Standard Time))
+[debug] [38;5;16m[AppiumDriver@e081][0m Received response: null
+[debug] [38;5;16m[AppiumDriver@e081][0m But deleting session, so not returning
+[debug] [38;5;16m[AppiumDriver@e081][0m Responding to client with driver.deleteSession() result: null
+[38;5;0m[HTTP][0m [37m<-- DELETE /wd/hub/session/b52131d8-d591-4a45-b9d9-c430a1ab80e5 [39m[32m200[39m [90m9 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[35m[Appium][39m Received SIGINT - shutting down
+[debug] [38;5;16m[AppiumDriver@e081][0m There are no active sessions for cleanup
+[38;5;0m[HTTP][0m Waiting until the server is closed
+[38;5;0m[HTTP][0m Received server close event
+[debug] [38;5;64m[BaseDriver][0m Performing cleanup of 1 cached application
