@@ -1,30 +1,1769 @@
-HTTP] --> POST /wd/hub/session/1fa9aa78-cd74-4da3-881e-8d6f25ec405b/appium/device/set_clipboard
-[HTTP] {"content":"VlVQZlVIemRmUWlDcDdqbUt4b0VyaWdXejZCWU5zeWVBWjV6SndGczdNMi9EdVREbzcyaVliZ3VlbEVTRlFvRmdnVzFkeTQwTXVOK1E0d1ltaGhTbHk4ZVZVWjdsY2NrZmNIOW5pRXVrUDdvcG0zaVVHV2dHby9rV1BaN1BQNW9WUkI5UWIyZDQ3REw2VWg4blhYdUhVTHNUZkFFdHNKUHBQUEpYTUd1UC9sWE5CdG44Zzc2RTE2UXRJZnZZSTNlMVN2RUZCajFFSWhhZzhtR29JMnhKOUlkZXk3VUhqQTJSd0RZM0xZQzZ2djNlUytlWnBVT0YxY2VJU3Rqc2RSTUtwKzgzWFZKdlZ6V28wNzVLZ2VkbTZEU2gzdWM0aC9Bb01mZEFLL20vVHgrK3ZwT2h4bFd1MWk1dHBUSkF3UE9ZTDNZMEdZVUFKOVdjMHd1YWxvc3BTQmU0a1pHZmRadkc0Y0RzSjFqanNoM0JOaTR2VmZNUlkrUERKSU01dExzMGgxN0x0UWVNRGE2Y0JjS0hrb0tMeG1QeFQydjB4NVJoaWlYMW82bzdIeGh2L2piZW85cTBrd1ZZWGh4VWpMSkVCU2MzVGp5TGZYbW5LUEJPR1M4eHRaNGg5Yk1kVTI0ZGN6Q0pMT3JLWFVhTjdyaTU5aVIwdjZKL1c3a25WOG9GRHVmdzZUU2U4eGJMa2VRYXppQ0RrcGxxZitwd2s5WXN1T2srcDB0aEZYaWJPZlc5RHFSVXVTdm40MjFyWVJyUmhieDloNWM4cmU4alAxL1pQZ3kzL0ZUekZCRVhlY1Q5ZGUvcGtYNVdRd0JLa1NsblFQT2M1K09qQS9LQ2t4OTBBYzJkMjRmeHlUaWJPZlc5RHFSVWtYVCtBem5aZ1pYNG16bjF2UTZrVklHa0VKeFBZWWZYN080WjM4UEVXK0E4MGJzYkJLQkFibUx5aXAwVXd6RVEzTUU5RFNpZ0YzUm9NQU0yMzNPWnRmbVliTmJPS29HQ...
-[debug] [XCUITestDriver@de7b (1fa9aa78)] Calling AppiumDriver.setClipboard() with args: ["VlVQZlVIemRmUWlDcDdqbUt4b0VyaWdXejZCWU5zeWVBWjV6SndGczdNMi9EdVREbzcyaVliZ3VlbEVTRlFvRmdnVzFkeTQwTXVOK1E0d1ltaGhTbHk4ZVZVWjdsY2NrZmNIOW5pRXVrUDdvcG0zaVVHV2dHby9rV1BaN1BQNW9WUkI5UWIyZDQ3REw2VWg4blhYdUhVTHNUZkFFdHNKUHBQUEpYTUd1UC9sWE5CdG44Zzc2RTE2UXRJZnZZSTNlMVN2RUZCajFFSWhhZzhtR29JMnhKOUlkZXk3VUhqQTJSd0RZM0xZQzZ2djNlUytlWnBVT0YxY2VJU3Rqc2RSTUtwKzgzWFZKdlZ6V28wNzVLZ2VkbTZEU2gzdWM0aC9Bb01mZEFLL20vVHgrK3ZwT2h4bFd1MWk1dHBUSkF3UE9ZTDNZMEdZVUFKOVdjMHd1YWxvc3BTQmU0a1pHZmRadkc0Y0RzSjFqanNoM0JOaTR2VmZNUlkrUERKSU01dExzMGgxN0x0UWVNRGE2Y0JjS0hrb0tMeG1QeFQydjB4NVJoaWlYMW82bzdIeGh2L2piZW85cTBrd1ZZWGh4VWpMSkVCU2MzVGp5TGZYbW5LUEJPR1M4eHRaNGg5Yk1kVTI0ZGN6Q0pMT3JLWFVhTjdyaTU5aVIwdjZKL1c3a25WOG9GRHVmdzZUU2U4eGJMa2VRYXppQ0RrcGxxZitwd2s5WXN1T2srcDB0aEZYaWJPZlc5RHFSVXVTdm40MjFyWVJyUmhieDloNWM4cmU4alAxL1pQZ3kzL0ZUekZCRVhlY1Q5ZGUvcGtYNVdRd0JLa1NsblFQT2M1K09qQS9LQ2t4OTBBYzJkMjRmeHlUaWJPZlc5RHFSVWtYVCtBem5aZ1pYNG16bjF2UTZrVklHa0VKeFBZWWZYN080WjM4UEVXK0E4MGJzYkJLQkFibUx5aXAwVXd6RVEzTUU5RFNpZ0YzUm9NQU0yMzNPWnRmbVliTmJPS29HQmVIZENZZHp...
-[debug] [XCUITestDriver@de7b (1fa9aa78)] Executing command 'setClipboard'
-[XCUITestDriver@de7b (1fa9aa78)] Proxying to WDA with an unknown route: POST /wda/setPasteboard
-[debug] [XCUITestDriver@de7b (1fa9aa78)] Proxying [POST /wda/setPasteboard] to [POST http://127.0.0.1:8100/session/13F9DDA0-E6E0-49AF-9F08-ED2E44873987/wda/setPasteboard] with body: {"content":"VlVQZlVIemRmUWlDcDdqbUt4b0VyaWdXejZCWU5zeWVBWjV6SndGczdNMi9EdVREbzcyaVliZ3VlbEVTRlFvRmdnVzFkeTQwTXVOK1E0d1ltaGhTbHk4ZVZVWjdsY2NrZmNIOW5pRXVrUDdvcG0zaVVHV2dHby9rV1BaN1BQNW9WUkI5UWIyZDQ3REw2VWg4blhYdUhVTHNUZkFFdHNKUHBQUEpYTUd1UC9sWE5CdG44Zzc2RTE2UXRJZnZZSTNlMVN2RUZCajFFSWhhZzhtR29JMnhKOUlkZXk3VUhqQTJSd0RZM0xZQzZ2djNlUytlWnBVT0YxY2VJU3Rqc2RSTUtwKzgzWFZKdlZ6V28wNzVLZ2VkbTZEU2gzdWM0aC9Bb01mZEFLL20vVHgrK3ZwT2h4bFd1MWk1dHBUSkF3UE9ZTDNZMEdZVUFKOVdjMHd1YWxvc3BTQmU0a1pHZmRadkc0Y0RzSjFqanNoM0JOaTR2VmZNUlkrUERKSU01dExzMGgxN0x0UWVNRGE2Y0JjS0hrb0tMeG1QeFQydjB4NVJoaWlYMW82bzdIeGh2L2piZW85cTBrd1ZZWGh4VWpMSkVCU2MzVGp5TGZYbW5LUEJPR1M4eHRaNGg5Yk1kVTI0ZGN6Q0pMT3JLWFVhTjdyaTU5aVIwdjZKL1c3a25WOG9GRHVmdzZUU2U4eGJMa2VRYXppQ0RrcGxxZitwd2s5WXN1T2srcDB0aEZYaWJPZlc5RHFSVXVTdm40MjFyWVJyUmhieDloNWM4cmU4alAxL1pQZ3kzL0ZUekZCRVhlY1Q5ZGUvcGtYNVdRd0JLa1NsblFQT2M1K09qQS9LQ2t4OTBBYzJkMjRmeHlUaWJPZlc5RHFSVWtYVCtBem5aZ1pYNG16bjF2UTZrVklHa0VKeFBZWWZYN080WjM4UEVXK0E4MGJzYkJLQkFibUx5aXAwVXd6RVEzTUU5RFNpZ0YzUm9NQU0yMzNPWnRmbVliTmJPS29HQ...
-[Xcode] 2023-06-04 14:35:26.460937+0300 WebDriverAgentRunner-Runner[14911:587041] [Pasteboard] ...retrieving pasteboard named com.apple.UIKit.pboard.general failed with error: Error Domain=PBErrorDomain Code=10 "Pasteboard com.apple.UIKit.pboard.general is not available at this time." UserInfo={NSLocalizedDescription=Pasteboard com.apple.UIKit.pboard.general is not available at this time.}
-[Xcode]
-[Xcode] 2023-06-04 14:35:26.465187+0300 WebDriverAgentRunner-Runner[14911:587041] [Pasteboard] ...retrieving pasteboard named com.apple.UIKit.pboard.general failed with error: Error Domain=PBErrorDomain Code=10 "Pasteboard com.apple.UIKit.pboard.general is not available at this time." UserInfo={NSLocalizedDescription=Pasteboard com.apple.UIKit.pboard.general is not available at this time.}
-[Xcode]
-[debug] [XCUITestDriver@de7b (1fa9aa78)] Got response with status 200: {"value":null,"sessionId":"13F9DDA0-E6E0-49AF-9F08-ED2E44873987"}
-[debug] [XCUITestDriver@de7b (1fa9aa78)] Responding to client with driver.setClipboard() result: null
-[HTTP] <-- POST /wd/hub/session/1fa9aa78-cd74-4da3-881e-8d6f25ec405b/appium/device/set_clipboard 200 25 ms - 14
-[HTTP]
-[Xcode] 2023-06-04 14:35:26.469013+0300 WebDriverAgentRunner-Runner[14911:596373] [Pasteboard] ...saving pasteboard failed with error: Error Domain=PBErrorDomain Code=11 "The pasteboard name com.apple.UIKit.pboard.general is not valid." UserInfo={NSLocalizedDescription=The pasteboard name com.apple.UIKit.pboard.general is not valid.}
-[Xcode]
-[Xcode] 2023-06-04 14:35:26.469220+0300 WebDriverAgentRunner-Runner[14911:596373] Could not save pasteboard named com.apple.UIKit.pboard.general. Error: Error Domain=PBErrorDomain Code=11 "The pasteboard name com.apple.UIKit.pboard.general is not valid." UserInfo={NSLocalizedDescription=The pasteboard name com.apple.UIKit.pboard.general is not valid.}
-[Xcode]
-[XCUITestDriver@de7b (1fa9aa78)] Shutting down because we waited 60 seconds for a command
-[AppiumDriver@ac54] Ending session, cause was 'New Command Timeout of 60 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
-[AppiumDriver@ac54] Removing session '1fa9aa78-cd74-4da3-881e-8d6f25ec405b' from our master session list
-[DevCon Factory] Releasing connections for 00008030-0012345A0C01402E device on any port number
-[DevCon Factory] Found cached connections to release: ["00008030-0012345A0C01402E:8100"]
-[DevCon Factory] Releasing the listener for '00008030-0012345A0C01402E:8100'
-[debug] [iProxy@00008030:8100] Closing the connection
-[debug] [DevCon Factory] Cached connections count: 0
-[debug] [XCUITestDriver@de7b (1fa9aa78)] Not clearing log files. Use `clearSystemFiles` capability to turn on.
-[iProxy@00008030:8100] The connection has been closed
-^C[Appium] Received SIGINT - shutting down
-[debug] [AppiumDriver@ac54] There are no active sessions for cleanup
+[35m[Appium][39m Welcome to Appium v2.0.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m { address: [32m'127.0.0.1'[39m, basePath: [32m'/wd/hub'[39m, port: [33m5051[39m }
+[35m[Appium][39m Attempting to load driver xcuitest...
+[debug] [35m[Appium][39m Requiring driver at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver
+[Appium] Attempting to load driver uiautomator2...
+[debug] [Appium] Requiring driver at /Users/mac-auto-03/.appium/node_modules/appium-uiautomator2-driver
+[Appium] Appium REST http interface listener started on http://127.0.0.1:5051/wd/hub
+[Appium] Available drivers:
+[Appium]   - xcuitest@4.32.19 (automationName 'XCUITest')
+[Appium]   - uiautomator2@2.29.2 (automationName 'UiAutomator2')
+[Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[debug] [38;5;0m[HTTP][0m Request idempotency key: 8cf6dc7c-29c1-4aa1-9444-8bf974741bc1
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:noReset":true,"appium:fullReset":false,"appium:platformVersion":"16.5.1 (c)","appium:deviceName":"qa_iphone_04","appium:udid":"00008110-001115E41185401E","appium:bundleId":"com.shs.DeploymentManager","appium:xcodeOrgId":"BX9P2F4G47","appium:xcodeSigningId":"iPhone Developer","appium:automationName":"XCUITest","appium:app":"http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/deployment/master/Deployment.ipa","platformName":"iOS"}}}
+[debug] [38;5;16m[AppiumDriver@0382][0m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:noReset":true,"appium:fullReset":false,"appium:platformVersion":"16.5.1 (c)","appium:deviceName":"qa_iphone_04","appium:udid":"00008110-001115E41185401E","appium:bundleId":"com.shs.DeploymentManager","appium:xcodeOrgId":"BX9P2F4G47","appium:xcodeSigningId":"iPhone Developer","appium:automationName":"XCUITest","appium:app":"http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/deployment/master/Deployment.ipa","platformName":"iOS"}}]
+[debug] [38;5;16m[AppiumDriver@0382][0m Event 'newSessionRequested' logged at 1689484344838 (08:12:24 GMT+0300 (Israel Daylight Time))
+[Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'iOS'
+[Appium] The 'xcuitest' driver was installed and matched caps.
+[Appium] Will require it at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver
+[debug] [Appium] Requiring driver at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver
+[38;5;16m[AppiumDriver@0382][0m Appium v2.0.0 creating new XCUITestDriver (v4.32.19) session
+[38;5;16m[AppiumDriver@0382][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;16m[AppiumDriver@0382][0m Appium's BaseDriver version is 9.3.15
+[38;5;16m[AppiumDriver@0382][0m XCUITestDriver's BaseDriver version is 9.3.15
+[debug] [38;5;32m[XCUITestDriver@71b1][0m Creating session with W3C capabilities: {
+[debug] [38;5;32m[XCUITestDriver@71b1][0m   "alwaysMatch": {
+[debug] [38;5;32m[XCUITestDriver@71b1][0m     "platformName": "iOS",
+[debug] [38;5;32m[XCUITestDriver@71b1][0m     "appium:noReset": true,
+[debug] [38;5;32m[XCUITestDriver@71b1][0m     "appium:fullReset": false,
+[debug] [38;5;32m[XCUITestDriver@71b1][0m     "appium:platformVersion": "16.5.1 (c)",
+[debug] [38;5;32m[XCUITestDriver@71b1][0m     "appium:deviceName": "qa_iphone_04",
+[debug] [38;5;32m[XCUITestDriver@71b1][0m     "appium:udid": "00008110-001115E41185401E",
+[debug] [38;5;32m[XCUITestDriver@71b1][0m     "appium:bundleId": "com.shs.DeploymentManager",
+[debug] [38;5;32m[XCUITestDriver@71b1][0m     "appium:xcodeOrgId": "BX9P2F4G47",
+[debug] [38;5;32m[XCUITestDriver@71b1][0m     "appium:xcodeSigningId": "iPhone Developer",
+[debug] [38;5;32m[XCUITestDriver@71b1][0m     "appium:automationName": "XCUITest",
+[debug] [38;5;32m[XCUITestDriver@71b1][0m     "appium:app": "http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/deployment/master/Deployment.ipa"
+[debug] [38;5;32m[XCUITestDriver@71b1][0m   },
+[debug] [38;5;32m[XCUITestDriver@71b1][0m   "firstMatch": [
+[debug] [38;5;32m[XCUITestDriver@71b1][0m     {}
+[debug] [38;5;32m[XCUITestDriver@71b1][0m   ]
+[debug] [38;5;32m[XCUITestDriver@71b1][0m }
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Session created with session id: a0f09fb5-4fe7-437b-bc12-6b277d2632a8
+[debug] [38;5;48m[XCUITest][0m Current user: 'mac-auto-03'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Available devices: 00008110-001115E41185401E
+[debug] [38;5;48m[XCUITest][0m Creating iDevice object with udid '00008110-001115E41185401E'
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Determining device to run tests on: udid: '00008110-001115E41185401E', real device: true
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Normalized platformVersion capability value '16.5.1 (c)' to '16.5'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Event 'xcodeDetailsRetrieved' logged at 1689484344877 (08:12:24 GMT+0300 (Israel Daylight Time))
+[38;5;64m[BaseDriver][0m Using downloadable app 'http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/deployment/master/Deployment.ipa'
+[debug] [38;5;64m[BaseDriver][0m Etag: null -> undefined
+[debug] [38;5;64m[BaseDriver][0m Last-Modified: undefined -> Sat, 15 Jul 2023 23:35:43 GMT
+[debug] [38;5;64m[BaseDriver][0m Cache-Control: undefined -> undefined
+[debug] [38;5;64m[BaseDriver][0m Content-Type: application/x-itunes-ipa
+[debug] [38;5;64m[BaseDriver][0m The application (7.71 MB) has been downloaded to '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-vl9vcr.qwsei/Deployment.ipa' in 0.123s
+[debug] [38;5;80m[Support][0m Found 'unzip' at '/usr/bin/unzip'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Found 1 bundle in 'Deployment.ipa': Payload/Deployment.app
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m 'Payload/Deployment.app' is the resulting application bundle selected from '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-vl9vcr.qwsei/Deployment.ipa'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Event 'appConfigured' logged at 1689484345200 (08:12:25 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;48m[XCUITest][0m Checking whether app '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-1ig4ekg.cxp6/Deployment.app' is actually present on file system
+[debug] [38;5;48m[XCUITest][0m App is present
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Event 'resetStarted' logged at 1689484345200 (08:12:25 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;48m[XCUITest][0m Reset: fullReset not set. Leaving as is
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Event 'resetComplete' logged at 1689484345200 (08:12:25 GMT+0300 (Israel Daylight Time))
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Using WDA path: '/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Using WDA agent: '/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] [38;5;48m[XCUITest][0m Crash reports root '/Users/mac-auto-03/Library/Logs/CrashReporter/MobileDevice/qa_iphone_04' does not exist. Got nothing to gather.
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Event 'logCaptureStarted' logged at 1689484345386 (08:12:25 GMT+0300 (Israel Daylight Time))
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Setting up real device
+[debug] [38;5;48m[XCUITest][0m Verifying application platform
+[debug] [38;5;48m[XCUITest][0m CFBundleSupportedPlatforms: ["iPhoneOS"]
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m App 'com.shs.DeploymentManager' is not installed on the device yet
+[debug] [38;5;48m[XCUITest][0m Installing '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-1ig4ekg.cxp6/Deployment.app' on device with UUID '00008110-001115E41185401E'...
+[debug] [38;5;48m[XCUITest][0m Using 'serial' app deployment strategy. You could change it by providing another value to the 'appInstallStrategy' capability
+[debug] [38;5;48m[XCUITest][0m Getting bundle ID from app '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-1ig4ekg.cxp6/Deployment.app': 'com.shs.DeploymentManager'
+[debug] [38;5;48m[XCUITest][0m Successfully scanned the tree structure of '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-1ig4ekg.cxp6/Deployment.app'
+[debug] [38;5;48m[XCUITest][0m Got 34 folders and 268 files to push
+[debug] [38;5;48m[XCUITest][0m Successfully created the remote folder structure (35 items)
+[debug] [38;5;48m[XCUITest][0m Proceeding to serial files push
+[debug] [38;5;48m[XCUITest][0m Successfully pushed 34 folders and 268 files within 1202ms
+[debug] [38;5;48m[XCUITest][0m A new application installation is going to be performed
+[38;5;48m[XCUITest][0m App installation succeeded after 2199ms
+[debug] [38;5;48m[XCUITest][0m The app has been installed successfully.
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Event 'appInstalled' logged at 1689484347747 (08:12:27 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+[38;5;96m[DevCon Factory][0m Requesting connection for device 00008110-001115E41185401E on local port 8100, device port 8100
+[debug] [38;5;96m[DevCon Factory][0m Cached connections count: 0
+[38;5;96m[DevCon Factory][0m Successfully requested the connection for 00008110-001115E41185401E:8100
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[debug] [38;5;112m[WD Proxy][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;112m[WD Proxy][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;112m[WD Proxy][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m WDA is not listening at 'http://127.0.0.1:8100/'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m WDA is currently not running. There is nothing to cache
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Trying to start WebDriverAgent 1 times with 10000ms interval
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Event 'wdaStartAttempted' logged at 1689484347812 (08:12:27 GMT+0300 (Israel Daylight Time))
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Launching WebDriverAgent on the device
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Cleaning up the WebDriverAgent project after the module upgrade has happened (5.0.0 < 5.5.2)
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Cleaning the project scheme 'WebDriverAgentLib' to make sure there are no leftovers from previous installs
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Cleaning the project scheme 'WebDriverAgentRunner' to make sure there are no leftovers from previous installs
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Parsed BUILD_DIR configuration value: '/Users/mac-auto-03/Desktop/xcode/WebDriverAgent-gumfbzqdnxozvhfskwicepuzaxuz/Build/Products'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Got derived data root: '/Users/mac-auto-03/Desktop/xcode/WebDriverAgent-gumfbzqdnxozvhfskwicepuzaxuz'
+[debug] [38;5;144m[WebDriverAgent][0m Killing running processes 'xcodebuild.*00008110-001115E41185401E' for the device 00008110-001115E41185401E...
+[debug] [38;5;144m[WebDriverAgent][0m 'pgrep -if xcodebuild.*00008110-001115E41185401E' didn't detect any matching processes. Return code: 1
+[debug] [38;5;144m[WebDriverAgent][0m Generating xcode config file for orgId 'BX9P2F4G47' and signingId 'iPhone Developer'
+[debug] [38;5;144m[WebDriverAgent][0m Writing xcode config file to /var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-j309y6.nlxw/appium-temp.xcconfig
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Using Xcode configuration file: '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-j309y6.nlxw/appium-temp.xcconfig'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Beginning test with command 'xcodebuild build-for-testing test-without-building -project /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -derivedDataPath /Users/mac-auto-03/Desktop/xcode/WebDriverAgent-gumfbzqdnxozvhfskwicepuzaxuz -destination id=00008110-001115E41185401E IPHONEOS_DEPLOYMENT_TARGET=16.5 -xcconfig /var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-j309y6.nlxw/appium-temp.xcconfig GCC_TREAT_WARNINGS_AS_ERRORS=0 COMPILER_INDEX_STORE_ENABLE=NO' in directory '/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Output from xcodebuild will only be logged if any errors are present there. To change this, use 'showXcodeLog' desired capability
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Waiting up to 60000ms for WebDriverAgent to start
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Launching WebDriverAgent on the device
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Cleaning up the WebDriverAgent project after the module upgrade has happened (5.0.0 < 5.5.2)
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Cleaning the project scheme 'WebDriverAgentLib' to make sure there are no leftovers from previous installs
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Cleaning the project scheme 'WebDriverAgentRunner' to make sure there are no leftovers from previous installs
+[debug] [38;5;144m[WebDriverAgent][0m Killing running processes 'xcodebuild.*00008110-001115E41185401E' for the device 00008110-001115E41185401E...
+[debug] [38;5;144m[WebDriverAgent][0m 'pgrep -if xcodebuild.*00008110-001115E41185401E' didn't detect any matching processes. Return code: 1
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Using Xcode configuration file: '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-j309y6.nlxw/appium-temp.xcconfig'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Beginning test with command 'xcodebuild build-for-testing test-without-building -project /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -derivedDataPath /Users/mac-auto-03/Desktop/xcode/WebDriverAgent-gumfbzqdnxozvhfskwicepuzaxuz -destination id=00008110-001115E41185401E IPHONEOS_DEPLOYMENT_TARGET=16.5 -xcconfig /var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-j309y6.nlxw/appium-temp.xcconfig GCC_TREAT_WARNINGS_AS_ERRORS=0 COMPILER_INDEX_STORE_ENABLE=NO' in directory '/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Output from xcodebuild will only be logged if any errors are present there. To change this, use 'showXcodeLog' desired capability
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Waiting up to 60000ms for WebDriverAgent to start
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Event 'wdaStartFailed' logged at 1689484409346 (08:13:29 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Unable to launch WebDriverAgent because of xcodebuild failure: xcodebuild failed with code 65
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m xcodebuild error message:
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m . Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Quitting and uninstalling WebDriverAgent
+[38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Shutting down sub-processes
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m No WDAs on the device.
+[38;5;96m[DevCon Factory][0m Releasing connections for 00008110-001115E41185401E device on any port number
+[38;5;96m[DevCon Factory][0m Found cached connections to release: ["00008110-001115E41185401E:8100"]
+[38;5;96m[DevCon Factory][0m Releasing the listener for '00008110-001115E41185401E:8100'
+[debug] [38;5;128m[iProxy@00008110:8100][0m Closing the connection
+[debug] [38;5;96m[DevCon Factory][0m Cached connections count: 0
+[debug] [38;5;32m[XCUITestDriver@71b1 (a0f09fb5)][0m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[38;5;128m[iProxy@00008110:8100][0m The connection has been closed
+[debug] [38;5;16m[AppiumDriver@0382][0m Event 'newSessionStarted' logged at 1689484409512 (08:13:29 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;16m[AppiumDriver@0382][0m Encountered internal error running command: Error: Unable to launch WebDriverAgent because of xcodebuild failure: xcodebuild failed with code 65
+[debug] [38;5;16m[AppiumDriver@0382][0m xcodebuild error message:
+[debug] [38;5;16m[AppiumDriver@0382][0m . Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+[debug] [38;5;16m[AppiumDriver@0382][0m     at quitAndUninstall (/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:808:15)
+[debug] [38;5;16m[AppiumDriver@0382][0m     at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:894:13
+[debug] [38;5;16m[AppiumDriver@0382][0m     at wrapped (/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:95:13)
+[debug] [38;5;16m[AppiumDriver@0382][0m     at retry (/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:68:13)
+[debug] [38;5;16m[AppiumDriver@0382][0m     at retryInterval (/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:105:10)
+[debug] [38;5;16m[AppiumDriver@0382][0m     at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:833:7
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session 500 64716 ms - 1332
+[38;5;0m[HTTP][0m 
+[debug] [38;5;0m[HTTP][0m Request idempotency key: b1968b4e-1ad7-4603-932e-cabce3a978ef
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:noReset":true,"appium:fullReset":false,"appium:platformVersion":"16.5.1 (c)","appium:deviceName":"qa_iphone_04","appium:udid":"00008110-001115E41185401E","appium:bundleId":"com.shs.DeploymentManager","appium:xcodeOrgId":"BX9P2F4G47","appium:xcodeSigningId":"iPhone Developer","appium:automationName":"XCUITest","appium:app":"http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/deployment/master/Deployment.ipa","platformName":"iOS"}}}
+[debug] [38;5;16m[AppiumDriver@0382][0m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:noReset":true,"appium:fullReset":false,"appium:platformVersion":"16.5.1 (c)","appium:deviceName":"qa_iphone_04","appium:udid":"00008110-001115E41185401E","appium:bundleId":"com.shs.DeploymentManager","appium:xcodeOrgId":"BX9P2F4G47","appium:xcodeSigningId":"iPhone Developer","appium:automationName":"XCUITest","appium:app":"http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/deployment/master/Deployment.ipa","platformName":"iOS"}}]
+[debug] [38;5;16m[AppiumDriver@0382][0m Event 'newSessionRequested' logged at 1689484410584 (08:13:30 GMT+0300 (Israel Daylight Time))
+[Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'iOS'
+[Appium] The 'xcuitest' driver was installed and matched caps.
+[Appium] Will require it at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver
+[debug] [Appium] Requiring driver at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver
+[38;5;16m[AppiumDriver@0382][0m Appium v2.0.0 creating new XCUITestDriver (v4.32.19) session
+[38;5;16m[AppiumDriver@0382][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;16m[AppiumDriver@0382][0m Appium's BaseDriver version is 9.3.15
+[38;5;16m[AppiumDriver@0382][0m XCUITestDriver's BaseDriver version is 9.3.15
+[debug] [38;5;32m[XCUITestDriver@0bd0][0m Creating session with W3C capabilities: {
+[debug] [38;5;32m[XCUITestDriver@0bd0][0m   "alwaysMatch": {
+[debug] [38;5;32m[XCUITestDriver@0bd0][0m     "platformName": "iOS",
+[debug] [38;5;32m[XCUITestDriver@0bd0][0m     "appium:noReset": true,
+[debug] [38;5;32m[XCUITestDriver@0bd0][0m     "appium:fullReset": false,
+[debug] [38;5;32m[XCUITestDriver@0bd0][0m     "appium:platformVersion": "16.5.1 (c)",
+[debug] [38;5;32m[XCUITestDriver@0bd0][0m     "appium:deviceName": "qa_iphone_04",
+[debug] [38;5;32m[XCUITestDriver@0bd0][0m     "appium:udid": "00008110-001115E41185401E",
+[debug] [38;5;32m[XCUITestDriver@0bd0][0m     "appium:bundleId": "com.shs.DeploymentManager",
+[debug] [38;5;32m[XCUITestDriver@0bd0][0m     "appium:xcodeOrgId": "BX9P2F4G47",
+[debug] [38;5;32m[XCUITestDriver@0bd0][0m     "appium:xcodeSigningId": "iPhone Developer",
+[debug] [38;5;32m[XCUITestDriver@0bd0][0m     "appium:automationName": "XCUITest",
+[debug] [38;5;32m[XCUITestDriver@0bd0][0m     "appium:app": "http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/deployment/master/Deployment.ipa"
+[debug] [38;5;32m[XCUITestDriver@0bd0][0m   },
+[debug] [38;5;32m[XCUITestDriver@0bd0][0m   "firstMatch": [
+[debug] [38;5;32m[XCUITestDriver@0bd0][0m     {}
+[debug] [38;5;32m[XCUITestDriver@0bd0][0m   ]
+[debug] [38;5;32m[XCUITestDriver@0bd0][0m }
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Session created with session id: b695c526-3ef9-4b3a-83b9-f31df170dbfb
+[debug] [38;5;48m[XCUITest][0m Current user: 'mac-auto-03'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Available devices: 00008110-001115E41185401E
+[debug] [38;5;48m[XCUITest][0m Creating iDevice object with udid '00008110-001115E41185401E'
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Determining device to run tests on: udid: '00008110-001115E41185401E', real device: true
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Normalized platformVersion capability value '16.5.1 (c)' to '16.5'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Event 'xcodeDetailsRetrieved' logged at 1689484410618 (08:13:30 GMT+0300 (Israel Daylight Time))
+[38;5;64m[BaseDriver][0m Using downloadable app 'http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/deployment/master/Deployment.ipa'
+[debug] [38;5;64m[BaseDriver][0m Etag: null -> undefined
+[debug] [38;5;64m[BaseDriver][0m Last-Modified: undefined -> Sat, 15 Jul 2023 23:35:43 GMT
+[debug] [38;5;64m[BaseDriver][0m Cache-Control: undefined -> undefined
+[debug] [38;5;64m[BaseDriver][0m Content-Type: application/x-itunes-ipa
+[debug] [38;5;64m[BaseDriver][0m The application (7.71 MB) has been downloaded to '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-37fy0a.5aw71/Deployment.ipa' in 0.068s
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Using '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-1ig4ekg.cxp6/Deployment.app' which was cached from '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-37fy0a.5aw71/Deployment.ipa'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Event 'appConfigured' logged at 1689484410739 (08:13:30 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;48m[XCUITest][0m Checking whether app '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-1ig4ekg.cxp6/Deployment.app' is actually present on file system
+[debug] [38;5;48m[XCUITest][0m App is present
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Event 'resetStarted' logged at 1689484410739 (08:13:30 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;48m[XCUITest][0m Reset: fullReset not set. Leaving as is
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Event 'resetComplete' logged at 1689484410739 (08:13:30 GMT+0300 (Israel Daylight Time))
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Using WDA path: '/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Using WDA agent: '/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] [38;5;48m[XCUITest][0m Crash reports root '/Users/mac-auto-03/Library/Logs/CrashReporter/MobileDevice/qa_iphone_04' does not exist. Got nothing to gather.
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Event 'logCaptureStarted' logged at 1689484410907 (08:13:30 GMT+0300 (Israel Daylight Time))
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Setting up real device
+[debug] [38;5;48m[XCUITest][0m Verifying application platform
+[debug] [38;5;48m[XCUITest][0m CFBundleSupportedPlatforms: ["iPhoneOS"]
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m App 'com.shs.DeploymentManager' is already installed
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m noReset is requested. The app will not be be (re)installed
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+[38;5;96m[DevCon Factory][0m Requesting connection for device 00008110-001115E41185401E on local port 8100, device port 8100
+[debug] [38;5;96m[DevCon Factory][0m Cached connections count: 0
+[38;5;96m[DevCon Factory][0m Successfully requested the connection for 00008110-001115E41185401E:8100
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[debug] [38;5;112m[WD Proxy][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;112m[WD Proxy][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;112m[WD Proxy][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m WDA is not listening at 'http://127.0.0.1:8100/'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m WDA is currently not running. There is nothing to cache
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Trying to start WebDriverAgent 1 times with 10000ms interval
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Event 'wdaStartAttempted' logged at 1689484411112 (08:13:31 GMT+0300 (Israel Daylight Time))
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Launching WebDriverAgent on the device
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Cleaning up the WebDriverAgent project after the module upgrade has happened (5.0.0 < 5.5.2)
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Cleaning the project scheme 'WebDriverAgentLib' to make sure there are no leftovers from previous installs
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Parsed BUILD_DIR configuration value: '/Users/mac-auto-03/Desktop/xcode/WebDriverAgent-gumfbzqdnxozvhfskwicepuzaxuz/Build/Products'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Got derived data root: '/Users/mac-auto-03/Desktop/xcode/WebDriverAgent-gumfbzqdnxozvhfskwicepuzaxuz'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Cleaning the project scheme 'WebDriverAgentRunner' to make sure there are no leftovers from previous installs
+[debug] [38;5;144m[WebDriverAgent][0m Killing running processes 'xcodebuild.*00008110-001115E41185401E' for the device 00008110-001115E41185401E...
+[debug] [38;5;144m[WebDriverAgent][0m 'pgrep -if xcodebuild.*00008110-001115E41185401E' didn't detect any matching processes. Return code: 1
+[debug] [38;5;144m[WebDriverAgent][0m Generating xcode config file for orgId 'BX9P2F4G47' and signingId 'iPhone Developer'
+[debug] [38;5;144m[WebDriverAgent][0m Writing xcode config file to /var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-o6wy8j.mxil/appium-temp.xcconfig
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Using Xcode configuration file: '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-o6wy8j.mxil/appium-temp.xcconfig'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Beginning test with command 'xcodebuild build-for-testing test-without-building -project /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -derivedDataPath /Users/mac-auto-03/Desktop/xcode/WebDriverAgent-gumfbzqdnxozvhfskwicepuzaxuz -destination id=00008110-001115E41185401E IPHONEOS_DEPLOYMENT_TARGET=16.5 -xcconfig /var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-o6wy8j.mxil/appium-temp.xcconfig GCC_TREAT_WARNINGS_AS_ERRORS=0 COMPILER_INDEX_STORE_ENABLE=NO' in directory '/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Output from xcodebuild will only be logged if any errors are present there. To change this, use 'showXcodeLog' desired capability
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Waiting up to 60000ms for WebDriverAgent to start
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Launching WebDriverAgent on the device
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Cleaning up the WebDriverAgent project after the module upgrade has happened (5.0.0 < 5.5.2)
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Cleaning the project scheme 'WebDriverAgentLib' to make sure there are no leftovers from previous installs
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Cleaning the project scheme 'WebDriverAgentRunner' to make sure there are no leftovers from previous installs
+[debug] [38;5;144m[WebDriverAgent][0m Killing running processes 'xcodebuild.*00008110-001115E41185401E' for the device 00008110-001115E41185401E...
+[debug] [38;5;144m[WebDriverAgent][0m 'pgrep -if xcodebuild.*00008110-001115E41185401E' didn't detect any matching processes. Return code: 1
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Using Xcode configuration file: '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-o6wy8j.mxil/appium-temp.xcconfig'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Beginning test with command 'xcodebuild build-for-testing test-without-building -project /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -derivedDataPath /Users/mac-auto-03/Desktop/xcode/WebDriverAgent-gumfbzqdnxozvhfskwicepuzaxuz -destination id=00008110-001115E41185401E IPHONEOS_DEPLOYMENT_TARGET=16.5 -xcconfig /var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-o6wy8j.mxil/appium-temp.xcconfig GCC_TREAT_WARNINGS_AS_ERRORS=0 COMPILER_INDEX_STORE_ENABLE=NO' in directory '/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Output from xcodebuild will only be logged if any errors are present there. To change this, use 'showXcodeLog' desired capability
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Waiting up to 60000ms for WebDriverAgent to start
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Event 'wdaStartFailed' logged at 1689484469913 (08:14:29 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Unable to launch WebDriverAgent because of xcodebuild failure: xcodebuild failed with code 65
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m xcodebuild error message:
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m . Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Quitting and uninstalling WebDriverAgent
+[38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Shutting down sub-processes
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m No WDAs on the device.
+[38;5;96m[DevCon Factory][0m Releasing connections for 00008110-001115E41185401E device on any port number
+[38;5;96m[DevCon Factory][0m Found cached connections to release: ["00008110-001115E41185401E:8100"]
+[38;5;96m[DevCon Factory][0m Releasing the listener for '00008110-001115E41185401E:8100'
+[debug] [38;5;128m[iProxy@00008110:8100][0m Closing the connection
+[debug] [38;5;96m[DevCon Factory][0m Cached connections count: 0
+[debug] [38;5;32m[XCUITestDriver@0bd0 (b695c526)][0m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[38;5;128m[iProxy@00008110:8100][0m The connection has been closed
+[debug] [38;5;16m[AppiumDriver@0382][0m Event 'newSessionStarted' logged at 1689484470077 (08:14:30 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;16m[AppiumDriver@0382][0m Encountered internal error running command: Error: Unable to launch WebDriverAgent because of xcodebuild failure: xcodebuild failed with code 65
+[debug] [38;5;16m[AppiumDriver@0382][0m xcodebuild error message:
+[debug] [38;5;16m[AppiumDriver@0382][0m . Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+[debug] [38;5;16m[AppiumDriver@0382][0m     at quitAndUninstall (/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:808:15)
+[debug] [38;5;16m[AppiumDriver@0382][0m     at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:894:13
+[debug] [38;5;16m[AppiumDriver@0382][0m     at wrapped (/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:95:13)
+[debug] [38;5;16m[AppiumDriver@0382][0m     at retry (/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:68:13)
+[debug] [38;5;16m[AppiumDriver@0382][0m     at retryInterval (/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:105:10)
+[debug] [38;5;16m[AppiumDriver@0382][0m     at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:833:7
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session 500 59521 ms - 1332
+[38;5;0m[HTTP][0m 
+[debug] [38;5;0m[HTTP][0m Request idempotency key: c89eb0b2-ca3c-4957-ac4b-5395e3cecc84
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:noReset":true,"appium:fullReset":false,"appium:platformVersion":"16.5.1 (c)","appium:deviceName":"qa_iphone_04","appium:udid":"00008110-001115E41185401E","appium:bundleId":"com.shs.DeploymentManager","appium:xcodeOrgId":"BX9P2F4G47","appium:xcodeSigningId":"iPhone Developer","appium:automationName":"XCUITest","appium:app":"http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/deployment/master/Deployment.ipa","platformName":"iOS"}}}
+[debug] [38;5;16m[AppiumDriver@0382][0m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:noReset":true,"appium:fullReset":false,"appium:platformVersion":"16.5.1 (c)","appium:deviceName":"qa_iphone_04","appium:udid":"00008110-001115E41185401E","appium:bundleId":"com.shs.DeploymentManager","appium:xcodeOrgId":"BX9P2F4G47","appium:xcodeSigningId":"iPhone Developer","appium:automationName":"XCUITest","appium:app":"http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/deployment/master/Deployment.ipa","platformName":"iOS"}}]
+[debug] [38;5;16m[AppiumDriver@0382][0m Event 'newSessionRequested' logged at 1689484471117 (08:14:31 GMT+0300 (Israel Daylight Time))
+[Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'iOS'
+[Appium] The 'xcuitest' driver was installed and matched caps.
+[Appium] Will require it at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver
+[debug] [Appium] Requiring driver at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver
+[38;5;16m[AppiumDriver@0382][0m Appium v2.0.0 creating new XCUITestDriver (v4.32.19) session
+[38;5;16m[AppiumDriver@0382][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;16m[AppiumDriver@0382][0m Appium's BaseDriver version is 9.3.15
+[38;5;16m[AppiumDriver@0382][0m XCUITestDriver's BaseDriver version is 9.3.15
+[debug] [38;5;32m[XCUITestDriver@dff7][0m Creating session with W3C capabilities: {
+[debug] [38;5;32m[XCUITestDriver@dff7][0m   "alwaysMatch": {
+[debug] [38;5;32m[XCUITestDriver@dff7][0m     "platformName": "iOS",
+[debug] [38;5;32m[XCUITestDriver@dff7][0m     "appium:noReset": true,
+[debug] [38;5;32m[XCUITestDriver@dff7][0m     "appium:fullReset": false,
+[debug] [38;5;32m[XCUITestDriver@dff7][0m     "appium:platformVersion": "16.5.1 (c)",
+[debug] [38;5;32m[XCUITestDriver@dff7][0m     "appium:deviceName": "qa_iphone_04",
+[debug] [38;5;32m[XCUITestDriver@dff7][0m     "appium:udid": "00008110-001115E41185401E",
+[debug] [38;5;32m[XCUITestDriver@dff7][0m     "appium:bundleId": "com.shs.DeploymentManager",
+[debug] [38;5;32m[XCUITestDriver@dff7][0m     "appium:xcodeOrgId": "BX9P2F4G47",
+[debug] [38;5;32m[XCUITestDriver@dff7][0m     "appium:xcodeSigningId": "iPhone Developer",
+[debug] [38;5;32m[XCUITestDriver@dff7][0m     "appium:automationName": "XCUITest",
+[debug] [38;5;32m[XCUITestDriver@dff7][0m     "appium:app": "http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/deployment/master/Deployment.ipa"
+[debug] [38;5;32m[XCUITestDriver@dff7][0m   },
+[debug] [38;5;32m[XCUITestDriver@dff7][0m   "firstMatch": [
+[debug] [38;5;32m[XCUITestDriver@dff7][0m     {}
+[debug] [38;5;32m[XCUITestDriver@dff7][0m   ]
+[debug] [38;5;32m[XCUITestDriver@dff7][0m }
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Session created with session id: 0d8f5d35-c5cb-43d9-a311-346aacd3cf2d
+[debug] [38;5;48m[XCUITest][0m Current user: 'mac-auto-03'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Available devices: 00008110-001115E41185401E
+[debug] [38;5;48m[XCUITest][0m Creating iDevice object with udid '00008110-001115E41185401E'
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Determining device to run tests on: udid: '00008110-001115E41185401E', real device: true
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Normalized platformVersion capability value '16.5.1 (c)' to '16.5'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Event 'xcodeDetailsRetrieved' logged at 1689484471151 (08:14:31 GMT+0300 (Israel Daylight Time))
+[38;5;64m[BaseDriver][0m Using downloadable app 'http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/deployment/master/Deployment.ipa'
+[debug] [38;5;64m[BaseDriver][0m Etag: null -> undefined
+[debug] [38;5;64m[BaseDriver][0m Last-Modified: undefined -> Sat, 15 Jul 2023 23:35:43 GMT
+[debug] [38;5;64m[BaseDriver][0m Cache-Control: undefined -> undefined
+[debug] [38;5;64m[BaseDriver][0m Content-Type: application/x-itunes-ipa
+[debug] [38;5;64m[BaseDriver][0m The application (7.71 MB) has been downloaded to '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-p42yod.h30he/Deployment.ipa' in 0.068s
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Using '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-1ig4ekg.cxp6/Deployment.app' which was cached from '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-p42yod.h30he/Deployment.ipa'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Event 'appConfigured' logged at 1689484471287 (08:14:31 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;48m[XCUITest][0m Checking whether app '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-1ig4ekg.cxp6/Deployment.app' is actually present on file system
+[debug] [38;5;48m[XCUITest][0m App is present
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Event 'resetStarted' logged at 1689484471287 (08:14:31 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;48m[XCUITest][0m Reset: fullReset not set. Leaving as is
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Event 'resetComplete' logged at 1689484471287 (08:14:31 GMT+0300 (Israel Daylight Time))
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Using WDA path: '/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Using WDA agent: '/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] [38;5;48m[XCUITest][0m Crash reports root '/Users/mac-auto-03/Library/Logs/CrashReporter/MobileDevice/qa_iphone_04' does not exist. Got nothing to gather.
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Event 'logCaptureStarted' logged at 1689484471454 (08:14:31 GMT+0300 (Israel Daylight Time))
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Setting up real device
+[debug] [38;5;48m[XCUITest][0m Verifying application platform
+[debug] [38;5;48m[XCUITest][0m CFBundleSupportedPlatforms: ["iPhoneOS"]
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m App 'com.shs.DeploymentManager' is already installed
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m noReset is requested. The app will not be be (re)installed
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+[38;5;96m[DevCon Factory][0m Requesting connection for device 00008110-001115E41185401E on local port 8100, device port 8100
+[debug] [38;5;96m[DevCon Factory][0m Cached connections count: 0
+[38;5;96m[DevCon Factory][0m Successfully requested the connection for 00008110-001115E41185401E:8100
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[debug] [38;5;112m[WD Proxy][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;112m[WD Proxy][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;112m[WD Proxy][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m WDA is not listening at 'http://127.0.0.1:8100/'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m WDA is currently not running. There is nothing to cache
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Trying to start WebDriverAgent 1 times with 10000ms interval
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Event 'wdaStartAttempted' logged at 1689484471654 (08:14:31 GMT+0300 (Israel Daylight Time))
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Launching WebDriverAgent on the device
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Cleaning up the WebDriverAgent project after the module upgrade has happened (5.0.0 < 5.5.2)
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Cleaning the project scheme 'WebDriverAgentLib' to make sure there are no leftovers from previous installs
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Parsed BUILD_DIR configuration value: '/Users/mac-auto-03/Desktop/xcode/WebDriverAgent-gumfbzqdnxozvhfskwicepuzaxuz/Build/Products'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Got derived data root: '/Users/mac-auto-03/Desktop/xcode/WebDriverAgent-gumfbzqdnxozvhfskwicepuzaxuz'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Cleaning the project scheme 'WebDriverAgentRunner' to make sure there are no leftovers from previous installs
+[debug] [38;5;144m[WebDriverAgent][0m Killing running processes 'xcodebuild.*00008110-001115E41185401E' for the device 00008110-001115E41185401E...
+[debug] [38;5;144m[WebDriverAgent][0m 'pgrep -if xcodebuild.*00008110-001115E41185401E' didn't detect any matching processes. Return code: 1
+[debug] [38;5;144m[WebDriverAgent][0m Generating xcode config file for orgId 'BX9P2F4G47' and signingId 'iPhone Developer'
+[debug] [38;5;144m[WebDriverAgent][0m Writing xcode config file to /var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-z28ico.vd5hq/appium-temp.xcconfig
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Using Xcode configuration file: '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-z28ico.vd5hq/appium-temp.xcconfig'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Beginning test with command 'xcodebuild build-for-testing test-without-building -project /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -derivedDataPath /Users/mac-auto-03/Desktop/xcode/WebDriverAgent-gumfbzqdnxozvhfskwicepuzaxuz -destination id=00008110-001115E41185401E IPHONEOS_DEPLOYMENT_TARGET=16.5 -xcconfig /var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-z28ico.vd5hq/appium-temp.xcconfig GCC_TREAT_WARNINGS_AS_ERRORS=0 COMPILER_INDEX_STORE_ENABLE=NO' in directory '/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Output from xcodebuild will only be logged if any errors are present there. To change this, use 'showXcodeLog' desired capability
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Waiting up to 60000ms for WebDriverAgent to start
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Launching WebDriverAgent on the device
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Cleaning up the WebDriverAgent project after the module upgrade has happened (5.0.0 < 5.5.2)
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Cleaning the project scheme 'WebDriverAgentLib' to make sure there are no leftovers from previous installs
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Cleaning the project scheme 'WebDriverAgentRunner' to make sure there are no leftovers from previous installs
+[debug] [38;5;144m[WebDriverAgent][0m Killing running processes 'xcodebuild.*00008110-001115E41185401E' for the device 00008110-001115E41185401E...
+[debug] [38;5;144m[WebDriverAgent][0m 'pgrep -if xcodebuild.*00008110-001115E41185401E' didn't detect any matching processes. Return code: 1
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Using Xcode configuration file: '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-z28ico.vd5hq/appium-temp.xcconfig'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Beginning test with command 'xcodebuild build-for-testing test-without-building -project /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -derivedDataPath /Users/mac-auto-03/Desktop/xcode/WebDriverAgent-gumfbzqdnxozvhfskwicepuzaxuz -destination id=00008110-001115E41185401E IPHONEOS_DEPLOYMENT_TARGET=16.5 -xcconfig /var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-z28ico.vd5hq/appium-temp.xcconfig GCC_TREAT_WARNINGS_AS_ERRORS=0 COMPILER_INDEX_STORE_ENABLE=NO' in directory '/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Output from xcodebuild will only be logged if any errors are present there. To change this, use 'showXcodeLog' desired capability
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Waiting up to 60000ms for WebDriverAgent to start
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Event 'wdaStartFailed' logged at 1689484530336 (08:15:30 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Unable to launch WebDriverAgent because of xcodebuild failure: xcodebuild failed with code 65
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m xcodebuild error message:
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m . Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Quitting and uninstalling WebDriverAgent
+[38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Shutting down sub-processes
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m No WDAs on the device.
+[38;5;96m[DevCon Factory][0m Releasing connections for 00008110-001115E41185401E device on any port number
+[38;5;96m[DevCon Factory][0m Found cached connections to release: ["00008110-001115E41185401E:8100"]
+[38;5;96m[DevCon Factory][0m Releasing the listener for '00008110-001115E41185401E:8100'
+[debug] [38;5;128m[iProxy@00008110:8100][0m Closing the connection
+[debug] [38;5;96m[DevCon Factory][0m Cached connections count: 0
+[debug] [38;5;32m[XCUITestDriver@dff7 (0d8f5d35)][0m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[38;5;128m[iProxy@00008110:8100][0m The connection has been closed
+[debug] [38;5;16m[AppiumDriver@0382][0m Event 'newSessionStarted' logged at 1689484530499 (08:15:30 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;16m[AppiumDriver@0382][0m Encountered internal error running command: Error: Unable to launch WebDriverAgent because of xcodebuild failure: xcodebuild failed with code 65
+[debug] [38;5;16m[AppiumDriver@0382][0m xcodebuild error message:
+[debug] [38;5;16m[AppiumDriver@0382][0m . Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+[debug] [38;5;16m[AppiumDriver@0382][0m     at quitAndUninstall (/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:808:15)
+[debug] [38;5;16m[AppiumDriver@0382][0m     at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:894:13
+[debug] [38;5;16m[AppiumDriver@0382][0m     at wrapped (/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:95:13)
+[debug] [38;5;16m[AppiumDriver@0382][0m     at retry (/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:68:13)
+[debug] [38;5;16m[AppiumDriver@0382][0m     at retryInterval (/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:105:10)
+[debug] [38;5;16m[AppiumDriver@0382][0m     at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:833:7
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session 500 59393 ms - 1332
+[38;5;0m[HTTP][0m 
+[debug] [38;5;0m[HTTP][0m Request idempotency key: e14698a3-ea6d-48e0-b4aa-2a03b80e8934
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:noReset":true,"appium:fullReset":false,"appium:platformVersion":"16.5.1 (c)","appium:deviceName":"qa_iphone_04","appium:udid":"00008110-001115E41185401E","appium:bundleId":"com.shs.DeploymentManager","appium:xcodeOrgId":"BX9P2F4G47","appium:xcodeSigningId":"iPhone Developer","appium:automationName":"XCUITest","appium:app":"http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/deployment/master/Deployment.ipa","platformName":"iOS"}}}
+[debug] [38;5;16m[AppiumDriver@0382][0m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:noReset":true,"appium:fullReset":false,"appium:platformVersion":"16.5.1 (c)","appium:deviceName":"qa_iphone_04","appium:udid":"00008110-001115E41185401E","appium:bundleId":"com.shs.DeploymentManager","appium:xcodeOrgId":"BX9P2F4G47","appium:xcodeSigningId":"iPhone Developer","appium:automationName":"XCUITest","appium:app":"http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/deployment/master/Deployment.ipa","platformName":"iOS"}}]
+[debug] [38;5;16m[AppiumDriver@0382][0m Event 'newSessionRequested' logged at 1689484531534 (08:15:31 GMT+0300 (Israel Daylight Time))
+[Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'iOS'
+[Appium] The 'xcuitest' driver was installed and matched caps.
+[Appium] Will require it at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver
+[debug] [Appium] Requiring driver at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver
+[38;5;16m[AppiumDriver@0382][0m Appium v2.0.0 creating new XCUITestDriver (v4.32.19) session
+[38;5;16m[AppiumDriver@0382][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;16m[AppiumDriver@0382][0m Appium's BaseDriver version is 9.3.15
+[38;5;16m[AppiumDriver@0382][0m XCUITestDriver's BaseDriver version is 9.3.15
+[debug] [38;5;32m[XCUITestDriver@ec56][0m Creating session with W3C capabilities: {
+[debug] [38;5;32m[XCUITestDriver@ec56][0m   "alwaysMatch": {
+[debug] [38;5;32m[XCUITestDriver@ec56][0m     "platformName": "iOS",
+[debug] [38;5;32m[XCUITestDriver@ec56][0m     "appium:noReset": true,
+[debug] [38;5;32m[XCUITestDriver@ec56][0m     "appium:fullReset": false,
+[debug] [38;5;32m[XCUITestDriver@ec56][0m     "appium:platformVersion": "16.5.1 (c)",
+[debug] [38;5;32m[XCUITestDriver@ec56][0m     "appium:deviceName": "qa_iphone_04",
+[debug] [38;5;32m[XCUITestDriver@ec56][0m     "appium:udid": "00008110-001115E41185401E",
+[debug] [38;5;32m[XCUITestDriver@ec56][0m     "appium:bundleId": "com.shs.DeploymentManager",
+[debug] [38;5;32m[XCUITestDriver@ec56][0m     "appium:xcodeOrgId": "BX9P2F4G47",
+[debug] [38;5;32m[XCUITestDriver@ec56][0m     "appium:xcodeSigningId": "iPhone Developer",
+[debug] [38;5;32m[XCUITestDriver@ec56][0m     "appium:automationName": "XCUITest",
+[debug] [38;5;32m[XCUITestDriver@ec56][0m     "appium:app": "http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/deployment/master/Deployment.ipa"
+[debug] [38;5;32m[XCUITestDriver@ec56][0m   },
+[debug] [38;5;32m[XCUITestDriver@ec56][0m   "firstMatch": [
+[debug] [38;5;32m[XCUITestDriver@ec56][0m     {}
+[debug] [38;5;32m[XCUITestDriver@ec56][0m   ]
+[debug] [38;5;32m[XCUITestDriver@ec56][0m }
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Session created with session id: a24fc8f7-595a-43f8-b8c4-0a8d86556c60
+[debug] [38;5;48m[XCUITest][0m Current user: 'mac-auto-03'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Available devices: 00008110-001115E41185401E
+[debug] [38;5;48m[XCUITest][0m Creating iDevice object with udid '00008110-001115E41185401E'
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Determining device to run tests on: udid: '00008110-001115E41185401E', real device: true
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Normalized platformVersion capability value '16.5.1 (c)' to '16.5'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Event 'xcodeDetailsRetrieved' logged at 1689484531567 (08:15:31 GMT+0300 (Israel Daylight Time))
+[38;5;64m[BaseDriver][0m Using downloadable app 'http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/deployment/master/Deployment.ipa'
+[debug] [38;5;64m[BaseDriver][0m Etag: null -> undefined
+[debug] [38;5;64m[BaseDriver][0m Last-Modified: undefined -> Sat, 15 Jul 2023 23:35:43 GMT
+[debug] [38;5;64m[BaseDriver][0m Cache-Control: undefined -> undefined
+[debug] [38;5;64m[BaseDriver][0m Content-Type: application/x-itunes-ipa
+[debug] [38;5;64m[BaseDriver][0m The application (7.71 MB) has been downloaded to '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-1549mqq.v4h/Deployment.ipa' in 0.069s
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Using '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-1ig4ekg.cxp6/Deployment.app' which was cached from '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-1549mqq.v4h/Deployment.ipa'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Event 'appConfigured' logged at 1689484531703 (08:15:31 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;48m[XCUITest][0m Checking whether app '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-1ig4ekg.cxp6/Deployment.app' is actually present on file system
+[debug] [38;5;48m[XCUITest][0m App is present
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Event 'resetStarted' logged at 1689484531704 (08:15:31 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;48m[XCUITest][0m Reset: fullReset not set. Leaving as is
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Event 'resetComplete' logged at 1689484531704 (08:15:31 GMT+0300 (Israel Daylight Time))
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Using WDA path: '/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Using WDA agent: '/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] [38;5;48m[XCUITest][0m Crash reports root '/Users/mac-auto-03/Library/Logs/CrashReporter/MobileDevice/qa_iphone_04' does not exist. Got nothing to gather.
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Event 'logCaptureStarted' logged at 1689484531874 (08:15:31 GMT+0300 (Israel Daylight Time))
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Setting up real device
+[debug] [38;5;48m[XCUITest][0m Verifying application platform
+[debug] [38;5;48m[XCUITest][0m CFBundleSupportedPlatforms: ["iPhoneOS"]
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m App 'com.shs.DeploymentManager' is already installed
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m noReset is requested. The app will not be be (re)installed
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+[38;5;96m[DevCon Factory][0m Requesting connection for device 00008110-001115E41185401E on local port 8100, device port 8100
+[debug] [38;5;96m[DevCon Factory][0m Cached connections count: 0
+[38;5;96m[DevCon Factory][0m Successfully requested the connection for 00008110-001115E41185401E:8100
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[debug] [38;5;112m[WD Proxy][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;112m[WD Proxy][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;112m[WD Proxy][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m WDA is not listening at 'http://127.0.0.1:8100/'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m WDA is currently not running. There is nothing to cache
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Trying to start WebDriverAgent 1 times with 10000ms interval
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Event 'wdaStartAttempted' logged at 1689484532074 (08:15:32 GMT+0300 (Israel Daylight Time))
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Launching WebDriverAgent on the device
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Cleaning up the WebDriverAgent project after the module upgrade has happened (5.0.0 < 5.5.2)
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Cleaning the project scheme 'WebDriverAgentLib' to make sure there are no leftovers from previous installs
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Parsed BUILD_DIR configuration value: '/Users/mac-auto-03/Desktop/xcode/WebDriverAgent-gumfbzqdnxozvhfskwicepuzaxuz/Build/Products'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Got derived data root: '/Users/mac-auto-03/Desktop/xcode/WebDriverAgent-gumfbzqdnxozvhfskwicepuzaxuz'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Cleaning the project scheme 'WebDriverAgentRunner' to make sure there are no leftovers from previous installs
+[debug] [38;5;144m[WebDriverAgent][0m Killing running processes 'xcodebuild.*00008110-001115E41185401E' for the device 00008110-001115E41185401E...
+[debug] [38;5;144m[WebDriverAgent][0m 'pgrep -if xcodebuild.*00008110-001115E41185401E' didn't detect any matching processes. Return code: 1
+[debug] [38;5;144m[WebDriverAgent][0m Generating xcode config file for orgId 'BX9P2F4G47' and signingId 'iPhone Developer'
+[debug] [38;5;144m[WebDriverAgent][0m Writing xcode config file to /var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-x9u98c.21bad/appium-temp.xcconfig
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Using Xcode configuration file: '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-x9u98c.21bad/appium-temp.xcconfig'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Beginning test with command 'xcodebuild build-for-testing test-without-building -project /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -derivedDataPath /Users/mac-auto-03/Desktop/xcode/WebDriverAgent-gumfbzqdnxozvhfskwicepuzaxuz -destination id=00008110-001115E41185401E IPHONEOS_DEPLOYMENT_TARGET=16.5 -xcconfig /var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-x9u98c.21bad/appium-temp.xcconfig GCC_TREAT_WARNINGS_AS_ERRORS=0 COMPILER_INDEX_STORE_ENABLE=NO' in directory '/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Output from xcodebuild will only be logged if any errors are present there. To change this, use 'showXcodeLog' desired capability
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Waiting up to 60000ms for WebDriverAgent to start
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Launching WebDriverAgent on the device
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Cleaning up the WebDriverAgent project after the module upgrade has happened (5.0.0 < 5.5.2)
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Cleaning the project scheme 'WebDriverAgentLib' to make sure there are no leftovers from previous installs
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Cleaning the project scheme 'WebDriverAgentRunner' to make sure there are no leftovers from previous installs
+[debug] [38;5;144m[WebDriverAgent][0m Killing running processes 'xcodebuild.*00008110-001115E41185401E' for the device 00008110-001115E41185401E...
+[debug] [38;5;144m[WebDriverAgent][0m 'pgrep -if xcodebuild.*00008110-001115E41185401E' didn't detect any matching processes. Return code: 1
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Using Xcode configuration file: '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-x9u98c.21bad/appium-temp.xcconfig'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Beginning test with command 'xcodebuild build-for-testing test-without-building -project /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -derivedDataPath /Users/mac-auto-03/Desktop/xcode/WebDriverAgent-gumfbzqdnxozvhfskwicepuzaxuz -destination id=00008110-001115E41185401E IPHONEOS_DEPLOYMENT_TARGET=16.5 -xcconfig /var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-x9u98c.21bad/appium-temp.xcconfig GCC_TREAT_WARNINGS_AS_ERRORS=0 COMPILER_INDEX_STORE_ENABLE=NO' in directory '/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Output from xcodebuild will only be logged if any errors are present there. To change this, use 'showXcodeLog' desired capability
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Waiting up to 60000ms for WebDriverAgent to start
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Event 'wdaStartFailed' logged at 1689484590588 (08:16:30 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Unable to launch WebDriverAgent because of xcodebuild failure: xcodebuild failed with code 65
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m xcodebuild error message:
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m . Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Quitting and uninstalling WebDriverAgent
+[38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Shutting down sub-processes
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m No WDAs on the device.
+[38;5;96m[DevCon Factory][0m Releasing connections for 00008110-001115E41185401E device on any port number
+[38;5;96m[DevCon Factory][0m Found cached connections to release: ["00008110-001115E41185401E:8100"]
+[38;5;96m[DevCon Factory][0m Releasing the listener for '00008110-001115E41185401E:8100'
+[debug] [38;5;128m[iProxy@00008110:8100][0m Closing the connection
+[debug] [38;5;96m[DevCon Factory][0m Cached connections count: 0
+[debug] [38;5;32m[XCUITestDriver@ec56 (a24fc8f7)][0m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[38;5;128m[iProxy@00008110:8100][0m The connection has been closed
+[debug] [38;5;16m[AppiumDriver@0382][0m Event 'newSessionStarted' logged at 1689484590751 (08:16:30 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;16m[AppiumDriver@0382][0m Encountered internal error running command: Error: Unable to launch WebDriverAgent because of xcodebuild failure: xcodebuild failed with code 65
+[debug] [38;5;16m[AppiumDriver@0382][0m xcodebuild error message:
+[debug] [38;5;16m[AppiumDriver@0382][0m . Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+[debug] [38;5;16m[AppiumDriver@0382][0m     at quitAndUninstall (/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:808:15)
+[debug] [38;5;16m[AppiumDriver@0382][0m     at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:894:13
+[debug] [38;5;16m[AppiumDriver@0382][0m     at wrapped (/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:95:13)
+[debug] [38;5;16m[AppiumDriver@0382][0m     at retry (/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:68:13)
+[debug] [38;5;16m[AppiumDriver@0382][0m     at retryInterval (/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:105:10)
+[debug] [38;5;16m[AppiumDriver@0382][0m     at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:833:7
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session 500 59221 ms - 1332
+[38;5;0m[HTTP][0m 
+[debug] [38;5;0m[HTTP][0m Request idempotency key: 20679c62-2b2a-4dea-b393-4be21e38c01b
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:noReset":true,"appium:fullReset":false,"appium:platformVersion":"16.5.1 (c)","appium:deviceName":"qa_iphone_04","appium:udid":"00008110-001115E41185401E","appium:bundleId":"com.shs.DeploymentManager","appium:xcodeOrgId":"BX9P2F4G47","appium:xcodeSigningId":"iPhone Developer","appium:automationName":"XCUITest","appium:app":"http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/deployment/master/Deployment.ipa","platformName":"iOS"}}}
+[debug] [38;5;16m[AppiumDriver@0382][0m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:noReset":true,"appium:fullReset":false,"appium:platformVersion":"16.5.1 (c)","appium:deviceName":"qa_iphone_04","appium:udid":"00008110-001115E41185401E","appium:bundleId":"com.shs.DeploymentManager","appium:xcodeOrgId":"BX9P2F4G47","appium:xcodeSigningId":"iPhone Developer","appium:automationName":"XCUITest","appium:app":"http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/deployment/master/Deployment.ipa","platformName":"iOS"}}]
+[debug] [38;5;16m[AppiumDriver@0382][0m Event 'newSessionRequested' logged at 1689484591782 (08:16:31 GMT+0300 (Israel Daylight Time))
+[Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'iOS'
+[Appium] The 'xcuitest' driver was installed and matched caps.
+[Appium] Will require it at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver
+[debug] [Appium] Requiring driver at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver
+[38;5;16m[AppiumDriver@0382][0m Appium v2.0.0 creating new XCUITestDriver (v4.32.19) session
+[38;5;16m[AppiumDriver@0382][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;16m[AppiumDriver@0382][0m Appium's BaseDriver version is 9.3.15
+[38;5;16m[AppiumDriver@0382][0m XCUITestDriver's BaseDriver version is 9.3.15
+[debug] [38;5;32m[XCUITestDriver@8a37][0m Creating session with W3C capabilities: {
+[debug] [38;5;32m[XCUITestDriver@8a37][0m   "alwaysMatch": {
+[debug] [38;5;32m[XCUITestDriver@8a37][0m     "platformName": "iOS",
+[debug] [38;5;32m[XCUITestDriver@8a37][0m     "appium:noReset": true,
+[debug] [38;5;32m[XCUITestDriver@8a37][0m     "appium:fullReset": false,
+[debug] [38;5;32m[XCUITestDriver@8a37][0m     "appium:platformVersion": "16.5.1 (c)",
+[debug] [38;5;32m[XCUITestDriver@8a37][0m     "appium:deviceName": "qa_iphone_04",
+[debug] [38;5;32m[XCUITestDriver@8a37][0m     "appium:udid": "00008110-001115E41185401E",
+[debug] [38;5;32m[XCUITestDriver@8a37][0m     "appium:bundleId": "com.shs.DeploymentManager",
+[debug] [38;5;32m[XCUITestDriver@8a37][0m     "appium:xcodeOrgId": "BX9P2F4G47",
+[debug] [38;5;32m[XCUITestDriver@8a37][0m     "appium:xcodeSigningId": "iPhone Developer",
+[debug] [38;5;32m[XCUITestDriver@8a37][0m     "appium:automationName": "XCUITest",
+[debug] [38;5;32m[XCUITestDriver@8a37][0m     "appium:app": "http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/deployment/master/Deployment.ipa"
+[debug] [38;5;32m[XCUITestDriver@8a37][0m   },
+[debug] [38;5;32m[XCUITestDriver@8a37][0m   "firstMatch": [
+[debug] [38;5;32m[XCUITestDriver@8a37][0m     {}
+[debug] [38;5;32m[XCUITestDriver@8a37][0m   ]
+[debug] [38;5;32m[XCUITestDriver@8a37][0m }
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Session created with session id: b144e423-f9a7-4124-ab00-2d1ff05cc441
+[debug] [38;5;48m[XCUITest][0m Current user: 'mac-auto-03'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Available devices: 00008110-001115E41185401E
+[debug] [38;5;48m[XCUITest][0m Creating iDevice object with udid '00008110-001115E41185401E'
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Determining device to run tests on: udid: '00008110-001115E41185401E', real device: true
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Normalized platformVersion capability value '16.5.1 (c)' to '16.5'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Event 'xcodeDetailsRetrieved' logged at 1689484591812 (08:16:31 GMT+0300 (Israel Daylight Time))
+[38;5;64m[BaseDriver][0m Using downloadable app 'http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/ios/development/deployment/master/Deployment.ipa'
+[debug] [38;5;64m[BaseDriver][0m Etag: null -> undefined
+[debug] [38;5;64m[BaseDriver][0m Last-Modified: undefined -> Sat, 15 Jul 2023 23:35:43 GMT
+[debug] [38;5;64m[BaseDriver][0m Cache-Control: undefined -> undefined
+[debug] [38;5;64m[BaseDriver][0m Content-Type: application/x-itunes-ipa
+[debug] [38;5;64m[BaseDriver][0m The application (7.71 MB) has been downloaded to '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-9gffr8.m12to/Deployment.ipa' in 0.069s
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Using '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-1ig4ekg.cxp6/Deployment.app' which was cached from '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-9gffr8.m12to/Deployment.ipa'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Event 'appConfigured' logged at 1689484591945 (08:16:31 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;48m[XCUITest][0m Checking whether app '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-1ig4ekg.cxp6/Deployment.app' is actually present on file system
+[debug] [38;5;48m[XCUITest][0m App is present
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Event 'resetStarted' logged at 1689484591945 (08:16:31 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;48m[XCUITest][0m Reset: fullReset not set. Leaving as is
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Event 'resetComplete' logged at 1689484591945 (08:16:31 GMT+0300 (Israel Daylight Time))
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Using WDA path: '/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Using WDA agent: '/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] [38;5;48m[XCUITest][0m Crash reports root '/Users/mac-auto-03/Library/Logs/CrashReporter/MobileDevice/qa_iphone_04' does not exist. Got nothing to gather.
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Event 'logCaptureStarted' logged at 1689484592113 (08:16:32 GMT+0300 (Israel Daylight Time))
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Setting up real device
+[debug] [38;5;48m[XCUITest][0m Verifying application platform
+[debug] [38;5;48m[XCUITest][0m CFBundleSupportedPlatforms: ["iPhoneOS"]
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m App 'com.shs.DeploymentManager' is already installed
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m noReset is requested. The app will not be be (re)installed
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+[38;5;96m[DevCon Factory][0m Requesting connection for device 00008110-001115E41185401E on local port 8100, device port 8100
+[debug] [38;5;96m[DevCon Factory][0m Cached connections count: 0
+[38;5;96m[DevCon Factory][0m Successfully requested the connection for 00008110-001115E41185401E:8100
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[debug] [38;5;112m[WD Proxy][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;112m[WD Proxy][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;112m[WD Proxy][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m WDA is not listening at 'http://127.0.0.1:8100/'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m WDA is currently not running. There is nothing to cache
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Trying to start WebDriverAgent 1 times with 10000ms interval
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Event 'wdaStartAttempted' logged at 1689484592311 (08:16:32 GMT+0300 (Israel Daylight Time))
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Launching WebDriverAgent on the device
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Cleaning up the WebDriverAgent project after the module upgrade has happened (5.0.0 < 5.5.2)
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Cleaning the project scheme 'WebDriverAgentLib' to make sure there are no leftovers from previous installs
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Parsed BUILD_DIR configuration value: '/Users/mac-auto-03/Desktop/xcode/WebDriverAgent-gumfbzqdnxozvhfskwicepuzaxuz/Build/Products'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Got derived data root: '/Users/mac-auto-03/Desktop/xcode/WebDriverAgent-gumfbzqdnxozvhfskwicepuzaxuz'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Cleaning the project scheme 'WebDriverAgentRunner' to make sure there are no leftovers from previous installs
+[debug] [38;5;144m[WebDriverAgent][0m Killing running processes 'xcodebuild.*00008110-001115E41185401E' for the device 00008110-001115E41185401E...
+[debug] [38;5;144m[WebDriverAgent][0m 'pgrep -if xcodebuild.*00008110-001115E41185401E' didn't detect any matching processes. Return code: 1
+[debug] [38;5;144m[WebDriverAgent][0m Generating xcode config file for orgId 'BX9P2F4G47' and signingId 'iPhone Developer'
+[debug] [38;5;144m[WebDriverAgent][0m Writing xcode config file to /var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-mr2f49.03t1k/appium-temp.xcconfig
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Using Xcode configuration file: '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-mr2f49.03t1k/appium-temp.xcconfig'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Beginning test with command 'xcodebuild build-for-testing test-without-building -project /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -derivedDataPath /Users/mac-auto-03/Desktop/xcode/WebDriverAgent-gumfbzqdnxozvhfskwicepuzaxuz -destination id=00008110-001115E41185401E IPHONEOS_DEPLOYMENT_TARGET=16.5 -xcconfig /var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-mr2f49.03t1k/appium-temp.xcconfig GCC_TREAT_WARNINGS_AS_ERRORS=0 COMPILER_INDEX_STORE_ENABLE=NO' in directory '/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Output from xcodebuild will only be logged if any errors are present there. To change this, use 'showXcodeLog' desired capability
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Waiting up to 60000ms for WebDriverAgent to start
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Launching WebDriverAgent on the device
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Cleaning up the WebDriverAgent project after the module upgrade has happened (5.0.0 < 5.5.2)
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Cleaning the project scheme 'WebDriverAgentLib' to make sure there are no leftovers from previous installs
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Cleaning the project scheme 'WebDriverAgentRunner' to make sure there are no leftovers from previous installs
+[debug] [38;5;144m[WebDriverAgent][0m Killing running processes 'xcodebuild.*00008110-001115E41185401E' for the device 00008110-001115E41185401E...
+[debug] [38;5;144m[WebDriverAgent][0m 'pgrep -if xcodebuild.*00008110-001115E41185401E' didn't detect any matching processes. Return code: 1
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Using Xcode configuration file: '/var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-mr2f49.03t1k/appium-temp.xcconfig'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Beginning test with command 'xcodebuild build-for-testing test-without-building -project /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -derivedDataPath /Users/mac-auto-03/Desktop/xcode/WebDriverAgent-gumfbzqdnxozvhfskwicepuzaxuz -destination id=00008110-001115E41185401E IPHONEOS_DEPLOYMENT_TARGET=16.5 -xcconfig /var/folders/rp/3z7xhhfd09j62ntn209c8rxh0000gn/T/2023616-1446-mr2f49.03t1k/appium-temp.xcconfig GCC_TREAT_WARNINGS_AS_ERRORS=0 COMPILER_INDEX_STORE_ENABLE=NO' in directory '/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Output from xcodebuild will only be logged if any errors are present there. To change this, use 'showXcodeLog' desired capability
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Waiting up to 60000ms for WebDriverAgent to start
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;128m[iProxy@00008110:8100][0m Connection was refused to port 8100
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m socket hang up
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Event 'wdaStartFailed' logged at 1689484650888 (08:17:30 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Unable to launch WebDriverAgent because of xcodebuild failure: xcodebuild failed with code 65
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m xcodebuild error message:
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m . Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Quitting and uninstalling WebDriverAgent
+[38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Shutting down sub-processes
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m No WDAs on the device.
+[38;5;96m[DevCon Factory][0m Releasing connections for 00008110-001115E41185401E device on any port number
+[38;5;96m[DevCon Factory][0m Found cached connections to release: ["00008110-001115E41185401E:8100"]
+[38;5;96m[DevCon Factory][0m Releasing the listener for '00008110-001115E41185401E:8100'
+[debug] [38;5;128m[iProxy@00008110:8100][0m Closing the connection
+[debug] [38;5;96m[DevCon Factory][0m Cached connections count: 0
+[debug] [38;5;32m[XCUITestDriver@8a37 (b144e423)][0m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[38;5;128m[iProxy@00008110:8100][0m The connection has been closed
+[debug] [38;5;16m[AppiumDriver@0382][0m Event 'newSessionStarted' logged at 1689484651051 (08:17:31 GMT+0300 (Israel Daylight Time))
+[debug] [38;5;16m[AppiumDriver@0382][0m Encountered internal error running command: Error: Unable to launch WebDriverAgent because of xcodebuild failure: xcodebuild failed with code 65
+[debug] [38;5;16m[AppiumDriver@0382][0m xcodebuild error message:
+[debug] [38;5;16m[AppiumDriver@0382][0m . Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+[debug] [38;5;16m[AppiumDriver@0382][0m     at quitAndUninstall (/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:808:15)
+[debug] [38;5;16m[AppiumDriver@0382][0m     at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:894:13
+[debug] [38;5;16m[AppiumDriver@0382][0m     at wrapped (/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:95:13)
+[debug] [38;5;16m[AppiumDriver@0382][0m     at retry (/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:68:13)
+[debug] [38;5;16m[AppiumDriver@0382][0m     at retryInterval (/Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/node_modules/asyncbox/lib/asyncbox.js:105:10)
+[debug] [38;5;16m[AppiumDriver@0382][0m     at /Users/mac-auto-03/.appium/node_modules/appium-xcuitest-driver/lib/driver.js:833:7
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session 500 59274 ms - 1368
+[38;5;0m[HTTP][0m 
