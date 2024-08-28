@@ -1,0 +1,160 @@
+[HTTP] Request idempotency key: 5751b7ba-5236-4983-877c-ef5755d29929
+[HTTP] --> POST /wd/hub/session {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:automationName":"UiAutomator2","platformName":"Android","appium:noReset":true,"appium:fullReset":false,"appium:appPackage":"com.stanley.deployment","appium:appActivity":"com.stanley.deployment.view.MainActivity","appium:udid":"36141JEHN03534","appium:platformVersion":"14","appium:uiautomator2ServerInstallTimeout":"120000","appium:app":"http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/android/android-deployment-manager/securitas/latest/deployment-manager-debug.apk"}}}
+[AppiumDriver@88ba] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:automationName":"UiAutomator2","platformName":"Android","appium:noReset":true,"appium:fullReset":false,"appium:appPackage":"com.stanley.deployment","appium:appActivity":"com.stanley.deployment.view.MainActivity","appium:udid":"36141JEHN03534","appium:platformVersion":"14","appium:uiautomator2ServerInstallTimeout":"120000","appium:app":"http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/android/android-deployment-manager/securitas/latest/deployment-manager-debug.apk"}}]
+[AppiumDriver@88ba] Event 'newSessionRequested' logged at 1724842057058 (13:47:37 GMT+0300 (שעון ישראל (קיץ)))
+[Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[Appium] The 'uiautomator2' driver was installed and matched caps.
+[Appium] Will require it at /Users/boazwarshawsky/.appium/node_modules/appium-uiautomator2-driver
+[Appium] Requiring driver at /Users/boazwarshawsky/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+[AppiumDriver@88ba] Appium v2.11.3 creating new AndroidUiautomator2Driver (v3.7.7) session
+[AppiumDriver@88ba] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[AppiumDriver@88ba] Appium's BaseDriver version is 9.11.3
+[AppiumDriver@88ba] AndroidUiautomator2Driver's BaseDriver version is 9.11.3
+[AppiumDriver@88ba] Explicitly enabling use of insecure features:
+[AppiumDriver@88ba]     chromedriver_autodownload
+[AndroidUiautomator2Driver@7e5e]
+[AndroidUiautomator2Driver@7e5e] Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "Android",
+    "appium:automationName": "UiAutomator2",
+    "appium:noReset": true,
+    "appium:fullReset": false,
+    "appium:appPackage": "com.stanley.deployment",
+    "appium:appActivity": "com.stanley.deployment.view.MainActivity",
+    "appium:udid": "36141JEHN03534",
+    "appium:platformVersion": "14",
+    "appium:uiautomator2ServerInstallTimeout": "120000",
+    "appium:app": "http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/android/android-deployment-manager/securitas/latest/deployment-manager-debug.apk"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[AndroidUiautomator2Driver@7e5e] Capability 'uiautomator2ServerInstallTimeout' changed from string ('120000') to integer (120000). This may cause unexpected behavior
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Session created with session id: 6c692f7b-d4fa-45b6-bbb6-33f206172ece
+[6c692f7b][ADB] Using 'adb' from '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb'
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Retrieving device list
+[6c692f7b][ADB] Trying to find connected Android devices
+[6c692f7b][ADB] Getting connected devices
+[6c692f7b][ADB] Connected devices: [{"udid":"36141JEHN03534","state":"device"}]
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Using device: 36141JEHN03534
+[6c692f7b][ADB] Using 'adb' from '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb'
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[6c692f7b][ADB] Setting device id to 36141JEHN03534
+[6c692f7b][BaseDriver] Cached app data: {
+  "lastModified": "2024-08-28T00:06:09.000Z",
+  "immutable": false,
+  "maxAge": null,
+  "etag": null,
+  "timestamp": 1724839592722,
+  "packageHash": "f90ad9ad3ac2abb38934c0a7887450ce7cf9c3f5",
+  "integrity": {
+    "file": "f90ad9ad3ac2abb38934c0a7887450ce7cf9c3f5"
+  },
+  "fullPath": "/var/folders/b2/3q970w753l1_dw7ntszqqg140000gn/T/2024728-8621-simfp7.ce4dq/deployment-manager-debug.apk"
+}
+[6c692f7b][BaseDriver] Using downloadable app 'http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/android/android-deployment-manager/securitas/latest/deployment-manager-debug.apk'
+[6c692f7b][BaseDriver] Request headers: {"user-agent":"Appium (BaseDriver v9.11.3)","if-modified-since":"Wed, 28 Aug 2024 00:06:09 GMT"}
+[6c692f7b][BaseDriver] Response status: 304
+[6c692f7b][BaseDriver] Reusing previously downloaded application at '/var/folders/b2/3q970w753l1_dw7ntszqqg140000gn/T/2024728-8621-simfp7.ce4dq/deployment-manager-debug.apk'
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Checking whether app is actually present
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 shell getprop ro.build.version.sdk'
+[6c692f7b][ADB] Current device property 'ro.build.version.sdk': 34
+[6c692f7b][ADB] Getting device platform version
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 shell getprop ro.build.version.release'
+[6c692f7b][ADB] Current device property 'ro.build.version.release': 14
+[6c692f7b][ADB] Device API level: 34
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Relaxing hidden api policy
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Pushing settings apk to the device...
+[6c692f7b][ADB] Getting package info for 'io.appium.settings'
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 shell dumpsys package io.appium.settings'
+[6c692f7b][ADB] Using 'aapt2' from '/Users/boazwarshawsky/Library/Android/sdk/build-tools/34.0.0/aapt2'
+[6c692f7b][ADB] Reading package manifest: '/Users/boazwarshawsky/Library/Android/sdk/build-tools/34.0.0/aapt2 dump badging /Users/boazwarshawsky/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[6c692f7b][ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.12.11' >= '5.12.11')
+[6c692f7b][ADB] There is no need to install/upgrade '/Users/boazwarshawsky/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 shell dumpsys activity services io.appium.settings'
+[6c692f7b][AndroidUiautomator2Driver@7e5e] io.appium.settings is already running. There is no need to reset its permissions.
+[6c692f7b][Logcat] Starting logs capture with command: /Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 logcat -v threadtime
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 shell appops set io.appium.settings android:mock_location allow'
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 shell "[ -e '/data/local/tmp/mock_apps.json' ] && echo __PASS__"'
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 shell cat /data/local/tmp/mock_apps.json'
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Forwarding UiAutomator2 Server port 6790 to local port 8200
+[6c692f7b][ADB] Forwarding system: 8200 to device: 6790
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 forward tcp:8200 tcp:6790'
+[6c692f7b][ADB] Getting package info for 'io.appium.uiautomator2.server'
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 shell dumpsys package io.appium.uiautomator2.server'
+[6c692f7b][ADB] Getting install status for io.appium.uiautomator2.server.test
+[6c692f7b][ADB] Getting install status for com.stanley.deployment
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 shell cmd package list packages'
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 shell cmd package list packages'
+[6c692f7b][ADB] 'com.stanley.deployment' is installed
+[6c692f7b][AndroidUiautomator2Driver@7e5e] noReset has been requested and the app is already installed. Doing nothing
+[6c692f7b][ADB] Reading package manifest: '/Users/boazwarshawsky/Library/Android/sdk/build-tools/34.0.0/aapt2 dump badging /Users/boazwarshawsky/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.0.22.apk'
+[6c692f7b][ADB] 'io.appium.uiautomator2.server.test' is installed
+[6c692f7b][ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('7.0.22' >= '7.0.22')
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Server packages status: [{"installState":"sameVersionInstalled","appPath":"/Users/boazwarshawsky/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.0.22.apk","appId":"io.appium.uiautomator2.server"},{"installState":"sameVersionInstalled","appPath":"/Users/boazwarshawsky/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Server packages are not going to be (re)installed
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Waiting up to 30000ms for services to be available
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 shell pm list instrumentation'
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[6c692f7b][ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[6c692f7b][ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Performing shallow cleanup of automation leftovers
+[6c692f7b][AndroidUiautomator2Driver@7e5e] No obsolete sessions have been detected (socket hang up)
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 shell am force-stop io.appium.uiautomator2.server'
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 shell am force-stop io.appium.uiautomator2.server.test'
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Starting UIAutomator2 server 7.0.22
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Using UIAutomator2 server from '/Users/boazwarshawsky/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.0.22.apk' and test from '/Users/boazwarshawsky/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Waiting up to 30000ms for UiAutomator2 to be online...
+[6c692f7b][ADB] Creating ADB subprocess with args: ["-P","5037","-s","36141JEHN03534","shell","am","instrument","-w","-e","disableAnalytics","true","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Matched '/status' to command name 'getStatus'
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[6c692f7b][AndroidUiautomator2Driver@7e5e] socket hang up
+[6c692f7b][AndroidUiautomator2Driver@7e5e] [Instrumentation]
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Matched '/status' to command name 'getStatus'
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[6c692f7b][AndroidUiautomator2Driver@7e5e] socket hang up
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Matched '/status' to command name 'getStatus'
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[6c692f7b][AndroidUiautomator2Driver@7e5e] socket hang up
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Matched '/status' to command name 'getStatus'
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[6c692f7b][AndroidUiautomator2Driver@7e5e] The initialization of the instrumentation process took 3176ms
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Matched '/session' to command name 'createSession'
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Proxying [POST /session] to [POST http://127.0.0.1:8200/session] with body: {"capabilities":{"firstMatch":[{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"fullReset":false,"appPackage":"com.stanley.deployment","appActivity":"com.stanley.deployment.view.MainActivity","udid":"36141JEHN03534","platformVersion":"14","uiautomator2ServerInstallTimeout":120000,"app":"http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/android/android-deployment-manager/securitas/latest/deployment-manager-debug.apk","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"fullReset":false,"appPackage":"com.stanley.deployment","appActivity":"com.stanley.deployment.view.MainActivity","udid":"36141JEHN03534","platformVersion":"14","uiautomator2ServerInstallTimeout":120000,"app":"http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-product...
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Got response with status 200: {"sessionId":"8f7703cd-cda2-4f12-83b9-970063075357","value":{"capabilities":{"firstMatch":[{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"fullReset":false,"appPackage":"com.stanley.deployment","appActivity":"com.stanley.deployment.view.MainActivity","udid":"36141JEHN03534","platformVersion":"14","uiautomator2ServerInstallTimeout":120000,"app":"http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/android/android-deployment-manager/securitas/latest/deployment-manager-debug.apk","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"fullReset":false,"appPackage":"com.stanley.deployment","appActivity":"com.stanley.deployment.view.MainActivity","udid":"36141JEHN03534","platformVersion":"14","uiautomator2ServerInstallTimeout":120000,"app":"http://mv...
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Determined the downstream protocol as 'W3C'
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/session/8f7703cd-cda2-4f12-83b9-970063075357/appium/device/pixel_ratio] with no body
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/session/8f7703cd-cda2-4f12-83b9-970063075357/appium/device/system_bars] with no body
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Matched '/window/current/size' to command name 'getWindowSize'
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/session/8f7703cd-cda2-4f12-83b9-970063075357/window/current/size] with no body
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/session/8f7703cd-cda2-4f12-83b9-970063075357/appium/device/info] with no body
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 shell dumpsys window'
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 shell dumpsys power'
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Got response with status 200: {"sessionId":"8f7703cd-cda2-4f12-83b9-970063075357","value":2.625}
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Got response with status 200: {"sessionId":"8f7703cd-cda2-4f12-83b9-970063075357","value":{"statusBar":118}}
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Got response with status 200: {"sessionId":"8f7703cd-cda2-4f12-83b9-970063075357","value":{"height":2400,"width":1080}}
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Got response with status 200: {"sessionId":"8f7703cd-cda2-4f12-83b9-970063075357","value":{"androidId":"db9231fa7f6a6b38","apiVersion":"34","bluetooth":{"state":"ON"},"brand":"google","carrierName":"","displayDensity":420,"locale":"en_US","manufacturer":"Google","model":"Pixel 7a","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":24571,"linkUpstreamBandwidthKbps":6278,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-47,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":-1,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"14","realDisplaySize":"1080x2400","timeZone":"Asia/Jerusalem"}}
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Screen already unlocked, doing nothing
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Starting 'com.stanley.deployment/com.stanley.deployment.view.MainActivity and waiting for 'com.stanley.deployment/com.stanley.deployment.view.MainActivity'
+[6c692f7b][ADB] Getting IDs of all 'com.stanley.deployment' processes
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 shell 'pgrep --help; echo $?''
+[6c692f7b][ADB] Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36141JEHN03534 shell pgrep -f \(\[\[:blank:\]\]\|\^\)com\.stanley\.deployment\(\[\[:blank:\]\]\|\$\)'
+[6c692f7b][AndroidUiautomator2Driver@7e5e] 'com.stanley.deployment' is already running and noReset is enabled. Set forceAppLaunch capability to true if the app must be forcefully restarted on session startup.
+[6c692f7b][AppiumDriver@88ba] New AndroidUiautomator2Driver session created successfully, session 6c692f7b-d4fa-45b6-bbb6-33f206172ece added to master session list
+[6c692f7b][AppiumDriver@88ba] Event 'newSessionStarted' logged at 1724842061571 (13:47:41 GMT+0300 (שעון ישראל (קיץ)))
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Cached the protocol value 'W3C' for the new session 6c692f7b-d4fa-45b6-bbb6-33f206172ece
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Responding to client with driver.createSession() result: {"capabilities":{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"fullReset":false,"appPackage":"com.stanley.deployment","appActivity":"com.stanley.deployment.view.MainActivity","udid":"36141JEHN03534","platformVersion":"14","uiautomator2ServerInstallTimeout":120000,"app":"http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/android/android-deployment-manager/securitas/latest/deployment-manager-debug.apk","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"fullReset":false,"appPackage":"com.stanley.deployment","appActivity":"com.stanley.deployment.view.MainActivity","udid":"36141JEHN03534","platformVersion":"14","uiautomator2ServerInstallTimeout":120000,"app":"http://mv-nexus-new.corp.aeroscout.com:8081/repository/mobile-products/android/andro...
+[6c692f7b][HTTP] <-- POST /wd/hub/session 200 4515 ms - 1449
+[6c692f7b][HTTP] --> POST /wd/hub/session/6c692f7b-d4fa-45b6-bbb6-33f206172ece/timeouts {"implicit":1000}
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Calling AppiumDriver.timeouts() with args: [null,null,null,null,1000,"6c692f7b-d4fa-45b6-bbb6-33f206172ece"]
+[6c692f7b][AndroidUiautomator2Driver@7e5e] W3C timeout argument: {"implicit":1000}}
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Set implicit wait to 1000ms
+[6c692f7b][AndroidUiautomator2Driver@7e5e] Responding to client with driver.timeouts() result: null
+[6c692f7b][HTTP] <-- POST /wd/hub/session/6c692f7b-d4fa-45b6-bbb6-33f206172ece/timeouts 200 1 ms - 14
