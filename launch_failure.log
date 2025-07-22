@@ -1,0 +1,100 @@
+[38;5;112m[Appium][0m Welcome to Appium v2.19.0 (REV 6301c2d31f8dc07d2d16ddaa33711cf5a41d4e17)
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { allowCors: [33mtrue[39m,
+  allowInsecure: [ [32m'chromedriver_autodownload'[39m ],
+  basePath: [32m'/wd/hub'[39m }
+[38;5;112m[Appium][0m Explicitly enabling insecure features:
+[38;5;112m[Appium][0m     *:chromedriver_autodownload
+[38;5;112m[Appium][0m The autodetected Appium home path: /Users/boazwarshawsky/.appium
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Attempting to load driver xcuitest...
+[38;5;112m[Appium][0m Requiring driver at /Users/boazwarshawsky/.appium/node_modules/appium-xcuitest-driver/build/index.js
+[38;5;112m[Appium][0m Requiring driver at /Users/boazwarshawsky/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+[38;5;112m[Appium][0m XCUITestDriver has been successfully loaded in 0.680s
+[38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 0.680s
+[38;5;112m[Appium][0m You have enabled CORS requests from any host. Be careful not to visit sites which could maliciously try to start Appium sessions on your machine
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:4723/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://127.0.0.1:4723/wd/hub (only accessible from the same host)
+	http://192.168.31.8:4723/wd/hub
+	http://10.212.134.170:4723/wd/hub
+	http://10.100.102.14:4723/wd/hub
+	http://169.254.6.150:4723/wd/hub
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - uiautomator2@4.2.6 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m   - xcuitest@9.9.6 (automationName 'XCUITest')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m [37m<-- OPTIONS /wd/hub/session [39m[32m200[39m [90m4 ms - 2[39m [90m[39m
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"alwaysMatch":{"appium:noReset":true,"appium:fullReset":false,"appium:appPackage":"com.securitasHealthcare.ArialResident","appium:appActivity":".MainActivity","appium:udid":"36171JEHN03391","appium:app":"/Users/boazwarshawsky/workspace/ArialResidentApp/platforms/android/app/build/intermediates/apk/debug/app-debug.apk","appium:automationName":"UiAutomator2","appium:uiautomator2ServerInstallTimeout":"120000","appium:enableWebviewDetailsCollection":true,"appium:autoWebview":false,"appium:forceAppLaunch":true,"appium:autoGrantPermissions":true,"appium:allowTestPackages":true,"platformName":"Android","appium:ensureWebviewsHavePages":true,"appium:nativeWebScreenshot":true,"appium:newCommandTimeout":3600,"appium:connectHardwareKeyboard":true},"firstMatch":[{}]},"desiredCapabilities":{"appium:noReset":true,"appium:fullReset":false,"appium:appPackage":"com.securitasHealthcare.ArialResident","appium:appActivity":".MainActivity","appium:udid":"36171JEHN03391","appium:app":"/Users/boazwarshawsky/works...[39m
+[38;5;183m[AppiumDriver@be8f][0m Calling AppiumDriver.createSession() with args: [{"appium:noReset":true,"appium:fullReset":false,"appium:appPackage":"com.securitasHealthcare.ArialResident","appium:appActivity":".MainActivity","appium:udid":"36171JEHN03391","appium:app":"/Users/boazwarshawsky/workspace/ArialResidentApp/platforms/android/app/build/intermediates/apk/debug/app-debug.apk","appium:automationName":"UiAutomator2","appium:uiautomator2ServerInstallTimeout":"120000","appium:enableWebviewDetailsCollection":true,"appium:autoWebview":false,"appium:forceAppLaunch":true,"appium:autoGrantPermissions":true,"appium:allowTestPackages":true,"platformName":"Android","appium:ensureWebviewsHavePages":true,"appium:nativeWebScreenshot":true,"appium:newCommandTimeout":3600,"appium:connectHardwareKeyboard":true},null,{"alwaysMatch":{"appium:noReset":true,"appium:fullReset":false,"appium:appPackage":"com.securitasHealthcare.ArialResident","appium:appActivity":".MainActivity","appium:udid":"36171JEHN03391","appium:app":"/Users/boazwarshawsky/workspace/ArialResidentApp/platforms/android/app/build/i...
+[38;5;183m[AppiumDriver@be8f][0m Event 'newSessionRequested' logged at 1753167476543 (09:57:56 GMT+0300 (שעון מזרח אירופה (קיץ)))
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/boazwarshawsky/.appium/node_modules/appium-uiautomator2-driver
+[38;5;112m[Appium][0m Requiring driver at /Users/boazwarshawsky/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+[38;5;183m[AppiumDriver@be8f][0m Appium v2.19.0 creating new AndroidUiautomator2Driver (v4.2.6) session
+[38;5;183m[AppiumDriver@be8f][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;183m[AppiumDriver@be8f][0m Appium's BaseDriver version is 9.18.0
+[38;5;183m[AppiumDriver@be8f][0m AndroidUiautomator2Driver's BaseDriver version is 9.18.0
+[38;5;183m[AppiumDriver@be8f][0m Explicitly enabling insecure features for this session as per the server configuration:
+[38;5;183m[AppiumDriver@be8f][0m     *:chromedriver_autodownload
+[38;5;-155m[AndroidUiautomator2Driver@e643][0m 
+[38;5;-155m[AndroidUiautomator2Driver@e643][0m Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "Android",
+    "appium:noReset": true,
+    "appium:fullReset": false,
+    "appium:appPackage": "com.securitasHealthcare.ArialResident",
+    "appium:appActivity": ".MainActivity",
+    "appium:udid": "36171JEHN03391",
+    "appium:app": "/Users/boazwarshawsky/workspace/ArialResidentApp/platforms/android/app/build/intermediates/apk/debug/app-debug.apk",
+    "appium:automationName": "UiAutomator2",
+    "appium:uiautomator2ServerInstallTimeout": "120000",
+    "appium:enableWebviewDetailsCollection": true,
+    "appium:autoWebview": false,
+    "appium:forceAppLaunch": true,
+    "appium:autoGrantPermissions": true,
+    "appium:allowTestPackages": true,
+    "appium:ensureWebviewsHavePages": true,
+    "appium:nativeWebScreenshot": true,
+    "appium:newCommandTimeout": 3600,
+    "appium:connectHardwareKeyboard": true
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[38;5;123m[BaseDriver][0m Number capability passed in as string. Functionality may be compromised.
+[38;5;-155m[AndroidUiautomator2Driver@e643][0m Capability 'uiautomator2ServerInstallTimeout' changed from string ('120000') to integer (120000). This may cause unexpected behavior
+[38;5;-155m[AndroidUiautomator2Driver@e643][0m The following provided capabilities were not recognized by this driver:
+[38;5;-155m[AndroidUiautomator2Driver@e643][0m   connectHardwareKeyboard
+[38;5;230m[4053e23d][0m[38;5;-155m[AndroidUiautomator2Driver@e643][0m Session created with session id: 4053e23d-d4df-4fe1-a989-c49f612f4d12
+[38;5;230m[4053e23d][0m[38;5;229m[ADB][0m Found 2 'build-tools' folders under '/Users/boazwarshawsky/Library/Android/sdk' (newest first):
+[38;5;230m[4053e23d][0m[38;5;229m[ADB][0m     /Users/boazwarshawsky/Library/Android/sdk/build-tools/35.0.0
+[38;5;230m[4053e23d][0m[38;5;229m[ADB][0m     /Users/boazwarshawsky/Library/Android/sdk/build-tools/34.0.0
+[38;5;230m[4053e23d][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb'
+[38;5;230m[4053e23d][0m[38;5;229m[ADB][0m Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[38;5;230m[4053e23d][0m[38;5;-155m[AndroidUiautomator2Driver@e643][0m Retrieving device list
+[38;5;230m[4053e23d][0m[38;5;229m[ADB][0m Trying to find connected Android devices
+[38;5;230m[4053e23d][0m[38;5;229m[ADB][0m Getting connected devices
+[38;5;230m[4053e23d][0m[38;5;229m[ADB][0m Connected devices: [{"udid":"36171JEHN03391","state":"device"}]
+[38;5;230m[4053e23d][0m[38;5;-155m[AndroidUiautomator2Driver@e643][0m Using device: 36171JEHN03391
+[38;5;230m[4053e23d][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb'
+[38;5;230m[4053e23d][0m[38;5;229m[ADB][0m Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[38;5;230m[4053e23d][0m[38;5;229m[ADB][0m Setting device id to 36171JEHN03391
+[38;5;230m[4053e23d][0m[38;5;123m[BaseDriver][0m Using local app '/Users/boazwarshawsky/workspace/ArialResidentApp/platforms/android/app/build/intermediates/apk/debug/app-debug.apk'
+[38;5;230m[4053e23d][0m[38;5;-155m[AndroidUiautomator2Driver@e643][0m Checking whether app is actually present
+[38;5;230m[4053e23d][0m[38;5;229m[ADB][0m Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36171JEHN03391 shell getprop ro.build.version.sdk'
+[38;5;230m[4053e23d][0m[38;5;-155m[AndroidUiautomator2Driver@e643][0m Deleting UiAutomator2 session
+[38;5;230m[4053e23d][0m[38;5;229m[ADB][0m Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36171JEHN03391 shell getprop ro.build.version.sdk'
+[38;5;230m[4053e23d][0m[38;5;229m[ADB][0m Running '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36171JEHN03391 shell getprop ro.build.version.sdk'
+[38;5;230m[4053e23d][0m[38;5;183m[AppiumDriver@be8f][0m Event 'newSessionStarted' logged at 1753167516626 (09:58:36 GMT+0300 (שעון מזרח אירופה (קיץ)))
+[38;5;230m[4053e23d][0m[38;5;183m[AppiumDriver@be8f][0m Encountered internal error running command: Error: Error getting device API level. Original error: Error executing adbExec. Original error: 'Command '/Users/boazwarshawsky/Library/Android/sdk/platform-tools/adb -P 5037 -s 36171JEHN03391 shell getprop ro.build.version.sdk' timed out after 20000ms'. Try to increase the 20000ms adb execution timeout represented by 'adbExecTimeout' capability
+    at ADB.getApiLevel (/Users/boazwarshawsky/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/tools/general-commands.js:91:13)
+    at AndroidUiautomator2Driver.deleteSession (/Users/boazwarshawsky/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:932:12)
+    at AndroidUiautomator2Driver.createSession (/Users/boazwarshawsky/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:411:7)
+    at AppiumDriver.createSession (/opt/homebrew/lib/node_modules/appium/lib/appium.js:379:35)
+[38;5;230m[4053e23d][0m[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[31m500[39m [90m40125 ms - 1186[39m [90m[39m
+[38;5;112m[Appium][0m Received SIGINT - shutting down
+[38;5;183m[AppiumDriver@be8f][0m There are no active sessions for cleanup
+[38;5;86m[HTTP][0m Closing Appium HTTP server
