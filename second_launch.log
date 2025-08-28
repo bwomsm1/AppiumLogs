@@ -1,0 +1,683 @@
+[38;5;112m[Appium][0m Welcome to Appium v2.19.0
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { allowCors: [33mtrue[39m,
+  allowInsecure: [ [32m'chromedriver_autodownload'[39m ],
+  basePath: [32m'/wd/hub'[39m }
+[38;5;112m[Appium][0m Explicitly enabling insecure features:
+[38;5;112m[Appium][0m     *:chromedriver_autodownload
+[38;5;112m[Appium][0m The autodetected Appium home path: /Users/mac-auto-05/.appium
+[38;5;112m[Appium][0m Attempting to load driver xcuitest...
+[38;5;112m[Appium][0m Attempting to load driver uiautomator2...
+[38;5;112m[Appium][0m Requiring driver at /Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+[38;5;112m[Appium][0m Requiring driver at /Users/mac-auto-05/.appium/node_modules/appium-xcuitest-driver/build/index.js
+[38;5;112m[Appium][0m AndroidUiautomator2Driver has been successfully loaded in 0.609s
+[38;5;112m[Appium][0m XCUITestDriver has been successfully loaded in 0.609s
+[38;5;112m[Appium][0m You have enabled CORS requests from any host. Be careful not to visit sites which could maliciously try to start Appium sessions on your machine
+[38;5;112m[Appium][0m Appium REST http interface listener started on http://0.0.0.0:4723/wd/hub
+[38;5;112m[Appium][0m You can provide the following URLs in your client code to connect to this server:
+	http://127.0.0.1:4723/wd/hub (only accessible from the same host)
+	http://10.65.171.34:4723/wd/hub
+	http://169.254.155.183:4723/wd/hub
+	http://10.65.171.9:4723/wd/hub
+	http://10.212.134.205:4723/wd/hub
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - xcuitest@9.10.3 (automationName 'XCUITest')
+[38;5;112m[Appium][0m   - uiautomator2@4.2.7 (automationName 'UiAutomator2')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m Request idempotency key: 919d49f0-6bf6-4b85-a541-cda25cf698fb
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:automationName":"UiAutomator2","platformName":"Android","appium:noReset":true,"appium:fullReset":false,"appium:appPackage":"com.securitasHealthcare.ArialResident","appium:appActivity":".MainActivity","appium:udid":"HA22LHS2","appium:app":"/Users/mac-auto-05/Desktop/arial_resident_app.apk","appium:uiautomator2ServerInstallTimeout":"120000","appium:enableWebviewDetailsCollection":true,"appium:autoWebview":true,"appium:forceAppLaunch":true,"appium:autoGrantPermissions":true,"appium:allowTestPackages":true,"appium:newCommandTimeout":"60000"}}}[39m
+[38;5;167m[AppiumDriver@fae7][0m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:automationName":"UiAutomator2","platformName":"Android","appium:noReset":true,"appium:fullReset":false,"appium:appPackage":"com.securitasHealthcare.ArialResident","appium:appActivity":".MainActivity","appium:udid":"HA22LHS2","appium:app":"/Users/mac-auto-05/Desktop/arial_resident_app.apk","appium:uiautomator2ServerInstallTimeout":"120000","appium:enableWebviewDetailsCollection":true,"appium:autoWebview":true,"appium:forceAppLaunch":true,"appium:autoGrantPermissions":true,"appium:allowTestPackages":true,"appium:newCommandTimeout":"60000"}}]
+[38;5;167m[AppiumDriver@fae7][0m Event 'newSessionRequested' logged at 1756373736182 (05:35:36 GMT-0400 (Eastern Daylight Saving Time))
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver
+[38;5;112m[Appium][0m Requiring driver at /Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+[38;5;167m[AppiumDriver@fae7][0m Appium v2.19.0 creating new AndroidUiautomator2Driver (v4.2.7) session
+[38;5;167m[AppiumDriver@fae7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;167m[AppiumDriver@fae7][0m Appium's BaseDriver version is 9.18.0
+[38;5;167m[AppiumDriver@fae7][0m AndroidUiautomator2Driver's BaseDriver version is 9.18.0
+[38;5;167m[AppiumDriver@fae7][0m Explicitly enabling insecure features for this session as per the server configuration:
+[38;5;167m[AppiumDriver@fae7][0m     *:chromedriver_autodownload
+[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m 
+[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "Android",
+    "appium:automationName": "UiAutomator2",
+    "appium:noReset": true,
+    "appium:fullReset": false,
+    "appium:appPackage": "com.securitasHealthcare.ArialResident",
+    "appium:appActivity": ".MainActivity",
+    "appium:udid": "HA22LHS2",
+    "appium:app": "/Users/mac-auto-05/Desktop/arial_resident_app.apk",
+    "appium:uiautomator2ServerInstallTimeout": "120000",
+    "appium:enableWebviewDetailsCollection": true,
+    "appium:autoWebview": true,
+    "appium:forceAppLaunch": true,
+    "appium:autoGrantPermissions": true,
+    "appium:allowTestPackages": true,
+    "appium:newCommandTimeout": "60000"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[38;5;123m[BaseDriver][0m Number capability passed in as string. Functionality may be compromised.
+[38;5;123m[BaseDriver][0m Number capability passed in as string. Functionality may be compromised.
+[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Capability 'newCommandTimeout' changed from string ('60000') to integer (60000). This may cause unexpected behavior
+[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Capability 'uiautomator2ServerInstallTimeout' changed from string ('120000') to integer (120000). This may cause unexpected behavior
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Session created with session id: 67c3eb41-8f56-4b71-80a2-489eea273a14
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Found 2 'build-tools' folders under '/Users/mac-auto-05/Library/Android/sdk' (newest first):
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m     /Users/mac-auto-05/Library/Android/sdk/build-tools/36.0.0
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m     /Users/mac-auto-05/Library/Android/sdk/build-tools/35.0.1
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Retrieving device list
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Trying to find connected Android devices
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Getting connected devices
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Connected devices: [{"udid":"HA22LHS2","state":"device"},{"udid":"R5CX71MDPNA","state":"device"},{"udid":"emulator-5554","state":"device"}]
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Using device: HA22LHS2
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Setting device id to HA22LHS2
+[38;5;31m[67c3eb41][0m[38;5;123m[BaseDriver][0m Using local app '/Users/mac-auto-05/Desktop/arial_resident_app.apk'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Checking whether app is actually present
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell getprop ro.build.version.sdk'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Current device property 'ro.build.version.sdk': 33
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell getprop ro.build.version.release'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Current device property 'ro.build.version.release': 13
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Device API level: 33
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Relaxing hidden api policy
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Pushing settings apk to the device...
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Getting package info for 'io.appium.settings'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell dumpsys package io.appium.settings'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Using 'aapt2' from '/Users/mac-auto-05/Library/Android/sdk/build-tools/36.0.0/aapt2'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Reading package manifest: '/Users/mac-auto-05/Library/Android/sdk/build-tools/36.0.0/aapt2 dump badging /Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.14.14' >= '5.14.14')
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m There is no need to install/upgrade '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell dumpsys activity services io.appium.settings'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m io.appium.settings is already running. There is no need to reset its permissions.
+[38;5;31m[67c3eb41][0m[38;5;160m[Logcat][0m Starting logs capture with command: /Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 logcat -v threadtime
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell appops set io.appium.settings android:mock_location allow'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell "[ -e '/data/local/tmp/mock_apps.json' ] && echo __PASS__"'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell cat /data/local/tmp/mock_apps.json'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Forwarding UiAutomator2 Server port 6790 to local port 8215
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Forwarding system: 8215 to device: 6790
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 forward tcp:8215 tcp:6790'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m UIA2Proxy options: {"server":"127.0.0.1","port":8215,"keepAlive":true,"scheme":"http","base":"","reqBasePath":"","sessionId":null,"timeout":240000}
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Getting package info for 'io.appium.uiautomator2.server'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell dumpsys package io.appium.uiautomator2.server'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Getting install status for io.appium.uiautomator2.server.test
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Getting install status for com.securitasHealthcare.ArialResident
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell cmd package list packages'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell cmd package list packages'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Reading package manifest: '/Users/mac-auto-05/Library/Android/sdk/build-tools/36.0.0/aapt2 dump badging /Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.7.0.apk'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m 'io.appium.uiautomator2.server.test' is installed
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m 'com.securitasHealthcare.ArialResident' is installed
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m noReset has been requested and the app is already installed. Doing nothing
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('7.7.0' >= '7.7.0')
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Server packages status: [{"installState":"sameVersionInstalled","appPath":"/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.7.0.apk","appId":"io.appium.uiautomator2.server"},{"installState":"sameVersionInstalled","appPath":"/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Server packages are not going to be (re)installed
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Waiting up to 30000ms for services to be available
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell pm list instrumentation'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Performing shallow cleanup of automation leftovers
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m No obsolete sessions have been detected (socket hang up)
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell am force-stop io.appium.uiautomator2.server'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell am force-stop io.appium.uiautomator2.server.test'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Starting UIAutomator2 server 7.7.0
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Using UIAutomator2 server from '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.7.0.apk' and test from '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Creating ADB subprocess with args: ["-P","5037","-s","HA22LHS2","shell","am","instrument","-w","-e","disableAnalytics","true","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Matched '/status' to command name 'getStatus'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Proxying [GET /status] to [GET http://127.0.0.1:8215/status] with no body
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m socket hang up
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Matched '/status' to command name 'getStatus'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Proxying [GET /status] to [GET http://127.0.0.1:8215/status] with no body
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m socket hang up
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m [Instrumentation] 
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Matched '/status' to command name 'getStatus'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Proxying [GET /status] to [GET http://127.0.0.1:8215/status] with no body
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Got response with status 200: {"sessionId":"None","value":{"build":{"version":"7.7.0","versionCode":219},"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m The initialization of the instrumentation process took 2141ms
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Matched '/session' to command name 'createSession'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Proxying [POST /session] to [POST http://127.0.0.1:8215/session] with body: {"capabilities":{"firstMatch":[{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"fullReset":false,"appPackage":"com.securitasHealthcare.ArialResident","appActivity":".MainActivity","udid":"HA22LHS2","app":"/Users/mac-auto-05/Desktop/arial_resident_app.apk","uiautomator2ServerInstallTimeout":120000,"enableWebviewDetailsCollection":true,"autoWebview":true,"forceAppLaunch":true,"autoGrantPermissions":true,"allowTestPackages":true,"newCommandTimeout":60000,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"fullReset":false,"appPackage":"com.securitasHealthcare.ArialResident","appActivity":".MainActivity","udid":"HA22LHS2","app":"/Users/mac-auto-05/Desktop/arial_resident_app.apk","uiautomator2ServerInstallTimeout":120000,"enableWebviewDetailsCollection":true,"autoW...
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Got response with status 200: {"sessionId":"6c9bec4a-0c63-4f76-aedd-2e40fb2ea5c3","value":{"capabilities":{"firstMatch":[{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"fullReset":false,"appPackage":"com.securitasHealthcare.ArialResident","appActivity":".MainActivity","udid":"HA22LHS2","app":"/Users/mac-auto-05/Desktop/arial_resident_app.apk","uiautomator2ServerInstallTimeout":120000,"enableWebviewDetailsCollection":true,"autoWebview":true,"forceAppLaunch":true,"autoGrantPermissions":true,"allowTestPackages":true,"newCommandTimeout":60000,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"fullReset":false,"appPackage":"com.securitasHealthcare.ArialResident","appActivity":".MainActivity","udid":"HA22LHS2","app":"/Users/mac-auto-05/Desktop/arial_resident_app.apk","uiautomator2ServerInstall...
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Determined the downstream protocol as 'W3C'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8215/session/6c9bec4a-0c63-4f76-aedd-2e40fb2ea5c3/appium/device/pixel_ratio] with no body
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8215/session/6c9bec4a-0c63-4f76-aedd-2e40fb2ea5c3/appium/device/system_bars] with no body
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Matched '/window/current/size' to command name 'getWindowSize'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8215/session/6c9bec4a-0c63-4f76-aedd-2e40fb2ea5c3/window/current/size] with no body
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8215/session/6c9bec4a-0c63-4f76-aedd-2e40fb2ea5c3/appium/device/info] with no body
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell dumpsys window'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell dumpsys power'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Got response with status 200: {"sessionId":"6c9bec4a-0c63-4f76-aedd-2e40fb2ea5c3","value":1.25}
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Got response with status 200: {"sessionId":"6c9bec4a-0c63-4f76-aedd-2e40fb2ea5c3","value":{"statusBar":30}}
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Got response with status 200: {"sessionId":"6c9bec4a-0c63-4f76-aedd-2e40fb2ea5c3","value":{"height":800,"width":1340}}
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Got response with status 200: {"sessionId":"6c9bec4a-0c63-4f76-aedd-2e40fb2ea5c3","value":{"androidId":"9343c8444933fe77","apiVersion":"33","bluetooth":{"state":"ON"},"brand":"Lenovo","carrierName":"","displayDensity":200,"locale":"en_US","manufacturer":"LENOVO","model":"TB310FU","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":60000,"linkUpstreamBandwidthKbps":12000,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-60,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":-1,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"13","realDisplaySize":"1340x800","timeZone":"America/Toronto"}}
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Screen already unlocked, doing nothing
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Starting 'com.securitasHealthcare.ArialResident/.MainActivity' and waiting for 'com.securitasHealthcare.ArialResident/.MainActivity'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell am start-activity -W -n com.securitasHealthcare.ArialResident/.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Setting auto webview to context 'WEBVIEW_com.securitasHealthcare.ArialResident' with timeout 2000ms
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Getting a list of available webviews
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell cat /proc/net/unix'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Parsed 1 active devtools socket: ["@webview_devtools_remote_23272"]
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Collecting CDP data of 1 webview
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Forwarding remote port webview_devtools_remote_23272 to a local port in range 10900..11000
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m You could use the 'webviewDevtoolsPort' capability to customize the starting port number
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 forward tcp:10900 localabstract:webview_devtools_remote_23272'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Removing forwarded port socket connection: 10900 
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 forward --remove tcp:10900'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m CDP data collection completed
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m WEBVIEW_23272 mapped to pid 23272
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Getting process name for webview 'WEBVIEW_23272'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell ps --help'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell ps -A'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Got process name: 'com.securitasHealthcare.ArialResident'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Found 1 webview: ["WEBVIEW_com.securitasHealthcare.ArialResident"]
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Available contexts: ["NATIVE_APP","WEBVIEW_com.securitasHealthcare.ArialResident"]
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Connecting to chrome-backed webview context 'WEBVIEW_com.securitasHealthcare.ArialResident'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m A port was not given, using random free port: 53309
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Passing web view details to the Chromedriver constructor: {
+  "info": {
+    "Android-Package": "com.securitasHealthcare.ArialResident",
+    "Browser": "Chrome/126.0.6478.71",
+    "Protocol-Version": "1.3",
+    "User-Agent": "Mozilla/5.0 (Linux; Android 13; TB310FU Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Safari/537.36",
+    "V8-Version": "12.6.228.14",
+    "WebKit-Version": "537.36 (@cb9c5ef50cf0664db3662bb45e1402b125b6d1e3)",
+    "webSocketDebuggerUrl": "ws://127.0.0.1:10900/devtools/browser"
+  },
+  "process": {
+    "name": "com.securitasHealthcare.ArialResident",
+    "id": "23272"
+  }
+}
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m JWProxy options: {"server":"127.0.0.1","port":"53309","scheme":"http","base":"","reqBasePath":"","sessionId":null,"timeout":240000}
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Precalculated Chromedriver capabilities: {
+  "androidPackage": "com.securitasHealthcare.ArialResident",
+  "androidUseRunningApp": true,
+  "androidProcess": "com.securitasHealthcare.ArialResident",
+  "androidDeviceSerial": "HA22LHS2"
+}
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Before starting chromedriver, androidPackage is 'com.securitasHealthcare.ArialResident'
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Changed state to 'starting'
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Using the static Chromedriver->Chrome mapping
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m The most recent known Chrome version: 138.0.7204
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Found 4 executables in '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac'
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m The following Chromedriver executables were found:
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m     '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v141.0.7379.0' (version '141.0.7379.0', minimum Chrome version '141')
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m     '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v139.0.7258.154' (version '139.0.7258.154', minimum Chrome version '139')
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m     '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v138.0.7204.183' (version '138.0.7204.183', minimum Chrome version '138')
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m     '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v126.0.6478.182' (version '126.0.6478.182', minimum Chrome version '126.0.6478')
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Found 3 Chromedrivers, which are missing in the list of known versions: {"141.0.7379.0":"141","139.0.7258.154":"139","138.0.7204.183":"138"}
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m No mapping path provided
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Browser version in the supplied details: Chrome/126.0.6478.71
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Found Chrome bundle 'undefined' version '126.0.6478'
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Found 1 executable capable of automating Chrome '126.0.6478'.
+Choosing the most recent, '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v126.0.6478.182'.
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m If a specific version is required, specify it with the 'chromedriverExecutable' capability.
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Set chromedriver binary as: /Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v126.0.6478.182
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Killing any old chromedrivers, running: pkill -15 -f "/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v126.0.6478.182.*--port=53309"
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m No old chromedrivers seem to exist
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Cleaning this device's adb forwarded port socket connections: HA22LHS2
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m List forwarding ports
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 forward --list'
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Spawning Chromedriver with: /Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v126.0.6478.182 --port=53309 --adb-port=5037 --verbose
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Matched '/status' to command name 'getStatus'
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Proxying [GET /status] to [GET http://127.0.0.1:53309/status] with no body
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m connect ECONNREFUSED 127.0.0.1:53309
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Matched '/status' to command name 'getStatus'
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Proxying [GET /status] to [GET http://127.0.0.1:53309/status] with no body
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Got response with status 200: {"value":{"build":{"version":"126.0.6478.182 (5b5d8292ddf182f8b2096fa665b473b6317906d5-refs/branch-heads/6478@{#1776})"},"message":"ChromeDriver ready for new sessions.","os":{"arch":"arm64","name":"Mac OS X","version":"15.6.1"},"ready":true}}
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Chromedriver version: 126.0.6478.182
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Starting W3C Chromedriver session with capabilities: {
+  "capabilities": {
+    "alwaysMatch": {
+      "goog:chromeOptions": {
+        "androidPackage": "com.securitasHealthcare.ArialResident",
+        "androidUseRunningApp": true,
+        "androidProcess": "com.securitasHealthcare.ArialResident",
+        "androidDeviceSerial": "HA22LHS2"
+      },
+      "goog:loggingPrefs": {
+        "browser": "ALL"
+      }
+    }
+  }
+}
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Matched '/session' to command name 'createSession'
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Proxying [POST /session] to [POST http://127.0.0.1:53309/session] with body: {"capabilities":{"alwaysMatch":{"goog:chromeOptions":{"androidPackage":"com.securitasHealthcare.ArialResident","androidUseRunningApp":true,"androidProcess":"com.securitasHealthcare.ArialResident","androidDeviceSerial":"HA22LHS2"},"goog:loggingPrefs":{"browser":"ALL"}}}}
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Webview version: 'Chrome/126.0.6478.71'
+[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m-[39m [90m- ms - -[39m [90m[39m
+[38;5;86m[HTTP][0m Request idempotency key: 318bc7c5-fb57-4976-bc90-5142d4f3883c
+[38;5;86m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m [90m{"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:automationName":"UiAutomator2","platformName":"Android","appium:noReset":true,"appium:fullReset":false,"appium:appPackage":"com.securitasHealthcare.ArialResident","appium:appActivity":".MainActivity","appium:udid":"HA22LHS2","appium:app":"/Users/mac-auto-05/Desktop/arial_resident_app.apk","appium:uiautomator2ServerInstallTimeout":"120000","appium:enableWebviewDetailsCollection":true,"appium:autoWebview":true,"appium:forceAppLaunch":true,"appium:autoGrantPermissions":true,"appium:allowTestPackages":true,"appium:newCommandTimeout":"60000"}}}[39m
+[38;5;167m[AppiumDriver@fae7][0m Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:automationName":"UiAutomator2","platformName":"Android","appium:noReset":true,"appium:fullReset":false,"appium:appPackage":"com.securitasHealthcare.ArialResident","appium:appActivity":".MainActivity","appium:udid":"HA22LHS2","appium:app":"/Users/mac-auto-05/Desktop/arial_resident_app.apk","appium:uiautomator2ServerInstallTimeout":"120000","appium:enableWebviewDetailsCollection":true,"appium:autoWebview":true,"appium:forceAppLaunch":true,"appium:autoGrantPermissions":true,"appium:allowTestPackages":true,"appium:newCommandTimeout":"60000"}}]
+[38;5;167m[AppiumDriver@fae7][0m Event 'newSessionRequested' logged at 1756373819320 (05:36:59 GMT-0400 (Eastern Daylight Saving Time))
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[38;5;112m[Appium][0m The 'uiautomator2' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver
+[38;5;112m[Appium][0m Requiring driver at /Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/build/index.js
+[38;5;167m[AppiumDriver@fae7][0m Appium v2.19.0 creating new AndroidUiautomator2Driver (v4.2.7) session
+[38;5;167m[AppiumDriver@fae7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;167m[AppiumDriver@fae7][0m Appium's BaseDriver version is 9.18.0
+[38;5;167m[AppiumDriver@fae7][0m AndroidUiautomator2Driver's BaseDriver version is 9.18.0
+[38;5;167m[AppiumDriver@fae7][0m Explicitly enabling insecure features for this session as per the server configuration:
+[38;5;167m[AppiumDriver@fae7][0m     *:chromedriver_autodownload
+[38;5;3m[AndroidUiautomator2Driver@a44a][0m 
+[38;5;3m[AndroidUiautomator2Driver@a44a][0m Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "Android",
+    "appium:automationName": "UiAutomator2",
+    "appium:noReset": true,
+    "appium:fullReset": false,
+    "appium:appPackage": "com.securitasHealthcare.ArialResident",
+    "appium:appActivity": ".MainActivity",
+    "appium:udid": "HA22LHS2",
+    "appium:app": "/Users/mac-auto-05/Desktop/arial_resident_app.apk",
+    "appium:uiautomator2ServerInstallTimeout": "120000",
+    "appium:enableWebviewDetailsCollection": true,
+    "appium:autoWebview": true,
+    "appium:forceAppLaunch": true,
+    "appium:autoGrantPermissions": true,
+    "appium:allowTestPackages": true,
+    "appium:newCommandTimeout": "60000"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[38;5;123m[BaseDriver][0m Number capability passed in as string. Functionality may be compromised.
+[38;5;123m[BaseDriver][0m Number capability passed in as string. Functionality may be compromised.
+[38;5;3m[AndroidUiautomator2Driver@a44a][0m Capability 'newCommandTimeout' changed from string ('60000') to integer (60000). This may cause unexpected behavior
+[38;5;3m[AndroidUiautomator2Driver@a44a][0m Capability 'uiautomator2ServerInstallTimeout' changed from string ('120000') to integer (120000). This may cause unexpected behavior
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Session created with session id: d55c6934-cbbb-44a3-80fa-df76db8cb481
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Retrieving device list
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Trying to find connected Android devices
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Getting connected devices
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Connected devices: [{"udid":"HA22LHS2","state":"device"},{"udid":"R5CX71MDPNA","state":"device"},{"udid":"emulator-5554","state":"device"}]
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Using device: HA22LHS2
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Using 'adb' from '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Setting device id to HA22LHS2
+[38;5;39m[d55c6934][0m[38;5;123m[BaseDriver][0m Using local app '/Users/mac-auto-05/Desktop/arial_resident_app.apk'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Checking whether app is actually present
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell getprop ro.build.version.sdk'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Current device property 'ro.build.version.sdk': 33
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Getting device platform version
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell getprop ro.build.version.release'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Current device property 'ro.build.version.release': 13
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Device API level: 33
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Relaxing hidden api policy
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Pushing settings apk to the device...
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Getting package info for 'io.appium.settings'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell dumpsys package io.appium.settings'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Using 'aapt2' from '/Users/mac-auto-05/Library/Android/sdk/build-tools/36.0.0/aapt2'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Reading package manifest: '/Users/mac-auto-05/Library/Android/sdk/build-tools/36.0.0/aapt2 dump badging /Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.14.14' >= '5.14.14')
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m There is no need to install/upgrade '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell dumpsys activity services io.appium.settings'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m io.appium.settings is already running. There is no need to reset its permissions.
+[38;5;39m[d55c6934][0m[38;5;160m[Logcat][0m Starting logs capture with command: /Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 logcat -v threadtime
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell appops set io.appium.settings android:mock_location allow'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell "[ -e '/data/local/tmp/mock_apps.json' ] && echo __PASS__"'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell cat /data/local/tmp/mock_apps.json'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Forwarding UiAutomator2 Server port 6790 to local port 8216
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Forwarding system: 8216 to device: 6790
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 forward tcp:8216 tcp:6790'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m UIA2Proxy options: {"server":"127.0.0.1","port":8216,"keepAlive":true,"scheme":"http","base":"","reqBasePath":"","sessionId":null,"timeout":240000}
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Getting package info for 'io.appium.uiautomator2.server'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell dumpsys package io.appium.uiautomator2.server'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Getting install status for io.appium.uiautomator2.server.test
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Getting install status for com.securitasHealthcare.ArialResident
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell cmd package list packages'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell cmd package list packages'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m 'io.appium.uiautomator2.server.test' is installed
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m 'com.securitasHealthcare.ArialResident' is installed
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m noReset has been requested and the app is already installed. Doing nothing
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Reading package manifest: '/Users/mac-auto-05/Library/Android/sdk/build-tools/36.0.0/aapt2 dump badging /Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.7.0.apk'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('7.7.0' >= '7.7.0')
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Server packages status: [{"installState":"sameVersionInstalled","appPath":"/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.7.0.apk","appId":"io.appium.uiautomator2.server"},{"installState":"sameVersionInstalled","appPath":"/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Server packages are not going to be (re)installed
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Waiting up to 30000ms for services to be available
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell pm list instrumentation'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Performing shallow cleanup of automation leftovers
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m The following obsolete sessions are still running: 6c9bec4a-0c63-4f76-aedd-2e40fb2ea5c3
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Cleaning up 1 obsolete session
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Getting IDs of all 'io.appium.uiautomator2.server' processes
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell 'pgrep --help; echo $?''
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:.
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m [Instrumentation] 
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m [Instrumentation] Time: 81.787
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m [Instrumentation] 
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m [Instrumentation] OK (1 test)
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m [Instrumentation] 
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m [Instrumentation] 
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.uiautomator2\.server\(:\[a-zA-Z0-9_-\]\+\)\?\(\[\[:blank:\]\]\|\$\)'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m [Instrumentation] The process has exited with code 0, signal null
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell am force-stop io.appium.uiautomator2.server'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell am force-stop io.appium.uiautomator2.server.test'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Starting UIAutomator2 server 7.7.0
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Using UIAutomator2 server from '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.7.0.apk' and test from '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Creating ADB subprocess with args: ["-P","5037","-s","HA22LHS2","shell","am","instrument","-w","-e","disableAnalytics","true","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Matched '/status' to command name 'getStatus'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Proxying [GET /status] to [GET http://127.0.0.1:8216/status] with no body
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m socket hang up
+[38;5;86m[HTTP][0m [37m<-- POST /wd/hub/session [39m[32m-[39m [90m- ms - -[39m [90m[39m
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Matched '/status' to command name 'getStatus'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Proxying [GET /status] to [GET http://127.0.0.1:8216/status] with no body
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m socket hang up
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m [Instrumentation] 
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Matched '/status' to command name 'getStatus'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Proxying [GET /status] to [GET http://127.0.0.1:8216/status] with no body
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Got response with status 200: {"sessionId":"None","value":{"build":{"version":"7.7.0","versionCode":219},"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m The initialization of the instrumentation process took 2125ms
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Matched '/session' to command name 'createSession'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Proxying [POST /session] to [POST http://127.0.0.1:8216/session] with body: {"capabilities":{"firstMatch":[{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"fullReset":false,"appPackage":"com.securitasHealthcare.ArialResident","appActivity":".MainActivity","udid":"HA22LHS2","app":"/Users/mac-auto-05/Desktop/arial_resident_app.apk","uiautomator2ServerInstallTimeout":120000,"enableWebviewDetailsCollection":true,"autoWebview":true,"forceAppLaunch":true,"autoGrantPermissions":true,"allowTestPackages":true,"newCommandTimeout":60000,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"fullReset":false,"appPackage":"com.securitasHealthcare.ArialResident","appActivity":".MainActivity","udid":"HA22LHS2","app":"/Users/mac-auto-05/Desktop/arial_resident_app.apk","uiautomator2ServerInstallTimeout":120000,"enableWebviewDetailsCollection":true,"autoW...
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Got response with status 200: {"sessionId":"37ca5322-1c6b-4aa7-982a-4f09bf76a053","value":{"capabilities":{"firstMatch":[{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"fullReset":false,"appPackage":"com.securitasHealthcare.ArialResident","appActivity":".MainActivity","udid":"HA22LHS2","app":"/Users/mac-auto-05/Desktop/arial_resident_app.apk","uiautomator2ServerInstallTimeout":120000,"enableWebviewDetailsCollection":true,"autoWebview":true,"forceAppLaunch":true,"autoGrantPermissions":true,"allowTestPackages":true,"newCommandTimeout":60000,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","noReset":true,"fullReset":false,"appPackage":"com.securitasHealthcare.ArialResident","appActivity":".MainActivity","udid":"HA22LHS2","app":"/Users/mac-auto-05/Desktop/arial_resident_app.apk","uiautomator2ServerInstall...
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Determined the downstream protocol as 'W3C'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8216/session/37ca5322-1c6b-4aa7-982a-4f09bf76a053/appium/device/pixel_ratio] with no body
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8216/session/37ca5322-1c6b-4aa7-982a-4f09bf76a053/appium/device/system_bars] with no body
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Matched '/window/current/size' to command name 'getWindowSize'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8216/session/37ca5322-1c6b-4aa7-982a-4f09bf76a053/window/current/size] with no body
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8216/session/37ca5322-1c6b-4aa7-982a-4f09bf76a053/appium/device/info] with no body
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell dumpsys window'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell dumpsys power'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Got response with status 200: {"sessionId":"37ca5322-1c6b-4aa7-982a-4f09bf76a053","value":1.25}
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Got response with status 200: {"sessionId":"37ca5322-1c6b-4aa7-982a-4f09bf76a053","value":{"height":800,"width":1340}}
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Got response with status 200: {"sessionId":"37ca5322-1c6b-4aa7-982a-4f09bf76a053","value":{"statusBar":30}}
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Got response with status 200: {"sessionId":"37ca5322-1c6b-4aa7-982a-4f09bf76a053","value":{"androidId":"9343c8444933fe77","apiVersion":"33","bluetooth":{"state":"ON"},"brand":"Lenovo","carrierName":"","displayDensity":200,"locale":"en_US","manufacturer":"LENOVO","model":"TB310FU","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":60000,"linkUpstreamBandwidthKbps":12000,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-60,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":-1,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"13","realDisplaySize":"1340x800","timeZone":"America/Toronto"}}
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Screen already unlocked, doing nothing
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Starting 'com.securitasHealthcare.ArialResident/.MainActivity' and waiting for 'com.securitasHealthcare.ArialResident/.MainActivity'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell am start-activity -W -n com.securitasHealthcare.ArialResident/.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Got response with status 500: {"value":{"error":"disconnected","message":"disconnected: Unable to receive message from renderer\n  (failed to check if window was closed: disconnected: not connected to DevTools)\n  (Session info: chrome=126.0.6478.71)","stacktrace":"0   chromedriver-mac-arm64_v126.0.6478. 0x0000000100836a0c chromedriver-mac-arm64_v126.0.6478. + 4385292\n1   chromedriver-mac-arm64_v126.0.6478. 0x000000010082f318 chromedriver-mac-arm64_v126.0.6478. + 4354840\n2   chromedriver-mac-arm64_v126.0.6478. 0x000000010044cb0c chromedriver-mac-arm64_v126.0.6478. + 281356\n3   chromedriver-mac-arm64_v126.0.6478. 0x00000001004377c4 chromedriver-mac-arm64_v126.0.6478. + 194500\n4   chromedriver-mac-arm64_v126.0.6478. 0x00000001004373b8 chromedriver-mac-arm64_v126.0.6478. + 193464\n5   chromedriver-mac-arm64_v126.0.6478. 0x0000000100435198 chromedriver-mac-arm64_v126.0.6478. + 184728\n6   chromedriver-mac-arm64_v126.0.6478. 0x0000000100435b18 chromedriver-mac-arm64_v126.0.6478. + 187160\n7   chromedriver-mac-arm64_v126.0.6478. 0x000000...
+[38;5;31m[67c3eb41][0m[38;5;123m[W3C][0m Matched W3C error code 'disconnected' to UnknownError
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m UnknownError: An unknown server-side error occurred while processing the command. Original error: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=126.0.6478.71)
+    at errorFromW3CJsonCode (/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/@appium/base-driver/lib/protocol/errors.js:1115:23)
+    at ProxyRequestError.getActualError (/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/@appium/base-driver/lib/protocol/errors.js:979:14)
+    at JWProxy.command (/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/@appium/base-driver/lib/jsonwp-proxy/proxy.js:357:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Chromedriver.startSession (/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/lib/chromedriver.js:757:7)
+    at Chromedriver.start (/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/lib/chromedriver.js:667:14)
+    at AndroidUiautomator2Driver.setupNewChromedriver (/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/context/helpers.js:766:3)
+    at AndroidUiautomator2Driver.startChromedriverProxy (/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/context/exports.js:281:10)
+    at AndroidUiautomator2Driver.switchContext (/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/context/exports.js:114:5)
+    at AndroidUiautomator2Driver.setContext (/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/context/exports.js:69:3)
+    at wrapped (/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/asyncbox/lib/asyncbox.js:93:13)
+    at retry (/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/asyncbox/lib/asyncbox.js:66:13)
+    at retryInterval (/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/asyncbox/lib/asyncbox.js:103:10)
+    at AndroidUiautomator2Driver.performSessionPostExecSetup (/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:647:7)
+    at AndroidUiautomator2Driver.startUiAutomator2Session (/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:689:5)
+    at AndroidUiautomator2Driver.createSession (/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/lib/driver.ts:402:22)
+    at AppiumDriver.createSession (/usr/local/lib/node_modules/appium/lib/appium.js:379:35)
+
+[38;5;31m[67c3eb41][0m[38;5;135m[Chromedriver@2c62][0m Changed state to 'stopped'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Getting a list of available webviews
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell cat /proc/net/unix'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Found no active devtools sockets
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Other sockets are: [
+  "0000000000000000: 00000002 00000000 00010000 0001 01 16967 @mobilelogd",
+  "0000000000000000: 00000002 00000000 00010000 0001 01  8525 @com.mtk.aee.vaed_64",
+  "0000000000000000: 00000002 00000000 00010000 0001 01 13538 @com.mtk.aee.aed",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 50562 @mtk_agps2framework",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 53337 @mtk_lppe_socket_ipaddr",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 50553 @mtk_lppe_socket_wlan",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 12229 @mnld_main_socket@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00000000 0002 01  9136 @recycle_gpsLog@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 50558 @mtk_lppe_socket_sensor",
+  "0000000000000000: 00000002 00000000 00000000 0002 01  9138 @recycle_dumpLog@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00000000 0002 01  9137 @recycle_mpeLog@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00010000 0001 01 13806 @com.mediatek.powerhald",
+  "0000000000000000: 00000002 00000000 00010000 0001 01 23352 @duraspeed_memory",
+  "0000000000000000: 00000002 00000000 00010000 0001 01 7766096 @bthostlogd",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 12234 @mtk_mpvt2mnld@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00000000 0002 01  1012 @ntripLog@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 12233 @mtk_mtklogger2mnld",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 18950 @mtk_mnl2hal@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 12227 @mtk_hal2mnl@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00010000 0001 01  8524 @aee:vrttd_64",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 12232 @mtk_debugService2mnld",
+  "0000000000000000: 00000002 00000000 00000000 0002 01  9140 @recycle_ntripLog@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 13900 @mpeLog@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 12225 @mnld_qepo_download_socket@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 12228 @/data/server@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 12140 @gpsLog@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00010000 0001 01  9758 @mtk_meta2mnld_logctrl",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 50557 @mtk_lppe_socket_bt",
+  "0000000000000000: 00000002 00000000 00000000 0002 01  9139 @recycle_rawMeaLog@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00010000 0001 01 20547 @connsysfwlogd",
+  "0000000000000000: 00000002 00000000 00000000 0002 01  9759 @mnld_gps_control_socket@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00010000 0001 01 13520 @android:aee_aed",
+  "0000000000000000: 00000002 00000000 00010000 0001 01  9324 @aee:vrttd",
+  "0000000000000000: 00000002 00000000 00010000 0001 01 13519 @com.mtk.aee.aed_64",
+  "0000000000000000: 00000002 00000000 00000000 0002 01  9143 @rawMeasureLog@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 12226 @mnld_mtknav_download_socket@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 51329 @mtk_lppe_socket_network",
+  "0000000000000000: 00000002 00000000 00010000 0001 01 13539 @android:aee_aed32",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 12231 @meta2mnl_req@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 12141 @rtkpppLog@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 12230 @mtk_meta2mnld@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00000000 0002 01  1013 @dumpLog@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00010000 0001 01  9325 @com.mtk.aee.vaed",
+  "0000000000000000: 00000002 00000000 00000000 0002 01  9141 @recycle_rtkpppLog@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000002 00000000 00010000 0001 01 13537 @aee:rttd",
+  "0000000000000000: 00000002 00000000 00010000 0001 01 9028088 @com.android.internal.os.WebViewZygoteInit/0a65cb42-f7f0-41cc-9a6b-f5fb32495aba",
+  "0000000000000000: 00000002 00000000 00010000 0005 01 31970 @jdwp-control",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 46503 @mtk_lppe_socket_lbs",
+  "0000000000000000: 00000002 00000000 00000000 0002 01 12143 @mtk_lbs_log_v2s",
+  "0000000000000000: 00000002 00000000 00010000 0001 01 13518 @aee:rttd_64",
+  "0000000000000000: 00000002 00000000 00000000 0002 01  9760 @mnld_epo_download_socket@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+  "0000000000000000: 00000003 00000000 00000000 0005 03 8846042 @jdwp-control",
+  "0000000000000000: 00000003 00000000 00000000 0005 03 9226308 @jdwp-control",
+  "0000000000000000: 00000003 00000000 00000000 0005 03 7774859 @jdwp-control",
+  "0000000000000000: 00000003 00000000 00000000 0001 03 23353 @duraspeed_memory",
+  "0000000000000000: 00000003 00000000 00000000 0001 03 9030755 @com.android.internal.os.WebViewZygoteInit/0a65cb42-f7f0-41cc-9a6b-f5fb32495aba",
+  "0000000000000000: 00000003 00000000 00000000 0005 03 7802613 @jdwp-control",
+  "0000000000000000: 00000003 00000000 00000000 0005 03 9224438 @jdwp-control",
+  "0000000000000000: 00000003 00000000 00000000 0005 03 8351366 @jdwp-control"
+]
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m No webviews found in 71ms
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Found 0 webviews: []
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Available contexts: ["NATIVE_APP"]
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Getting a list of available webviews
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell cat /proc/net/unix'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Parsed 1 active devtools socket: ["@webview_devtools_remote_23687"]
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Collecting CDP data of 1 webview
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Forwarding remote port webview_devtools_remote_23687 to a local port in range 10900..11000
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m You could use the 'webviewDevtoolsPort' capability to customize the starting port number
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 forward tcp:10900 localabstract:webview_devtools_remote_23687'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Removing forwarded port socket connection: 10900 
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 forward --remove tcp:10900'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m CDP data collection completed
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m WEBVIEW_23687 mapped to pid 23687
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Getting process name for webview 'WEBVIEW_23687'
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell ps -A'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Got process name: 'com.securitasHealthcare.ArialResident'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Found 1 webview: ["WEBVIEW_com.securitasHealthcare.ArialResident"]
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Available contexts: ["NATIVE_APP","WEBVIEW_com.securitasHealthcare.ArialResident"]
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Connecting to chrome-backed webview context 'WEBVIEW_com.securitasHealthcare.ArialResident'
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m A port was not given, using random free port: 53466
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Passing web view details to the Chromedriver constructor: {
+  "info": {
+    "Android-Package": "com.securitasHealthcare.ArialResident",
+    "Browser": "Chrome/126.0.6478.71",
+    "Protocol-Version": "1.3",
+    "User-Agent": "Mozilla/5.0 (Linux; Android 13; TB310FU Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Safari/537.36",
+    "V8-Version": "12.6.228.14",
+    "WebKit-Version": "537.36 (@cb9c5ef50cf0664db3662bb45e1402b125b6d1e3)",
+    "webSocketDebuggerUrl": "ws://127.0.0.1:10900/devtools/browser"
+  },
+  "process": {
+    "name": "com.securitasHealthcare.ArialResident",
+    "id": "23687"
+  }
+}
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m JWProxy options: {"server":"127.0.0.1","port":"53466","scheme":"http","base":"","reqBasePath":"","sessionId":null,"timeout":240000}
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Precalculated Chromedriver capabilities: {
+  "androidPackage": "com.securitasHealthcare.ArialResident",
+  "androidUseRunningApp": true,
+  "androidProcess": "com.securitasHealthcare.ArialResident",
+  "androidDeviceSerial": "HA22LHS2"
+}
+[38;5;31m[67c3eb41][0m[38;5;-106m[AndroidUiautomator2Driver@3c7b][0m Before starting chromedriver, androidPackage is 'com.securitasHealthcare.ArialResident'
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Changed state to 'starting'
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Using the static Chromedriver->Chrome mapping
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m The most recent known Chrome version: 138.0.7204
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Found 4 executables in '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac'
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m The following Chromedriver executables were found:
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m     '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v141.0.7379.0' (version '141.0.7379.0', minimum Chrome version '141')
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m     '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v139.0.7258.154' (version '139.0.7258.154', minimum Chrome version '139')
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m     '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v138.0.7204.183' (version '138.0.7204.183', minimum Chrome version '138')
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m     '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v126.0.6478.182' (version '126.0.6478.182', minimum Chrome version '126.0.6478')
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Found 3 Chromedrivers, which are missing in the list of known versions: {"141.0.7379.0":"141","139.0.7258.154":"139","138.0.7204.183":"138"}
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m No mapping path provided
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Browser version in the supplied details: Chrome/126.0.6478.71
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Found Chrome bundle 'undefined' version '126.0.6478'
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Found 1 executable capable of automating Chrome '126.0.6478'.
+Choosing the most recent, '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v126.0.6478.182'.
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m If a specific version is required, specify it with the 'chromedriverExecutable' capability.
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Set chromedriver binary as: /Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v126.0.6478.182
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Killing any old chromedrivers, running: pkill -15 -f "/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v126.0.6478.182.*--port=53466"
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m No old chromedrivers seem to exist
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Cleaning this device's adb forwarded port socket connections: HA22LHS2
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m List forwarding ports
+[38;5;31m[67c3eb41][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 forward --list'
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Spawning Chromedriver with: /Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v126.0.6478.182 --port=53466 --adb-port=5037 --verbose
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Matched '/status' to command name 'getStatus'
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Proxying [GET /status] to [GET http://127.0.0.1:53466/status] with no body
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m connect ECONNREFUSED 127.0.0.1:53466
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Matched '/status' to command name 'getStatus'
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Proxying [GET /status] to [GET http://127.0.0.1:53466/status] with no body
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Got response with status 200: {"value":{"build":{"version":"126.0.6478.182 (5b5d8292ddf182f8b2096fa665b473b6317906d5-refs/branch-heads/6478@{#1776})"},"message":"ChromeDriver ready for new sessions.","os":{"arch":"arm64","name":"Mac OS X","version":"15.6.1"},"ready":true}}
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Chromedriver version: 126.0.6478.182
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Starting W3C Chromedriver session with capabilities: {
+  "capabilities": {
+    "alwaysMatch": {
+      "goog:chromeOptions": {
+        "androidPackage": "com.securitasHealthcare.ArialResident",
+        "androidUseRunningApp": true,
+        "androidProcess": "com.securitasHealthcare.ArialResident",
+        "androidDeviceSerial": "HA22LHS2"
+      },
+      "goog:loggingPrefs": {
+        "browser": "ALL"
+      }
+    }
+  }
+}
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Matched '/session' to command name 'createSession'
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Proxying [POST /session] to [POST http://127.0.0.1:53466/session] with body: {"capabilities":{"alwaysMatch":{"goog:chromeOptions":{"androidPackage":"com.securitasHealthcare.ArialResident","androidUseRunningApp":true,"androidProcess":"com.securitasHealthcare.ArialResident","androidDeviceSerial":"HA22LHS2"},"goog:loggingPrefs":{"browser":"ALL"}}}}
+[38;5;31m[67c3eb41][0m[38;5;85m[Chromedriver@212d][0m Webview version: 'Chrome/126.0.6478.71'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Setting auto webview to context 'WEBVIEW_com.securitasHealthcare.ArialResident' with timeout 2000ms
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Getting a list of available webviews
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell cat /proc/net/unix'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Parsed 1 active devtools socket: ["@webview_devtools_remote_23687"]
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Collecting CDP data of 1 webview
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Forwarding remote port webview_devtools_remote_23687 to a local port in range 10900..11000
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m You could use the 'webviewDevtoolsPort' capability to customize the starting port number
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 forward tcp:10900 localabstract:webview_devtools_remote_23687'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Removing forwarded port socket connection: 10900 
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 forward --remove tcp:10900'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m CDP data collection completed
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m WEBVIEW_23687 mapped to pid 23687
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Getting process name for webview 'WEBVIEW_23687'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell ps --help'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 shell ps -A'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Got process name: 'com.securitasHealthcare.ArialResident'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Found 1 webview: ["WEBVIEW_com.securitasHealthcare.ArialResident"]
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Available contexts: ["NATIVE_APP","WEBVIEW_com.securitasHealthcare.ArialResident"]
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Connecting to chrome-backed webview context 'WEBVIEW_com.securitasHealthcare.ArialResident'
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m A port was not given, using random free port: 53500
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Passing web view details to the Chromedriver constructor: {
+  "info": {
+    "Android-Package": "com.securitasHealthcare.ArialResident",
+    "Browser": "Chrome/126.0.6478.71",
+    "Protocol-Version": "1.3",
+    "User-Agent": "Mozilla/5.0 (Linux; Android 13; TB310FU Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.71 Safari/537.36",
+    "V8-Version": "12.6.228.14",
+    "WebKit-Version": "537.36 (@cb9c5ef50cf0664db3662bb45e1402b125b6d1e3)",
+    "webSocketDebuggerUrl": "ws://127.0.0.1:10900/devtools/browser"
+  },
+  "process": {
+    "name": "com.securitasHealthcare.ArialResident",
+    "id": "23687"
+  }
+}
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m JWProxy options: {"server":"127.0.0.1","port":"53500","scheme":"http","base":"","reqBasePath":"","sessionId":null,"timeout":240000}
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Precalculated Chromedriver capabilities: {
+  "androidPackage": "com.securitasHealthcare.ArialResident",
+  "androidUseRunningApp": true,
+  "androidProcess": "com.securitasHealthcare.ArialResident",
+  "androidDeviceSerial": "HA22LHS2"
+}
+[38;5;39m[d55c6934][0m[38;5;3m[AndroidUiautomator2Driver@a44a][0m Before starting chromedriver, androidPackage is 'com.securitasHealthcare.ArialResident'
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Changed state to 'starting'
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Using the static Chromedriver->Chrome mapping
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m The most recent known Chrome version: 138.0.7204
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Found 4 executables in '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac'
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m The following Chromedriver executables were found:
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m     '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v141.0.7379.0' (version '141.0.7379.0', minimum Chrome version '141')
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m     '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v139.0.7258.154' (version '139.0.7258.154', minimum Chrome version '139')
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m     '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v138.0.7204.183' (version '138.0.7204.183', minimum Chrome version '138')
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m     '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v126.0.6478.182' (version '126.0.6478.182', minimum Chrome version '126.0.6478')
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Found 3 Chromedrivers, which are missing in the list of known versions: {"141.0.7379.0":"141","139.0.7258.154":"139","138.0.7204.183":"138"}
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m No mapping path provided
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Browser version in the supplied details: Chrome/126.0.6478.71
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Found Chrome bundle 'undefined' version '126.0.6478'
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Found 1 executable capable of automating Chrome '126.0.6478'.
+Choosing the most recent, '/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v126.0.6478.182'.
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m If a specific version is required, specify it with the 'chromedriverExecutable' capability.
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Set chromedriver binary as: /Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v126.0.6478.182
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Killing any old chromedrivers, running: pkill -15 -f "/Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v126.0.6478.182.*--port=53500"
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m No old chromedrivers seem to exist
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Cleaning this device's adb forwarded port socket connections: HA22LHS2
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m List forwarding ports
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 forward --list'
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Removing forwarded port socket connection: 53477 
+[38;5;39m[d55c6934][0m[38;5;229m[ADB][0m Running '/Users/mac-auto-05/Library/Android/sdk/platform-tools/adb -P 5037 -s HA22LHS2 forward --remove tcp:53477'
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Spawning Chromedriver with: /Users/mac-auto-05/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-chromedriver/chromedriver/mac/chromedriver-mac-arm64_v126.0.6478.182 --port=53500 --adb-port=5037 --verbose
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Matched '/status' to command name 'getStatus'
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Proxying [GET /status] to [GET http://127.0.0.1:53500/status] with no body
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m connect ECONNREFUSED 127.0.0.1:53500
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Matched '/status' to command name 'getStatus'
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Proxying [GET /status] to [GET http://127.0.0.1:53500/status] with no body
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Got response with status 200: {"value":{"build":{"version":"126.0.6478.182 (5b5d8292ddf182f8b2096fa665b473b6317906d5-refs/branch-heads/6478@{#1776})"},"message":"ChromeDriver ready for new sessions.","os":{"arch":"arm64","name":"Mac OS X","version":"15.6.1"},"ready":true}}
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Chromedriver version: 126.0.6478.182
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Starting W3C Chromedriver session with capabilities: {
+  "capabilities": {
+    "alwaysMatch": {
+      "goog:chromeOptions": {
+        "androidPackage": "com.securitasHealthcare.ArialResident",
+        "androidUseRunningApp": true,
+        "androidProcess": "com.securitasHealthcare.ArialResident",
+        "androidDeviceSerial": "HA22LHS2"
+      },
+      "goog:loggingPrefs": {
+        "browser": "ALL"
+      }
+    }
+  }
+}
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Matched '/session' to command name 'createSession'
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Proxying [POST /session] to [POST http://127.0.0.1:53500/session] with body: {"capabilities":{"alwaysMatch":{"goog:chromeOptions":{"androidPackage":"com.securitasHealthcare.ArialResident","androidUseRunningApp":true,"androidProcess":"com.securitasHealthcare.ArialResident","androidDeviceSerial":"HA22LHS2"},"goog:loggingPrefs":{"browser":"ALL"}}}}
+[38;5;39m[d55c6934][0m[38;5;34m[Chromedriver@0c49][0m Webview version: 'Chrome/126.0.6478.71'
+[38;5;112m[Appium][0m Received SIGINT - shutting down
+[38;5;167m[AppiumDriver@fae7][0m There are no active sessions for cleanup
+[38;5;86m[HTTP][0m Closing Appium HTTP server
+[38;5;86m[HTTP][0m Appium HTTP server has been successfully closed after 0ms
