@@ -1,0 +1,101 @@
+[Appium] Welcome to Appium v2.17.1
+[Appium] Non-default server args:
+[Appium] {
+  basePath: '/wd/hub/'
+}
+[Appium] The autodetected Appium home path: C:\Users\bxw0531\.appium
+[Appium] Attempting to load driver novawindows...
+[Appium] Requiring driver at C:\Users\bxw0531\.appium\node_modules\appium-novawindows-driver\build\lib\driver.js
+[Appium] NovaWindowsDriver has been successfully loaded in 0.636s
+[Appium] Appium REST http interface listener started on http://0.0.0.0:4723/wd/hub
+[Appium] You can provide the following URLs in your client code to connect to this server:
+        http://10.212.138.78:4723/wd/hub
+        http://192.168.31.160:4723/wd/hub
+        http://127.0.0.1:4723/wd/hub (only accessible from the same host)
+[Appium] Available drivers:
+[Appium]   - novawindows@1.1.0 (automationName 'NovaWindows')
+[Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[HTTP] Request idempotency key: 13833ab6-994b-41f0-a950-32c7213c1a33
+[HTTP] --> POST /wd/hub/session {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:automationName":"NovaWindows","platformName":"Windows","appium:app":"C:\\\\Program Files (x86)\\\\Arial\\\\Arial.exe","appium:win_app_driver_host":"http://127.0.0.1:4723/wd/hub","appium:app_working_dir":"C:\\\\Program Files (x86)\\\\Arial","appium:newCommandTimeout":"1200"}}}
+[AppiumDriver@5a11] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:automationName":"NovaWindows","platformName":"Windows","appium:app":"C:\\\\Program Files (x86)\\\\Arial\\\\Arial.exe","appium:win_app_driver_host":"http://127.0.0.1:4723/wd/hub","appium:app_working_dir":"C:\\\\Program Files (x86)\\\\Arial","appium:newCommandTimeout":"1200"}}]
+[AppiumDriver@5a11] Event 'newSessionRequested' logged at 1767270142539 (14:22:22 GMT+0200 (Israel Standard Time))
+[Appium] Attempting to find matching driver for automationName 'NovaWindows' and platformName 'Windows'
+[Appium] The 'novawindows' driver was installed and matched caps.
+[Appium] Will require it at C:\Users\bxw0531\.appium\node_modules\appium-novawindows-driver
+[Appium] Requiring driver at C:\Users\bxw0531\.appium\node_modules\appium-novawindows-driver\build\lib\driver.js
+[AppiumDriver@5a11] Appium v2.17.1 creating new NovaWindowsDriver (v1.1.0) session
+[AppiumDriver@5a11] Checking BaseDriver versions for Appium and NovaWindowsDriver
+[AppiumDriver@5a11] Appium's BaseDriver version is 9.18.0
+[AppiumDriver@5a11] NovaWindowsDriver's BaseDriver version is 9.18.0
+[NovaWindowsDriver@84c4] Creating NovaWindows driver session...
+[NovaWindowsDriver@84c4]
+[NovaWindowsDriver@84c4] Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "Windows",
+    "appium:automationName": "NovaWindows",
+    "appium:app": "C:\\\\Program Files (x86)\\\\Arial\\\\Arial.exe",
+    "appium:win_app_driver_host": "http://127.0.0.1:4723/wd/hub",
+    "appium:app_working_dir": "C:\\\\Program Files (x86)\\\\Arial",
+    "appium:newCommandTimeout": "1200"
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+[BaseDriver] Number capability passed in as string. Functionality may be compromised.
+[NovaWindowsDriver@84c4] Capability 'newCommandTimeout' changed from string ('1200') to integer (1200). This may cause unexpected behavior
+[NovaWindowsDriver@84c4] The following provided capabilities were not recognized by this driver:
+[NovaWindowsDriver@84c4]   win_app_driver_host
+[NovaWindowsDriver@84c4]   app_working_dir
+[0fff501f][NovaWindowsDriver@84c4] Session created with session id: 0fff501f-887a-46dd-87bd-66fcce0f821f
+[0fff501f][NovaWindowsDriver@84c4] Detected the following environment variables in app path:
+[0fff501f][NovaWindowsDriver@84c4] Started session 0fff501f-887a-46dd-87bd-66fcce0f821f.
+[0fff501f][AppiumDriver@5a11] New NovaWindowsDriver session created successfully, session 0fff501f-887a-46dd-87bd-66fcce0f821f added to master session list
+[0fff501f][AppiumDriver@5a11] Event 'newSessionStarted' logged at 1767270143776 (14:22:23 GMT+0200 (Israel Standard Time))
+[0fff501f][NovaWindowsDriver@84c4] Cached the protocol value 'W3C' for the new session 0fff501f-887a-46dd-87bd-66fcce0f821f
+[0fff501f][NovaWindowsDriver@84c4] Responding to client with driver.createSession() result: {"capabilities":{"platformName":"Windows","automationName":"NovaWindows","app":"C:\\\\Program Files (x86)\\\\Arial\\\\Arial.exe","win_app_driver_host":"http://127.0.0.1:4723/wd/hub","app_working_dir":"C:\\\\Program Files (x86)\\\\Arial","newCommandTimeout":1200,"shouldCloseApp":true}}
+[0fff501f][HTTP] <-- POST /wd/hub/session 200 1245 ms - 346
+[0fff501f][HTTP] --> GET /wd/hub/session/0fff501f-887a-46dd-87bd-66fcce0f821f/window/handles {}
+[0fff501f][NovaWindowsDriver@84c4] Calling AppiumDriver.getWindowHandles() with args: ["0fff501f-887a-46dd-87bd-66fcce0f821f"]
+[0fff501f][NovaWindowsDriver@84c4] Responding to client with driver.getWindowHandles() result: ["0x00020236","0x00040242","0x000708ae","0x0018088a","0x005c058a","0x00030596","0x00420666","0x006e07f6","0x000102b6"]
+[0fff501f][HTTP] <-- GET /wd/hub/session/0fff501f-887a-46dd-87bd-66fcce0f821f/window/handles 200 224 ms - 128
+[0fff501f][HTTP] --> POST /wd/hub/session/0fff501f-887a-46dd-87bd-66fcce0f821f/window {"handle":"0x00020236"}
+[0fff501f][NovaWindowsDriver@84c4] Calling AppiumDriver.setWindow() with args: ["0x00020236","0x00020236","0fff501f-887a-46dd-87bd-66fcce0f821f"]
+[0fff501f][NovaWindowsDriver@84c4] Responding to client with driver.setWindow() result: null
+[0fff501f][HTTP] <-- POST /wd/hub/session/0fff501f-887a-46dd-87bd-66fcce0f821f/window 200 32 ms - 14
+[0fff501f][HTTP] --> GET /wd/hub/session/0fff501f-887a-46dd-87bd-66fcce0f821f/source {}
+[0fff501f][NovaWindowsDriver@84c4] Calling AppiumDriver.getPageSource() with args: ["0fff501f-887a-46dd-87bd-66fcce0f821f"]
+[0fff501f][NovaWindowsDriver@84c4] Responding to client with driver.getPageSource() result: "<Pane AcceleratorKey=\"\" AccessKey=\"\" AutomationId=\"\" ClassName=\"{5FE47C2E-F34F-4E4A-935A-B615546D8A33}\" FrameworkId=\"Win32\" HasKeyboardfocus=\"False\" HelpText=\"\" IsContentelement=\"True\" IsControlelement=\"True\" IsEnabled=\"True\" IsKeyboardfocusable=\"False\" IsOffscreen=\"False\" IsPassword=\"False\" IsRequiredforform=\"False\" ItemStatus=\"\" ItemType=\"\" LocalizedControlType=\"pane\" Name=\"\" Orientation=\"None\" ProcessId=\"24628\" RuntimeId=\"42.131638\" x=\"0\" y=\"0\" width=\"1\" height=\"1\" />"
+[0fff501f][HTTP] <-- GET /wd/hub/session/0fff501f-887a-46dd-87bd-66fcce0f821f/source 200 79 ms - 537
+[0fff501f][HTTP] --> POST /wd/hub/session/0fff501f-887a-46dd-87bd-66fcce0f821f/element {"using":"accessibility id","value":"mainBtnStart"}
+[0fff501f][NovaWindowsDriver@84c4] Calling AppiumDriver.findElement() with args: ["accessibility id","mainBtnStart","0fff501f-887a-46dd-87bd-66fcce0f821f"]
+[0fff501f][NovaWindowsDriver@84c4] Valid locator strategies for this request: id, name, xpath, tag name, class name, accessibility id, -windows uiautomation
+[0fff501f][NovaWindowsDriver@84c4] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at NovaWindowsDriver.findElOrEls (C:\Users\bxw0531\.appium\node_modules\appium-novawindows-driver\lib\driver.ts:142:19)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at NovaWindowsDriver.findElOrElsWithProcessing (C:\Users\bxw0531\.appium\node_modules\appium-novawindows-driver\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:60:12)
+    at NovaWindowsDriver.findElement (C:\Users\bxw0531\.appium\node_modules\appium-novawindows-driver\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:75:12)
+[0fff501f][HTTP] <-- POST /wd/hub/session/0fff501f-887a-46dd-87bd-66fcce0f821f/element 404 49 ms - 838
+[0fff501f][HTTP] --> POST /wd/hub/session/0fff501f-887a-46dd-87bd-66fcce0f821f/window {"handle":"0x00040242"}
+[0fff501f][NovaWindowsDriver@84c4] Calling AppiumDriver.setWindow() with args: ["0x00040242","0x00040242","0fff501f-887a-46dd-87bd-66fcce0f821f"]
+[0fff501f][NovaWindowsDriver@84c4] Responding to client with driver.setWindow() result: null
+[0fff501f][HTTP] <-- POST /wd/hub/session/0fff501f-887a-46dd-87bd-66fcce0f821f/window 200 26 ms - 14
+[0fff501f][HTTP] --> GET /wd/hub/session/0fff501f-887a-46dd-87bd-66fcce0f821f/source {}
+[0fff501f][NovaWindowsDriver@84c4] Calling AppiumDriver.getPageSource() with args: ["0fff501f-887a-46dd-87bd-66fcce0f821f"]
+[0fff501f][NovaWindowsDriver@84c4] Responding to client with driver.getPageSource() result: "<Pane AcceleratorKey=\"\" AccessKey=\"\" AutomationId=\"\" ClassName=\"Shell_TrayWnd\" FrameworkId=\"Win32\" HasKeyboardfocus=\"False\" HelpText=\"\" IsContentelement=\"True\" IsControlelement=\"True\" IsEnabled=\"True\" IsKeyboardfocusable=\"False\" IsOffscreen=\"False\" IsPassword=\"False\" IsRequiredforform=\"False\" ItemStatus=\"\" ItemType=\"\" LocalizedControlType=\"pane\" Name=\"\" Orientation=\"None\" ProcessId=\"12124\" RuntimeId=\"42.262722\" x=\"0\" y=\"0\" width=\"1920\" height=\"48\"><Pane AcceleratorKey=\"\" AccessKey=\"\" AutomationId=\"\" ClassName=\"TrayNotifyWnd\" FrameworkId=\"Win32\" HasKeyboardfocus=\"False\" HelpText=\"\" IsContentelement=\"True\" IsControlelement=\"True\" IsEnabled=\"True\" IsKeyboardfocusable=\"False\" IsOffscreen=\"False\" IsPassword=\"False\" IsRequiredforform=\"False\" ItemStatus=\"\" ItemType=\"\" LocalizedControlType=\"pane\" Name=\"\" Orientation=\"None\" ProcessId=\"12124\" RuntimeId=\"42.66214\" x=\"1688\" y=\"0\" width=\"232\" height=\"48\" /><Pane Acceler...
+[0fff501f][HTTP] <-- GET /wd/hub/session/0fff501f-887a-46dd-87bd-66fcce0f821f/source 200 286 ms - 20564
+[0fff501f][HTTP] --> POST /wd/hub/session/0fff501f-887a-46dd-87bd-66fcce0f821f/element {"using":"accessibility id","value":"mainBtnStart"}
+[0fff501f][NovaWindowsDriver@84c4] Calling AppiumDriver.findElement() with args: ["accessibility id","mainBtnStart","0fff501f-887a-46dd-87bd-66fcce0f821f"]
+[0fff501f][NovaWindowsDriver@84c4] Valid locator strategies for this request: id, name, xpath, tag name, class name, accessibility id, -windows uiautomation
+[0fff501f][NovaWindowsDriver@84c4] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at NovaWindowsDriver.findElOrEls (C:\Users\bxw0531\.appium\node_modules\appium-novawindows-driver\lib\driver.ts:142:19)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at NovaWindowsDriver.findElOrElsWithProcessing (C:\Users\bxw0531\.appium\node_modules\appium-novawindows-driver\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:60:12)
+    at NovaWindowsDriver.findElement (C:\Users\bxw0531\.appium\node_modules\appium-novawindows-driver\node_modules\@appium\base-driver\lib\basedriver\commands\find.ts:75:12)
+[0fff501f][HTTP] <-- POST /wd/hub/session/0fff501f-887a-46dd-87bd-66fcce0f821f/element 404 121 ms - 838
+[0fff501f][HTTP] --> POST /wd/hub/session/0fff501f-887a-46dd-87bd-66fcce0f821f/window {"handle":"0x000708ae"}
+[0fff501f][NovaWindowsDriver@84c4] Calling AppiumDriver.setWindow() with args: ["0x000708ae","0x000708ae","0fff501f-887a-46dd-87bd-66fcce0f821f"]
+[0fff501f][NovaWindowsDriver@84c4] Responding to client with driver.setWindow() result: null
+[0fff501f][HTTP] <-- POST /wd/hub/session/0fff501f-887a-46dd-87bd-66fcce0f821f/window 200 31 ms - 14
+[0fff501f][HTTP] --> GET /wd/hub/session/0fff501f-887a-46dd-87bd-66fcce0f821f/source {}
+[0fff501f][NovaWindowsDriver@84c4] Calling AppiumDriver.getPageSource() with args: ["0fff501f-887a-46dd-87bd-66fcce0f821f"]
